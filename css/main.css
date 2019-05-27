@@ -2,11 +2,12 @@
 
 .header {
     height: 100vh;
-    background-image: linear-gradient(rgba(255,255,255,0.93),rgba(255,255,255,0.93)),
-     url('../images/logo-muted.svg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.93)),
+    url('../images/logo-muted.svg');
     background-repeat: no-repeat;
-    background-position: 150% 200%;
-    background-size: 900px;
+    background-position: top right;
+    background-attachment: scroll;
+    background-size: contain;
 }
 
 .header__inner {
