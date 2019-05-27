@@ -1,8 +1,12 @@
 /* HEADER STYLES */
 
 .header {
-    height: 700px;
-    font-family: 'HK Grotesk';
+    height: 100vh;
+    background-image: linear-gradient(rgba(255,255,255,0.93),rgba(255,255,255,0.93)),
+     url('../images/logo-muted.svg');
+    background-repeat: no-repeat;
+    background-position: 150% 200%;
+    background-size: 900px;
 }
 
 .header__inner {
@@ -14,16 +18,16 @@
     height: 50px;
 }
 
-.header__inner__branding > img {
+.header__inner__branding>img {
     height: 100%;
     width: auto;
 }
 
 .header__inner__nav {
-    text-transform: uppercase;
+    font-family: 'HK Grotesk';
 }
 
-@media (max-width: 992px){
+@media (max-width: 992px) {
     .header__inner__nav {
         display: none;
     }
@@ -38,7 +42,7 @@
         height: 70%;
         opacity: 0.6;
     }
-    
+
     .header__inner__nav ul {
         list-style-type: none;
         font-size: 130%;
@@ -53,7 +57,7 @@
     }
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
     .header__inner__hamburger {
         display: none;
     }
