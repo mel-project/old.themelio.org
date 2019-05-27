@@ -9470,13 +9470,12 @@ h3 {
   }
 }
 body {
-  color: #393f4c;
+  color: #44617b;
   /*background-color: #000000;
   color: #eeeeee;*/
 }
 
 h1, h2, h3 {
-  font-family: "HK Grotesk", sans-serif;
   font-size-adjust: 0.5;
   font-weight: 400;
 }

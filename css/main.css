@@ -6,7 +6,6 @@
     url('../images/logo-muted.svg');
     background-repeat: no-repeat;
     background-position: top right;
-    background-attachment: scroll;
     background-size: contain;
 }
 
@@ -25,6 +24,10 @@
 }
 
 .header__inner__nav {
+    font-family: 'HK Grotesk';
+}
+
+.header h1 {
     font-family: 'HK Grotesk';
 }
 
@@ -103,12 +106,29 @@
     border-radius: 500em;
 }
 
+/* Section styles */
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section h1 {
+    margin-bottom: 20px;
+}
+
+.section--darken {
+    background-color: #f7f9fc;
+}
+
+
+/* Typography styles */
+
 .text--normweight {
     font-weight: 500;
 }
 
 
-/* Typography styles */
 .text--lead {
     font-weight: 300;
     font-size: 110%;
