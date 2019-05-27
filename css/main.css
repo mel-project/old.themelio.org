@@ -56,6 +56,10 @@
         border-width: 1px;
         border-radius: 30px;
     }
+
+    .header__content button {
+        width: 100% !important;
+    }
 }
 
 @media (min-width: 992px) {
@@ -101,4 +105,16 @@
 
 .text--normweight {
     font-weight: 500;
+}
+
+
+/* Typography styles */
+.text--lead {
+    font-weight: 300;
+    font-size: 110%;
+}
+@media (min-width: 992px) {
+    .text--lead {
+        font-size: 130%;
+    }
 }

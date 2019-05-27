@@ -3,9 +3,10 @@ $primary: #00a6b3;
 $secondary: #cc58c5;
 $font-family-sans-serif: "Inter", sans-serif;
 $enable-rounded: false;
+$enable-responsive-font-sizes: true;
 
 // import all of bootstrap
-@import "../bootstrap-4.1.3/scss/bootstrap";
+@import "../bootstrap-4.3.1/scss/bootstrap";
 
 body {
     color: #393f4c;
