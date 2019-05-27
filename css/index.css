@@ -1,0 +1,56 @@
+.header {
+    height: 700px;
+}
+
+.header__inner {
+    padding: 50px;
+}
+
+.header__inner__branding {
+    width: auto;
+    height: 50px;
+}
+
+.header__inner__branding > img{
+    height: 100%;
+    width: auto;
+}
+
+.header__inner__nav {
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.header__inner__nav > ul {
+    list-style-type: none;
+    float: right;
+}
+
+.header__inner__nav > ul > li {
+    display: inline;
+    padding-right: 40pt;
+    font-size: 120%;
+    opacity: 0.9;
+    font-family: 'HK Grotesk';
+}
+
+.header__content {
+    padding-top: 50px;
+}
+
+.header__content h1 {
+    padding-bottom: 30px;
+}
+
+.header__content button {
+    padding: 15px;
+    width: 13em;
+    margin-top: 30px;
+    margin-right: 30px;
+    text-transform: uppercase;
+    border-radius: 500em;
+}
+
+.text--normweight {
+    font-weight: 500;
+}

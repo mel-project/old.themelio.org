@@ -1,0 +1,45 @@
+// override bootstrap variables
+$primary: #00a6b3;
+$secondary: #cc58c5;
+$font-family-sans-serif: "Inter", sans-serif;
+$enable-rounded: false;
+
+// import all of bootstrap
+@import "../bootstrap-4.1.3/scss/bootstrap";
+
+body {
+    color: #393f4c;
+
+    /*background-color: #000000;
+    color: #eeeeee;*/
+}
+
+h1, h2, h3{
+    font-family: "HK Grotesk", sans-serif;
+    font-size-adjust: 0.5;
+    font-weight: 400;
+}
+
+.primer-row p {
+    font-size: 130%;
+}
+
+.primer-row h1 {
+    margin-bottom: 30px;
+}
+
+.inverted {
+    background-color: $primary;
+    color: white;
+}
+
+.hyphenate {
+    text-align: justify;
+    hyphens: auto;
+}
+
+.primer-row {
+    padding-top: 50pt;
+    padding-bottom: 50pt;
+}
+
