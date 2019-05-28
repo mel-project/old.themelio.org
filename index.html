@@ -63,7 +63,7 @@
                   <h1>What is Themelio?</h1>
                   <p class="text--lead">
                       Themelio is the low-level foundation for a new decentralized Internet. It's a blockchain designed
-                      the way blockchains should always have been &mdash; like a core network protocol. Themelio is simple,
+                      the right way &mdash; like a core network protocol. Themelio is simple,
                       future-proof, and ridiculously robust, just like the Internet Protocol.
                   </p>
               </div>
@@ -81,11 +81,11 @@
                       Right now, decentralized app developers face terrible options.
                   </p>
                   <p>
-                      You could spend years engineering and refining a multi-layer, specialized ledger protocol just for your specific use case, like Satoshi Nakamoto did with Bitcoin and payments. You'd probably still make something insecure, hard
+                      You could spend years engineering and refining a multi-layer, <b>specialized protocol</b> just for your specific use case, like Satoshi Nakamoto did with Bitcoin and payments. You'd probably still make something insecure, hard
                       to use, and impossible to evolve.
                   </p>
                   <p>
-                      Or you could use a general-purpose blockchain like Ethereum or EOS. You'd just write the application layer, and let the Turing-complete smart contract support of the blockchain handle the rest of the stack.
+                      Or you could use a <b>general-purpose blockchain</b> like Ethereum or EOS. You'd just write the application layer, and let the Turing-complete smart contract support of the blockchain handle the rest of the stack.
                   </p>
                   <p>
                       But then come the poor performance, high costs, unintuitive behavior, and worst of all, disruptive and contentious updates. You'll probably end up wishing you could trust somebody else's computer after all.</p>
@@ -100,15 +100,36 @@
   <div class="section section--darken">
       <div class="section__inner container">
           <div class="row">
-              <div class="col-lg-6">
+              <div class="col-lg-6 text-center">
                   <img src="images/illust/goodstack.png"
                   style="height: 250px;width:auto;margin-top:30px;margin-bottom:30px;">
               </div>
               <div class="col-lg-6">
                   <h1>A blockchain at the right layer.</h1>
                   <p>
-
+                      When we made Themelio, we took an entirely different approach.
                   </p>
+                  <p>
+                      Unlike centralized services, <b>blockchain protocols can't really be updated</b>. A "hard fork" update is really the community switching to a new blockchain. And as with all collective action, contention, drama, and politics threaten the stability of the ecosystem.
+                  </p>
+                  <p>
+                      So we didn't try to make Themelio the perfect blockchain for a single application, whose requirements might suddenly change. Neither did we create a deceptively easy-to-use smart contract virtual machine, papering over ever-evolving complexity with leaky abstractions.
+                  </p>
+                  <p>
+                      Instead, <b>Themelio is designed not to change</b>. And that means keeping the protocol simple and the abstractions low-level.
+                  </p>
+                  <p>
+                      Themelio focuses on being a <b>layer-0 blockchain</b>. Its only job: providing the fundamental properties of a blockchain &mdash; transparency, immutability, and decentralization &mdash; extremely robustly and efficiently.
+                  </p>
+                  <!--<p>
+                      Instead, Themelio starts from an old-school abstraction &mdash; the growing, UTXO-based transaction graph any Bitcoin user knows. It's a little weird and unintuitive, but its clean and brutally simple semantics make an excellent basis for a core low-level protocol.
+                  </p>
+                  <p>
+                      We combine this abstraction with some innovative superpowers that allow a powerful paradigm of ``coin-oriented'' dApp programming. And we implement Themelio with cutting-edge yet robust consensus and cryptoeconomic algorithms that lets you push thousands of transactions per second while keeping incredibly solid decentralized security.
+                  </p>
+                  <p>
+                      Themelio is the way blockchains should always have been.
+                  </p>-->
               </div>
           </div>
       </div>

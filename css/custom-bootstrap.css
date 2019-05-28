@@ -9481,6 +9481,10 @@ h1, h2, h3 {
   font-family: "HK Grotesk";
 }
 
+b, strong {
+  font-weight: 600;
+}
+
 .primer-row p {
   font-size: 130%;
 }
