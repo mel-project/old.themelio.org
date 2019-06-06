@@ -163,3 +163,12 @@ footer {
 .text--alone {
     font-size: 110%;
 }
+
+/* Icons */
+
+.icon--big {
+    font-size: 48px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
