@@ -41,8 +41,6 @@ body {
     text-decoration: none;
 }
 
-.header .text--lead
-
 @media (max-width: 992px) {
     .header__inner__nav {
         display: none;
