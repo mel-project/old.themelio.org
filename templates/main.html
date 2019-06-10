@@ -21,17 +21,18 @@
 
 <body>
 
-  <div class="header">
+  <div class="header @(if HEADER-FULL? 'header--full empty)">
     <div class="header__inner container">
       <div class="row">
         <div class="header__inner__branding col-6 col-lg-3">
-          <img src="images/logo-text.svg">
+          <a href="index.html"><img src="images/logo-text.svg"></a>
         </div>
         <div class="header__inner__hamburger col-6">
           <a href="#"><img src="icons/menu.svg"></a>
         </div>
         <div class="header__inner__nav col-12 col-lg-9">
           <ul>
+              <li><a href="roadmap.html">Roadmap</a></li>
             <li><a href="resources.html">Resources</a></li>
             <li><a href="https://docs.themelio.org">Knowledge base</a></li>
             <li><a href="https://medium.com/&#x40;themelio">Blog</a></li>

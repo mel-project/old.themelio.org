@@ -1,0 +1,158 @@
+@(define HEADER-FULL? #f)
+
+@define[HEADER-CONTENT]{@list{
+<div class="col-lg-9">
+    <h1>Roadmap</h1>
+    <p class="text--blead">
+        Our plans for Themelio and beyond
+    </p>
+</div>
+<div class="col-lg"></div>
+}}
+
+@define[BODY-CONTENT]{@list{
+<div class="section section--darken">
+    <div class="section__inner container">
+        <div class="row mb-3">
+            <div class="col">
+                <h2>Phases of development</h2>
+                <p class="text--lead">
+                    The most distinctive part about Themelio's development plans is our four phases of development.
+                </p>
+                <p class="text--lead">
+                    Our first step is to make a <b>prototype</b>, ending in Q3 2019. This gives us a proof-of-concept to tinker with and to base our production software off of. At this point, development is highly "agile" and prioritizes flexibility over stability &mdash; we won't even have completely specified protocols or feature sets.
+                </p>
+                <p class="text--lead">
+                    Next we launch a public <b>alphanet</b>. This will be a fully peer-to-peer blockchain network, albeit with centralized consensus and no guarantee of a consistent history, like the Bitcoin testnet. The alphanet will let us experiment with tweaking and optimizing the protocol for real mass usage.
+                </p>
+                <p class="text--lead">
+                    The <b>betanet</b> will launch in Q4 2019 with a brand-new history, while the alphanet will become a testnet with no persistency. In the betanet, history consistency is guaranteed, while consensus is gradually decentralized. Consensus-critical protocol updates ("hard forks") will happen, though with rapidly decreasing frequency. Once the betanet stabilizes, our main cryptocurrency, the mel, will start trading on major cryptocurrency exchanges.
+                </p>
+                <p class="text--lead">
+                    Finally, we plan our <b>stable release</b> some time in late 2020. This will permanently freeze the protocol specification, while permitting no consensus-critical updates unless to fix critical vulnerabilities. The betanet will shut down, with its history being entirely inherited.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section__inner container">
+        <div class="row mb-3">
+            <div class="col-lg-6">
+                <h2>The past and future of Themelio</h2>
+                <p class="text--lead">
+                    Let's look at a timeline of our work related to Themelio.
+                </p>
+            </div>
+            <div class="col-lg-6 container-fluid">
+                <div class="row mb-3">
+                    <div class="col-3 text-right text-muted">
+                        <i>circa</i>&nbsp;&nbsp;<b class="font-weight-bold">2014</b>
+                    </div>
+                    <div class="col text-muted">
+                        We begin our long-time obsession over trustless, decentralized systems.
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-3 text-right text-muted">
+                        <i>circa</i>&nbsp;&nbsp;<b class="font-weight-bold">2015</b>
+                    </div>
+                    <div class="col text-muted">
+                        We realize that traditional decentralized systems, like DHTs or web-of-trust PKIs, miss something critical &mdash; a root of trust. We start investigating non-centralized roots of trust, like Certificate Transparency and blockchains.
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-3 text-right text-muted">
+                        <b class="font-weight-bold">2016</b>
+                    </div>
+                    <div class="col text-muted">
+                        We start research on creating Bitforest, a securely decentralized PKI initially based on the Bitcoin blockchain.
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-3 text-right text-muted">
+                        <b class="font-weight-bold">2017</b>
+                    </div>
+                    <div class="col">
+                        <span class="text-muted">We finish </span><span class="text--normweight">Bitforest</span>, <span class="text-muted">but in the process we realize that existing blockchains are seriously inadequate to service as a root of trust for even a basic application like a PKI.</span> <span class="text--normweight">Work on Themelio starts.</span>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-3 text-right text-muted">
+                        <b class="font-weight-bold">2018</b>
+                    </div>
+                    <div class="col">
+                        <span class="text-muted">Our work is almost entirely on Themelio.</span> <span class="text--normweight">Themelio's focus shifts from simply advancing the state of the art to a paradigm shift in layering.</span>
+                    </div>
+                </div>
+                <div class="row mb-3 text--normweight">
+                    <div class="col-3 text-right text-muted">
+                        Q1&nbsp;&nbsp;<b class="font-weight-bold">2019</b>
+                    </div>
+                    <div class="col">
+                        First successful test of a prototype client and network
+                    </div>
+                </div>
+                <div class="row mb-3 text--normweight">
+                    <div class="col-3 text-right text-muted">
+                        Q2&nbsp;&nbsp;<b class="font-weight-bold">2019</b>
+                    </div>
+                    <div class="col">
+                        Website launch
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col text-center">
+                        <i class="text-muted">you are here</i>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-3 text-right text-secondary text--normweight">
+                        Q3&nbsp;&nbsp;<b class="font-weight-bold">2019</b>
+                    </div>
+                    <div class="col">
+                        <b>Public launch of a non-persistent "alphanet".</b>
+                        From this point on, you'll be able to do things like send around mels and deploy apps, albeit on a centralized network that may get reset from time to time. The protocol will generally freeze during this testing period.
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-3 text-right text-secondary text--normweight">
+                        Q4&nbsp;&nbsp;<b class="font-weight-bold">2019</b>
+                    </div>
+                    <div class="col">
+                        <b>Public "betanet" launch.</b>
+                        Unlike the alphanet, the betanet will have persistent history. Although "hard-fork" updates will still happen, assets on the betanet will be durable and consensus will be gradually decentralized.
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-3 text-right text-secondary text--normweight">
+                        Q1-Q3&nbsp;&nbsp;<b class="font-weight-bold">2020</b>
+                    </div>
+                    <div class="col">
+                        <b>Fundraising and betanet refinement.</b> Both mels (currency) and mets (consensus stakes) on the betanet will be listed on major cryptocurrency exchanges. We will also conduct a round of fundraising based on selling mets &mdash; the details are yet to be finalized. We will also use this time to thoroughly audit the protocol, fixing any problems through protocol updates, in preparation for the release launch.
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-3 text-right text-secondary text--normweight">
+                        Q4&nbsp;&nbsp;<b class="font-weight-bold">2020</b>
+                    </div>
+                    <div class="col">
+                        <b>Release launch of the Themelio blockchain.</b> Hard forks in the blockchains are thereafter forbidden except to fix security vulnerabilities.
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-3 text-right text-primary text--normweight">
+                        <i class="font-weight-bold">and beyond...</i>
+                    </div>
+                    <div class="col">
+                        <b>Finishing Themelio is just the end of the beginning.</b> Themelio is purposefully designed to be simple, but that also means pushing complexity to supporting layer-2 protocols. Themelio Labs's focus will shift to developing a vibrant and flexible protocol stack, with Themelio-rooted security, for building both peer-to-peer and server-client networked apps. Of course, that's also where much of the money raised from selling mets will be going.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+}}
+
+@(include-template "templates/main.html")

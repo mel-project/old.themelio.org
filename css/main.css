@@ -1,16 +1,20 @@
 /* HEADER STYLES */
 
-.header {
-    height: 100vh;
+body {
     background-image: linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.93)),
     url('../images/logo-muted.svg');
     background-repeat: no-repeat;
     background-position: top right;
-    background-size: contain;
+    background-size: auto,100vh;
+}
+
+.header--full {
+    height: 100vh;
 }
 
 .header__inner {
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .header__inner__branding {
@@ -34,7 +38,10 @@
 
 .header__inner__nav a {
     color: #393f4c;
+    text-decoration: none;
 }
+
+.header .text--lead
 
 @media (max-width: 992px) {
     .header__inner__nav {
@@ -150,6 +157,11 @@ footer {
     font-weight: 500;
 }
 
+.blacklink a {
+    color: black;
+    text-decoration: underline;
+}
+
 
 .text--lead {
     font-size: 110%;
@@ -157,6 +169,15 @@ footer {
 @media (min-width: 992px) {
     .text--lead {
         font-size: 130%;
+    }
+}
+
+.text--blead {
+    font-size: 130%;
+}
+@media (min-width: 992px) {
+    .text--blead {
+        font-size: 150%;
     }
 }
 
