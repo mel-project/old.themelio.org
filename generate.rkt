@@ -9,8 +9,6 @@
      (lambda ()
        (display (include-template ,(string-replace fname ".html" ".src.html"))))))
 
-(void (system "sass scss/custom-bootstrap.scss css/custom-bootstrap.css"))
-(displayln "SASS compilation complete")
 (generate "index.html")
 (generate "resources.html")
 (generate "roadmap.html")

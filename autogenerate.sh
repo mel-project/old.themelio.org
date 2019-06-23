@@ -1,6 +1,9 @@
 #!/bin/sh
-while true
-do
-inotifywait -r *src* scss
+
+cd ./whitepapers
+sh generate.sh
+echo "Whitepaper generation complete"
+cd ..
+sass scss/custom-bootstrap.scss css/custom-bootstrap.css
+echo "SASS compilation complete"
 racket generate.rkt
-done

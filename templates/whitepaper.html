@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>@|TITLE|</title>
+    <meta content="width=device-width, initial-scale=1.0 user-scalable=no" name="viewport">
+    <meta content="XXXX" name="keywords">
+    <meta content="XXXX" name="description">
+
+
+    <link href="" rel="icon">
+    <link href="../../fonts/HKGrotesk/stylesheet.css" rel="stylesheet">
+    <link href="../../fonts/Inter/inter.css" rel="stylesheet">
+    <link href="../../css/custom-bootstrap.css" rel="stylesheet">
+    <link href="../../css/main.css" rel="stylesheet">
+    <link href="../../css/whitepaper.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+</head>
+
+<body>
+
+    <div class="paper-wrapper">
+        <div class="container">
+            <div class="row blacklink">
+                <div class="col-lg-4">
+                    <div class="js-toc">
+
+                    </div>
+                </div>
+                <div class="col-lg-8 js-toc-content">
+                    @|BODY-CONTENT|
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @(include-template "main-footer.html")
+    <script src="../../js/jquery.min.js"></script>
+    <script src="https://unpkg.com/ionicons&#x40;4.5.5/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+    <script>
+        tocbot.init({
+            // Where to render the table of contents.
+            tocSelector: '.js-toc',
+            // Where to grab the headings to build the table of contents.
+            contentSelector: '.js-toc-content',
+            // Which headings to grab inside of the contentSelector element.
+            headingSelector: 'h1, h2, h3',
+        })
+    </script>
+</body>
+
+</html>
