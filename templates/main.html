@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Themelio</title>
+  <meta content="width=device-width, initial-scale=1.0 user-scalable=no" name="viewport">
+  <meta content="Themelio is a public blockchain designed as a universal trust substrate,
+  focused on stability, security, and performance." name="description">
+
+
+  <link href="" rel="icon">
+  <link href="fonts/HKGrotesk/stylesheet.css" rel="stylesheet">
+  <link href="fonts/Inter/inter.css" rel="stylesheet">
+  <link href="css/custom-bootstrap.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <div class="header @(if HEADER-FULL? 'header--full empty)">
+    <div class="header__inner container">
+      <div class="row">
+        <div class="header__inner__branding col-6 col-lg-3">
+          <a href="index.html"><img src="images/logo-text.svg"></a>
+        </div>
+        <div class="header__inner__hamburger col-6">
+          <a href="#"><img src="icons/menu.svg"></a>
+        </div>
+        <div class="header__inner__nav col-12 col-lg-9">
+          <ul>
+            <li><a href="roadmap.html">Roadmap</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="https://docs.themelio.org">Knowledge base</a></li>
+            <li><a href="https://medium.com/themelio">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row header__content">
+        @|HEADER-CONTENT|
+      </div>
+    </div>
+  </div>
+
+  @|BODY-CONTENT|
+
+  @(include-template "main-footer.html")
+
+  <script src="js/jquery.min.js"></script>
+  <script src="https://unpkg.com/ionicons&#x40;4.5.5/dist/ionicons.js"></script>
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>-->
+
+  <!-- user script -->
+  <script>
+    // Hamburger toggle
+    $(".header__inner__hamburger").click(function (e) {
+      $(".header__inner__nav").toggle(400)
+    })
+  </script>
+</body>
+
+</html>

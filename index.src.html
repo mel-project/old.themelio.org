@@ -1,0 +1,141 @@
+@(define HEADER-FULL? #t)
+
+@define[HEADER-CONTENT]{@list{
+<div class="col-12 col-lg-9">
+    <h1>A foundation for a better Internet</h1>
+    <p class="text--blead">Themelio is a public blockchain designed as a universal trust substrate,
+        <br>focused on <b>stability, security, and performance.</b>
+    </p>
+    <a href="https://docs.themelio.org/whitepapers/themelio-a-stable-blockchain-for-an-unstable-world"><button type="button" class="btn btn-secondary">Read whitepaper</button></a>
+    <a href="#footer"><button type="button" class="btn btn-primary">Register interest</button></a>
+</div>
+<div class="col"></div>
+}}
+
+@define[LIPSUM]{@list{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum}}
+
+@define[BODY-CONTENT]{@list{
+<div class="section section--darken">
+    <div class="section__inner container">
+        <div class="row text-center">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <h1>What is Themelio?</h1>
+                <p class="text--lead">
+                    Themelio is the low-level foundation for a new decentralized Internet. It's a blockchain designed
+                    the right way &mdash; like a core network protocol. Themelio is simple,
+                    future-proof, and ridiculously robust, just like the Internet Protocol.
+                </p>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section__inner container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>The blockchain dilemma</h2>
+                <p>
+                    Right now, decentralized app developers face a difficult choice.
+                </p>
+                <p>
+                    You could spend years engineering and refining a multi-layer, <b>specialized protocol</b> just for your specific use case, like Satoshi Nakamoto did with Bitcoin and payments. You'd probably still make something insecure, hard
+                    to use, and impossible to evolve.
+                </p>
+                <p>
+                    Or you could use a <b>general-purpose blockchain</b> like Ethereum or EOS. You'd just write the application layer, and let the Turing-complete smart contract support of the blockchain handle the rest of the stack.
+                </p>
+                <p>
+                    But then come the poor performance, high costs, unintuitive behavior, and worst of all, disruptive and contentious updates. You'll probably end up wishing you could trust somebody else's computer after all.
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <img src="images/illust/wobblystack.png" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section section--darken">
+    <div class="section__inner container">
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <img src="images/illust/goodstack.png" style="height: 250px;width:auto;margin-top:30px;margin-bottom:30px;">
+            </div>
+            <div class="col-lg-6">
+                <h2>A blockchain at the right layer</h2>
+                <p>
+                    When we made Themelio, we took an entirely different approach.
+                </p>
+                <p>
+                    Unlike centralized services, <b>blockchain protocols can't really be updated</b>. A "hard fork" update is really the community switching to a new blockchain. And as with all collective action, contention, drama, and politics threaten the stability of the ecosystem.
+                </p>
+                <p>
+                    So we didn't try to make Themelio the perfect blockchain for a single application, whose requirements might suddenly change. Neither did we create a deceptively easy-to-use smart contract virtual machine, papering over ever-evolving complexity with leaky abstractions.
+                </p>
+                <p>
+                    Instead, <b>Themelio is designed not to change</b>. And that means keeping the protocol simple and the abstractions low-level.
+                </p>
+                <p>
+                    Themelio focuses on being a <b>layer-0 blockchain</b>. Its only job: providing the fundamental properties of a blockchain &mdash; transparency, immutability, and decentralization &mdash; extremely robustly and efficiently.
+                </p>
+                <!--<p>
+                    Instead, Themelio starts from an old-school abstraction &mdash; the growing, UTXO-based transaction graph any Bitcoin user knows. It's a little weird and unintuitive, but its clean and brutally simple semantics make an excellent basis for a core low-level protocol.
+                </p>
+                <p>
+                    We combine this abstraction with some innovative superpowers that allow a powerful paradigm of ``coin-oriented'' dApp programming. And we implement Themelio with cutting-edge yet robust consensus and cryptoeconomic algorithms that lets you push thousands of transactions per second while keeping incredibly solid decentralized security.
+                </p>
+                <p>
+                    Themelio is the way blockchains should always have been.
+                </p>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section text-center">
+    <div class="section__inner container">
+        <div class="row">
+            <div class="col-lg-4">
+                <ion-icon name="ios-cube" class="icon--big text-success"></ion-icon>
+                <h4>Rock-solid robustness</h4>
+                <p>Themelio's protocol is carefully engineered for stability and robustness. A simple data model means no parameter-tweaking hard forks. BFT proof of stake built on a novel, collusion-proof game-theoretical model ensures immediate finality and resilient decentralization. And future-proof cryptography allows Themelio to survive unforeseen cryptoanalytic breakthroughs. Finally, Melmint, a groundbreaking trustless stablecoin design, stabilizes currency value without any reliance on external pegs or oracles.</p>
+            </div>
+            <div class="col-lg-4">
+                <ion-icon name="ios-heart" class="icon--big text-primary"></ion-icon>
+                <h4>Simple usability</h4>
+                <p>MelScript allows you to make complex dApps unprecedented on coin-based systems, innovative mechanisms stabilizes coin prices and transaction fees, and easy-to-understand semantics eliminates unintuitive corner-cases common in other blockchains. Themelio makes it easy to build tall application stacks without frustration.</p>
+            </div>
+            <div class="col-lg-4">
+                <ion-icon name="ios-rocket" class="icon--big text-danger"></ion-icon>
+                <h4>Scalable performance</h4>
+                <p>Despite Themelio being a traditional one-shard blockchain, apps using it can easily achieve great performance. Thousands of on-chain transactions can be processed every second, fully secure yet incredibly thin clients let embedded devices trustlessly access the blockchain, and a design optimized for securing off-chain apps like payment channels enables massively scalable systems with blockchain-backed security.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section section--darken blacklink">
+    <div class="section__inner container">
+        <div class="row">
+            <div class="col">
+                <h1>The future is <span class="text-secondary text--normweight">almost</span> here.</h1>
+                <p class="text--lead">
+                    Themelio is still under heavy development. It isn't ready for public use just yet.
+                </p>
+                <p class="text--lead">
+                    There are several things you can do right now though. The <a href="resources.html">whitepaper</a> is available if you want a detailed look at Themelio's design. You can also read the <a href="https://docs.themelio.org">work-in-progress knowledge base</a>, which includes everything from technical documentation to developer tutorials. Our <a href="resources.html">published research</a> is also available.
+                </p>
+                <p class="text--lead">
+                    If you're truly adventurous, follow the development of our <a href="https://github.com/themeliolabs/themelio0core">prototype network</a>. It's not feature-complete yet and <b>it will break</b>.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+}}
+
+@(include-template "templates/main.html")
