@@ -23,22 +23,22 @@
 </head>
 
 <body>
-  <header class="inverted @(when HEADER-FULL? 'header--full)">
-    <nav class="navbar py-md-2 py-1 navbar-expand-md navbar-dark">
+  <header class="@(when HEADER-FULL? 'header--full)">
+    <nav class="navbar py-md-2 py-1 navbar-expand-md navbar-light">
       <div class="container-fluid">
         <div class="row align-items-center" style="width: 100%;">
           <div class="col-md-3 col-6">
             <a class="navbar-brand px-2">
-              <img class="img-fluid" src="./images/logo-text.svg">
+              <img class="img-fluid" src="./images/logo-whiteback.png" alt="themelio logo">
             </a>
           </div>
 
 
           <div class="col d-md-block d-none top-nav">
-            <a class="@(if (equal? ACTIVE-PAGE 'home) 'nav-active 'inactive )">Home</a>
-            <a class="@(if (equal? ACTIVE-PAGE 'roadmap) 'nav-active 'inactive )">Roadmap</a>
-            <a class="@(if (equal? ACTIVE-PAGE 'developers) 'nav-active 'inactive )">Developers</a>
-            <a class="@(if (equal? ACTIVE-PAGE 'docs) 'nav-active 'inactive )">Docs</a>
+            <a class="@(if (equal? ACTIVE-PAGE 'home) 'nav-active 'inactive )" href="index.html">Home</a>
+            <a class="@(if (equal? ACTIVE-PAGE 'roadmap) 'nav-active 'inactive )" href="roadmap.html">Roadmap</a>
+            <a class="@(if (equal? ACTIVE-PAGE 'resources) 'nav-active 'inactive )" href="resources.html">Resources</a>
+            <a class="@(if (equal? ACTIVE-PAGE 'docs) 'nav-active 'inactive )" href="https://docs.themelio.org">Docs</a>
           </div>
 
           <div class="col-md-3 col-6 text-right"> <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#collapse" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,11 +46,11 @@
             </button></div>
         </div>
         <div class="row align-items-center collapse" style="width: 100%;" id="collapse">
-          <div class="col top-nav">
-            <a class="@(if (equal? ACTIVE-PAGE 'home) 'nav-active 'inactive )">Home</a><br>
-            <a class="@(if (equal? ACTIVE-PAGE 'roadmap) 'nav-active 'inactive )">Roadmap</a><br>
-            <a class="@(if (equal? ACTIVE-PAGE 'developers) 'nav-active 'inactive )">Developers</a><br>
-            <a class="@(if (equal? ACTIVE-PAGE 'docs) 'nav-active 'inactive )">Docs</a>
+          <div class="col top-nav top-nav-collapse">
+            <a class="@(if (equal? ACTIVE-PAGE 'home) 'nav-active 'inactive )" href="index.html">Home</a>
+            <a class="@(if (equal? ACTIVE-PAGE 'roadmap) 'nav-active 'inactive )" href="roadmap.html">Roadmap</a>
+            <a class="@(if (equal? ACTIVE-PAGE 'resources) 'nav-active 'inactive )" href="resources.html">Resources</a>
+            <a class="@(if (equal? ACTIVE-PAGE 'docs) 'nav-active 'inactive )" href="https://docs.themelio.org">Docs</a>
           </div>
         </div>
       </div>

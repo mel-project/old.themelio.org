@@ -23,22 +23,22 @@
 </head>
 
 <body>
-  <header class="inverted header--full">
-    <nav class="navbar py-md-2 py-1 navbar-expand-md navbar-dark">
+  <header class="header--full">
+    <nav class="navbar py-md-2 py-1 navbar-expand-md navbar-light">
       <div class="container-fluid">
         <div class="row align-items-center" style="width: 100%;">
           <div class="col-md-3 col-6">
             <a class="navbar-brand px-2">
-              <img class="img-fluid" src="./images/logo-text.svg">
+              <img class="img-fluid" src="./images/logo-whiteback.png" alt="themelio logo">
             </a>
           </div>
 
 
           <div class="col d-md-block d-none top-nav">
-            <a class="nav-active">Home</a>
-            <a class="inactive">Roadmap</a>
-            <a class="inactive">Developers</a>
-            <a class="inactive">Docs</a>
+            <a class="nav-active" href="index.html">Home</a>
+            <a class="inactive" href="roadmap.html">Roadmap</a>
+            <a class="inactive" href="resources.html">Resources</a>
+            <a class="inactive" href="https://docs.themelio.org">Docs</a>
           </div>
 
           <div class="col-md-3 col-6 text-right"> <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#collapse" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,11 +46,11 @@
             </button></div>
         </div>
         <div class="row align-items-center collapse" style="width: 100%;" id="collapse">
-          <div class="col top-nav">
-            <a class="nav-active">Home</a><br>
-            <a class="inactive">Roadmap</a><br>
-            <a class="inactive">Developers</a><br>
-            <a class="inactive">Docs</a>
+          <div class="col top-nav top-nav-collapse">
+            <a class="nav-active" href="index.html">Home</a>
+            <a class="inactive" href="roadmap.html">Roadmap</a>
+            <a class="inactive" href="resources.html">Resources</a>
+            <a class="inactive" href="https://docs.themelio.org">Docs</a>
           </div>
         </div>
       </div>
@@ -58,11 +58,11 @@
   </header>
 
 
-  <div class="section inverted-extradark section--hero">
+  <div class="section  section--hero">
       <div class="section__inner container">
           <div class="row">
               <div class="col-12 col-lg-9">
-                  <h1>An <b>stable foundation</b> for a better Internet</h1>
+                  <h1>The <b>trustless foundation</b> of a better Internet</h1>
                   <p class="text--blead">Themelio is a new kind of public blockchain designed as a <b>radically immutable trust substrate</b>, powering unparalleled <b>stability, security, and performance</b> for the next generation of decentralized apps.
                   </p>
               </div>
@@ -75,16 +75,19 @@
   <div class="section section--darken">
       <div class="section__inner container">
           <div class="row">
-              <div class="col">
-                  <h1 class="text-center">A blockchain for the long run</h1>
+              <div class="col-lg-6 text-center">
+                  <img src="images/goodstack.png" style="height: 500px;width:auto;">
+              </div>
+              <div class="col-lg">
+                  <h2>A blockchain built to last</h2>
                   <p class="text--lead">
                       Unlike centralized services, <b>blockchain protocols can&rsquo;t really be updated</b>.
+                      &ldquo;Protocol governance&rdquo; is really about getting a whole community to collectively switch to a different protocol.
                   </p>
+                  <p class="text--lead">And as with most collective action, contention, drama, and politics rule the day.</p>
+                  <p class="text--lead">Worse, externally coordinated upgrades undermine the most important innovation of blockchains &mdash; endogenous trust based on internal incentives, not external communities or authorities.</p>
                   <p class="text--lead">
-                      &ldquo;Protocol governance&rdquo; is really about getting a whole community to collectively switch to a different protocol. And as with most collective action, contention, drama, and politics rule the day.
-                  </p>
-                  <p class="text--lead">
-                      Instead, <b>Themelio is designed not to change</b>. That means a low-level, robust protocol focusing on doing one job well: providing an immutable root of trust, security, and transparency to a diverse ecosystem..
+                      Instead, <b>Themelio is designed not to change</b>. That means a low-level, robust blockchain inspired by the Internet's core protocols, providing an immutable root of trust, security, and transparency to a diverse ecosystem..
                   </p>
               </div>
           </div>
@@ -92,50 +95,29 @@
   </div>
 
   <div class="section">
-      <div class="section__inner container">
+      <div class="section__inner container text-center">
           <div class="row">
-              <div class="col-lg-6">
-                  <h2>Uncompromising stability</h2>
-                  <p>Consensus-breaking updates, like “hard forks” and “protocol upgrades”, weaken the very basis of blockchains’ decentralized, trustless security and destabilize whole ecosystems. The unprecedented revolution in trust promised by blockchains can only be unlocked with a robust, stable protocol carefully engineered to <strong>not need change</strong>.</p>
-                  <p>Themelio’s incredibly simple data model means no parameter-tweaking hard forks. BFT proof of stake built on a novel, collusion-proof game-theoretical model ensures immediate finality and resilient decentralization, eliminating the need to recover from attacks through forks. And future-proof cryptography allows Themelio to survive unforeseen cryptoanalytic breakthroughs.</p>
+              <div class="col-lg">
+                  <ion-icon name="ios-cube" class="icon--big text-primary"></ion-icon>
+                  <h3>Radical immutability</h3>
+                  <p class="text-left">Consensus-breaking updates, like “hard forks” and “protocol upgrades”, ultimately force all blockchain users to <a href="https://nullchinchilla.me/against-blockchain-governance/" target="_blank" rel="noopener">rely on external trusted parties</a> for protocol security. This weakens the very basis of blockchains’ decentralized, trustless security and destabilizes whole ecosystems.</p>
+                  <p class="text-left">The unprecedented revolution in trust promised by blockchains can only be unlocked with a robust, stable protocol carefully engineered for <strong>radical immutability</strong>. Themelio’s incredibly simple data model means no parameter-tweaking hard forks. A novel, collusion-proof proof-of-stake consensus ensures immediate finality and resilient decentralization. And future-proof cryptography allows Themelio to survive unforeseen cryptoanalytic breakthroughs.</p>
               </div>
-              <div class="col-lg-6 text-center">
-                  <img src="https://dummyimage.com/600x600/ffffff/cccccc" style="height: 400px;width:auto;">
+              <div class=" col-lg">
+                  <ion-icon name="logo-usd" class="icon--big text-secondary"></ion-icon>
+                  <h3>Revolutionary cryptocurrency</h3>
+                  <p class="text-left">Themelio’s base currency, Mel, is the <strong>world’s first truly decentralized, fiat-independent stablecoin</strong>. Melmint, a fully trustless, oracle-free issuance mechanism, stabilizes a mel’s value against an index representing the time cost of sequential computation.</p>
+                  <p class="text-left">A decentralized stable-value asset completely demolishes the false dichotomy between trustless issuance and low volatility. With money that is independent of both the systemic risk of oracle-based fiat pegs and the extreme volatility of conventional cryptocurrencies, Themelio promises a fundamental breakthrough in decentralized financial applications.</p>
+              </div>
+              <div class="col-lg">
+                  <ion-icon name="ios-rocket" class="icon--big text-danger"></ion-icon>
+                  <h3>Usability with performance</h3>
+                  <p class="text-left">Themelio provides a uniquely flexible and usable UTXO-based data model. MelVM, a Turing-incomplete yet expressive covenant language, empowers complex dApps with stronger security guarantees and higher performance. Straightforward semantics eliminate unintuitive corner-cases like block reorganizations and volatile fees, making it easy to build tall application stacks without frustration.</p>
+                  <p class="text-left">And despite Themelio being a traditional one-shard blockchain, apps using it can easily achieve great performance with its design that can secure layer-2 protocols without deploying full nodes. Even layer-1 usage benefits from a data model engineered for maximum performance through techniques like fully parallel transaction validation.</p>
               </div>
           </div>
       </div>
   </div>
-
-  <div class="section section--darken">
-      <div class="section__inner container">
-          <div class="row">
-              <div class="col-lg-6 text-center">
-                  <img src="https://dummyimage.com/600x600/ffffff/cccccc" style="height: 400px;width:auto;">
-              </div>
-              <div class="col-lg-6">
-                  <h2>Groundbreaking cryptocurrency</h2>
-                  <p>Themelio’s base currency, Mel, is the <strong>world’s first truly decentralized, fiat-independent stablecoin</strong>. Melmint, a fully trustless, oracle-free issuance mechanism, stabilizes a mel’s value against an index representing the time cost of sequential computation.</p>
-                  <p>A decentralized stable-value asset completely demolishes the false dichotomy between trustless issuance and low volatility. With money that is independent of both the systemic risk of oracle-based fiat pegs and the extreme volatility of conventional cryptocurrencies, Themelio promises a fundamental breakthrough in decentralized financial applications.</p>
-              </div>
-          </div>
-      </div>
-  </div>
-
-  <div class="section">
-      <div class="section__inner container">
-          <div class="row">
-              <div class="col-lg-6">
-                  <h2>Usable and performant</h2>
-                  <p>Themelio’s low-level UTXO-based data model is far from the limited, payment-focused models of blockchains like Bitcoin and Litecoin. MelVM, a Turing-incomplete yet expressive covenant language, empowers complex dApps with stronger security guarantees and higher performance than smart contracts in platforms based on mutable state, like Ethereum and Cardano. Usability is further enhanced by straightforward, easy-to-understand blockchain semantics. Themelio eliminates unintuitive corner-cases, like block reorganizations, common in other blockchains, makes it easy to build tall application stacks without frustration.</p>
-                  <p>And despite Themelio being a traditional one-shard blockchain, apps using it can easily achieve great performance with its design that can secure layer-2 protocols without deploying full nodes. Even layer-1 usage benefits from a data model engineered for maximum performance through techniques like fully parallel transaction validation.</p>
-              </div>
-              <div class="col-lg-6 text-center">
-                  <img src="https://dummyimage.com/600x600/ffffff/cccccc" style="height: 400px;width:auto;">
-              </div>
-          </div>
-      </div>
-  </div>
-
 
 
   <!-- <div class="section section--darken text-center">
@@ -160,16 +142,19 @@
       </div>
   </div> -->
 
-  <div class="section section--darken blacklink">
+  <div class="section section--darken">
       <div class="section__inner container">
           <div class="row">
               <div class="col">
-                  <h1>The future is <span class="text-primary text--normweight">almost</span> here.</h1>
+                  <h1>The future is <span class="text-primary"><b>almost</b></span> here.</h1>
                   <p class="text--lead">
-                      Themelio is still under heavy development.
+                      Themelio is still under heavy development, recently entering the <a href="roadmap.html">betanet phase</a> of our roadmap.
                   </p>
                   <p class="text--lead">
-                      There are several things you can do right now though. You can play around with the <a href="https://docs.themelio.org/try-themelio/alphanet-client/">alphanet</a>, a prototype network that is still stabilizing. The <a href="resources.html">whitepaper</a> is available if you want a detailed look at Themelio's design. You can also read the <a href="https://docs.themelio.org">work-in-progress knowledge base</a>, which includes everything from technical documentation to developer tutorials.
+                      This means that although the tooling is far from complete, we have a feature-complete persistent mainnet and testnet running. You can participate today by running a <a>thin client</a> or <a>full node</a>.
+                  </p>
+                  <p class="text--lead">
+                      Stay tuned for a feature-complete GUI wallet in Q3 2021!
                   </p>
                   <p class="text--lead">
                       We also welcome you to our <a href="https://discord.gg/MzzffF7v2E">Discord channel</a>. If you're interested in following our development, don't forget to star our <a href="https://github.com/themeliolabs/themelio-core">GitHub repository</a>!
@@ -217,8 +202,9 @@
                 Dover, DE 19901
             </p>
             <p class="text--normweight">
-                <a href="https://github.com/themeliolabs/">GitHub</a> ·
-                <a href="https://medium.com/themelio">Medium</a>
+                <a href="https://github.com/themeliolabs/" target="_blank" rel="noopener">GitHub</a> ·
+                <a href="https://medium.com/themelio" target="_blank" rel="noopener">Medium</a> ·
+                <a href="https://discord.gg/MzzffF7v2E" target="_blank" rel="noopener">Discord</a>
             </p>
             <hr>
             <h5><b>Partners</b></h5>
