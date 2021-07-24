@@ -1,21 +1,13 @@
 @(define HEADER-FULL? #t)
-
 @(define ACTIVE-PAGE 'home)
-
-@define[HEADER-CONTENT]{@list{
-
-}}
-
-@define[LIPSUM]{@list{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum}}
 
 @define[BODY-CONTENT]{@list{
 <div class="section  section--hero">
     <div class="section__inner container">
         <div class="row">
             <div class="col-12 col-lg-9">
-                <h1>The <b>trustless foundation</b> of a better Internet</h1>
-                <p class="text--blead">Themelio is a new kind of public blockchain designed as a <b>radically immutable trust substrate</b>, powering unparalleled <b>stability, security, and performance</b> for the next generation of decentralized apps.
-                </p>
+                <h1>@(l10n "index/tagline")</h1>
+                <p class="text--blead">@(l10n "index/subtitle")</p>
             </div>
             <div class="col"></div>
         </div>
@@ -27,16 +19,7 @@
     <div class="section__inner container">
         <div class="row">
             <div class="col-lg">
-                <h2>A blockchain built to last</h2>
-                <p class="text--lead">
-                    Unlike centralized services, <b>blockchain protocols can&rsquo;t really be updated</b>.
-                    &ldquo;Protocol governance&rdquo; is really about getting a whole community to collectively switch to a different protocol.
-                </p>
-                <p class="text--lead">And as with most collective action, contention, drama, and politics rule the day.</p>
-                <p class="text--lead">Worse, externally coordinated upgrades undermine the most important innovation of blockchains &mdash; endogenous trust based on internal incentives, not external communities or authorities.</p>
-                <p class="text--lead">
-                    Instead, <b>Themelio is designed not to change</b>. That means a low-level, robust blockchain inspired by the Internet's core protocols, providing an immutable root of trust, security, and transparency to a diverse ecosystem.
-                </p>
+                @(l10n "index/built-to-last")
             </div>
 
             <div class="col-lg-6 text-center">
@@ -49,24 +32,7 @@
 <div class="section">
     <div class="section__inner container text-center">
         <div class="row">
-            <div class="col-lg">
-                <ion-icon name="ios-cube" class="icon--big text-primary"></ion-icon>
-                <h3>Radical immutability</h3>
-                <p class="text-left">Consensus-breaking updates, like “hard forks” and “protocol upgrades”, ultimately force all blockchain users to <a href="https://nullchinchilla.me/against-blockchain-governance/" target="_blank" rel="noopener">rely on external trusted parties</a> for protocol security. This weakens the very basis of blockchains’ decentralized, trustless security and destabilizes whole ecosystems.</p>
-                <p class="text-left">The unprecedented revolution in trust promised by blockchains can only be unlocked with a robust, stable protocol carefully engineered for <strong>radical immutability</strong>. Themelio’s incredibly simple data model means no parameter-tweaking hard forks. A novel, collusion-proof proof-of-stake consensus ensures immediate finality and resilient decentralization. And future-proof cryptography allows Themelio to survive unforeseen cryptoanalytic breakthroughs.</p>
-            </div>
-            <div class=" col-lg">
-                <ion-icon name="logo-usd" class="icon--big text-secondary"></ion-icon>
-                <h3>Revolutionary cryptocurrency</h3>
-                <p class="text-left">Themelio’s base currency, Mel, is the <strong>world’s first truly decentralized, fiat-independent stablecoin</strong>. Melmint, a fully trustless, oracle-free issuance mechanism, stabilizes a mel’s value against an index representing the time cost of sequential computation.</p>
-                <p class="text-left">A decentralized stable-value asset completely demolishes the false dichotomy between trustless issuance and low volatility. With money that is independent of both the systemic risk of oracle-based fiat pegs and the extreme volatility of conventional cryptocurrencies, Themelio promises a fundamental breakthrough in decentralized financial applications.</p>
-            </div>
-            <div class="col-lg">
-                <ion-icon name="ios-rocket" class="icon--big text-danger"></ion-icon>
-                <h3>Usability with performance</h3>
-                <p class="text-left">Themelio provides a uniquely flexible and usable UTXO-based data model. MelVM, a Turing-incomplete yet expressive covenant language, empowers complex dApps with stronger security guarantees and higher performance. Straightforward semantics eliminate unintuitive corner-cases like block reorganizations and volatile fees, making it easy to build tall application stacks without frustration.</p>
-                <p class="text-left">And despite Themelio being a traditional one-shard blockchain, apps using it can easily achieve great performance with its design that can secure layer-2 protocols without deploying full nodes. Even layer-1 usage benefits from a data model engineered for maximum performance through techniques like fully parallel transaction validation.</p>
-            </div>
+            @(l10n "index/three-column")
         </div>
     </div>
 </div>
@@ -98,19 +64,7 @@
     <div class="section__inner container">
         <div class="row">
             <div class="col">
-                <h1>The future is <span class="text-primary"><b>almost</b></span> here.</h1>
-                <p class="text--lead">
-                    Themelio is still under heavy development, recently entering the <a href="roadmap.html">betanet phase</a> of our roadmap.
-                </p>
-                <p class="text--lead">
-                    This means that although the tooling is far from complete, we have a feature-complete persistent mainnet and testnet running. You can participate today by running a <a href="https://docs.themelio.org/try-themelio/my-first-tx/">thin client</a> or <a href="https://docs.themelio.org/try-themelio/core-cmd-tools/">full node</a>.
-                </p>
-                <p class="text--lead">
-                    Stay tuned for a feature-complete GUI wallet in Q3 2021!
-                </p>
-                <p class="text--lead">
-                    We also welcome you to our <a href="https://discord.gg/2HmurW9T9K">Discord channel</a>. If you're interested in following our development, don't forget to star our <a href="https://github.com/themeliolabs/themelio-core">GitHub repository</a>!
-                </p>
+                @(l10n "index/last")
             </div>
         </div>
     </div>

@@ -11,6 +11,15 @@
   }
 }
 
+:lang(zh-CN) {
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+:lang(zh-HK) {
+  font-family: "Chiron Sans HK Pro WS", "Noto Sans HK", "Noto Sans TW",
+    sans-serif;
+}
+
 .section--hero {
   padding-top: 4rem;
   padding-bottom: 4rem;

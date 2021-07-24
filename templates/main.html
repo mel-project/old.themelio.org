@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="@LANG">
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -17,10 +17,20 @@
 
   <link href="css/main.css" rel="stylesheet">
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href='https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@"@"0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900' rel="stylesheet">
   <link href='https://fonts.googleapis.com/css2?family=Overpass:wght@"@"100;200;300;400;600;700;800;900' rel="stylesheet">
+  <link rel="stylesheet" href='https://cdn.jsdelivr.net/gh/chiron-fonts/chiron-sans-hk-pro@"@"1.007/build/webfont/css/vf.css' />
+  <link rel="stylesheet" href='https://cdn.jsdelivr.net/gh/chiron-fonts/chiron-sans-hk-pro@"@"1.007/build/webfont/css/vf-italic.css' />
+  <link href='https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@"@"300;400;500;700&display=swap' rel="stylesheet">
 </head>
+
+@define[NAVBAR]{
+@list{
+<a class="@(if (equal? ACTIVE-PAGE 'home) 'nav-active 'inactive )" href='@(l10n-url "index.html")'>@(l10n "nav/home")</a>
+<a class="@(if (equal? ACTIVE-PAGE ' roadmap) 'nav-active ' inactive )" href='@(l10n-url "roadmap.html")'>@(l10n "nav/roadmap")</a>
+<a class="@(if (equal? ACTIVE-PAGE ' resources) 'nav-active ' inactive )" href="resources.html">@(l10n "nav/resources")</a>
+<a class="@(if (equal? ACTIVE-PAGE 'docs) 'nav-active 'inactive )" href="https://docs.themelio.org">@(l10n "nav/docs")</a>
+<a class="inactive" target="_blank" rel="noopener" href="https://scan.themelio.org">Melscan</a>}}
 
 <body>
   <header class="@(when HEADER-FULL? 'header--full)">
@@ -35,24 +45,19 @@
 
 
           <div class="col d-md-block d-none top-nav">
-            <a class="@(if (equal? ACTIVE-PAGE 'home) 'nav-active 'inactive )" href="index.html">Home</a>
-            <a class="@(if (equal? ACTIVE-PAGE 'roadmap) 'nav-active 'inactive )" href="roadmap.html">Roadmap</a>
-            <a class="@(if (equal? ACTIVE-PAGE 'resources) 'nav-active 'inactive )" href="resources.html">Resources</a>
-            <a class="@(if (equal? ACTIVE-PAGE 'docs) 'nav-active 'inactive )" href="https://docs.themelio.org">Docs</a>
-            <a class="inactive" target="_blank" rel="noopener" href="https://scan.themelio.org">Melscan</a>
+            @NAVBAR
           </div>
 
-          <div class="col-md-3 col-6 text-right"> <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#collapse" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="col-md-3 col-6 text-right">
+            <a href='@(l10n-url-foreign FILENAME "en-US")'>EN</a>/<a lang="zh-HK" href='@(l10n-url-foreign FILENAME "zh-HK")'>繁中</a>/<a lang="zh-CN" href='@(l10n-url-foreign FILENAME "zh-CN")'>简中</a>
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#collapse" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
-            </button></div>
+            </button>
+          </div>
         </div>
         <div class="row align-items-center collapse" style="width: 100%;" id="collapse">
           <div class="col top-nav top-nav-collapse">
-            <a class="@(if (equal? ACTIVE-PAGE 'home) 'nav-active 'inactive )" href="index.html">Home</a>
-            <a class="@(if (equal? ACTIVE-PAGE 'roadmap) 'nav-active 'inactive )" href="roadmap.html">Roadmap</a>
-            <a class="@(if (equal? ACTIVE-PAGE 'resources) 'nav-active 'inactive )" href="resources.html">Resources</a>
-            <a class="@(if (equal? ACTIVE-PAGE 'docs) 'nav-active 'inactive )" href="https://docs.themelio.org">Docs</a>
-            <a class="inactive" target="_blank" rel="noopener" href="https://scan.themelio.org">Melscan</a>
+            @NAVBAR
           </div>
         </div>
       </div>
