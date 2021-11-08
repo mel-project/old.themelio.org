@@ -20,6 +20,21 @@
     sans-serif;
 }
 
+.btn-github {
+  border-radius: 5rem;
+  background-color: black;
+  padding: 0rem 0.5rem;
+  font-size: 2rem;
+  /* color: white; */
+}
+
+.btn-telegram {
+  border-radius: 5rem;
+  background-color: black;
+  padding: 0rem 0.5rem;
+  font-size: 2rem;
+}
+
 .section--hero {
   padding-top: 4rem;
   padding-bottom: 4rem;
