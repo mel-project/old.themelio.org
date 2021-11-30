@@ -37,11 +37,76 @@ footer/partners:
 
 # Homepage
 index/tagline:
-  en-US: The <b>trustless foundation</b> of a better Internet
+  en-US: It's time to <b>rethink</b> blockchains
   zh-CN: 新时代互联网的<br><b>去信任化根基</b>
 index/subtitle:
   en-US: Themelio is a new kind of public blockchain designed as a <b>radically immutable trust substrate</b>, powering unparalleled <b>stability, security, and performance</b> for the next generation of decentralized apps.
   zh-CN: Themelio 是一个全新、从零设计的公共区块链，旨在打造一种<b>从根本上不可改变的信任底层</b>，从而为下一代去中心化应用提供无与伦比的<b>稳定性、安全性与性能表现</b>。
+index/about:
+  en-US: Blockchains are meant to be stable. Today’s solutions, however, remain volatile — threatened by governance models that can re-architect and upheave the foundations on which applications and ecosystems are built.
+    Themelio is pioneering a new way to think about blockchain technology. Above all else, Themelio is designed to remain constant. It supports a new blockchain paradigm by providing a low-level, stable, and simple ‘Root of Trust’ that cannot be changed through governance processes. Immutability is the highest form of security and Themelio’s novel approach ushers in the revolution of trust that blockchains were always meant to bring. 
+
+index/intro:
+  en-US: Melmint is the first cryptocurrency issuance system that enables a trustless stable cryptocurrency. MEL is the native cryptocurrency of Themelio — a stablecoin that isn’t pegged to any government-backed currency. MEL provides purchasing power for in-protocol fees and rewards, while the unpegged SYM token enables MEL to retain its peg and powers Themelio’s proof-of-stake architecture.
+
+index/rethink-1: 
+  en-US: Themelio is designed to be trusted. Before decentralization, security, or scalability are brought into question, Themelio ensures its blockchain solution can be trusted to remain constant and unchanging — forever. Only from absolute endogenous trust in any system can decentralization, security, or scalability truly be ensured and preserved for the future of any network. Themelio achieves this through 
+index/rethink-2: 
+  en-US: Themelio ushers in a more secure digital future by rearchitecting blockchains.
+
+index/explore:
+  en-US: Explore the Themelio Stack
+
+
+index/investors:
+  en-US: Investors
+
+index/dev-stake: 
+  en-US: <h3>Themelio Stakeholders</h3>
+    <p class="text--lead">Run a thin client or full node on Themelio’s testnet to prepare for mainnet launch.
+    </p>
+    <a class="unavailable">Get Started</a>
+index/dev-build: 
+  en-US: <h3>Build with Themelio</h3>
+    <p class="text--lead">Get familiar with building on Themelio, test wallets, mint MEL, and more.
+    </p>
+    <a class="unavailable">Build</a>
+index/dev-docs: 
+  en-US: <h3>Themelio Stakeholders</h3>
+    <p class="text--lead">All the documentation developers and stakeholders need to learn how to get started with Themelio.
+    </p>
+    <a class="unavailable">Learn</a>
+index/res-lib: 
+  en-US: <h3>Themelio Library</h3>
+    <p class="text--lead">Guides, resources, and explanations for all the core elements of Themelio, MEL, SYM, and the growing ecosystem of endogenous trust.
+    </p>
+index/res-faq: 
+  en-US: <h3>Themelio Library</h3>
+    <p class="text--lead">A straightforward guide to all your questions about Themelio.
+    </p>
+index/res-whitepapers: 
+  en-US: <h3>Themelio Library</h3>
+    <p class="text--lead">The three core whitepapers about the Themelio protocol.</p>
+index/res-blog: 
+  en-US: <h3>Themelio Library</h3>
+    <p class="text--lead">Stay up to date with everything happening in the Themelio ecosystem through our blog. </p>
+
+index/meet:
+  en-US: The team building Themelio is a group of engineers, academics, and crypto experts helping steer Web3 in a sustainable, open, and secure direction through a paradigm-shifting approach to blockchain technology.
+
+
+index/meet-eric: 
+  en-US: the mentat
+index/meet-meade: 
+  en-US: the stickler for organization
+index/meet-jay: 
+  en-US: the blockchain guru
+index/meet-shane: 
+  en-US: the housekeeper
+
+index/join:
+  en-US: Join the Themelio Community
+
 index/built-to-last:
   en-US: <h2>A blockchain built to last</h2>
     <p class="text--lead">
