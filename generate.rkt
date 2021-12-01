@@ -22,7 +22,6 @@
        (generate ,fname))
      (let ([LANG "zh-HK"])
        (generate ,fname))))
-  ))
 
 (define LANG "en-US")
 
