@@ -45,22 +45,26 @@ index/subtitle:
 index/about:
   en-US: Blockchains are meant to be stable. Today’s solutions, however, remain volatile — threatened by governance models that can re-architect and upheave the foundations on which applications and ecosystems are built.
     Themelio is pioneering a new way to think about blockchain technology. Above all else, Themelio is designed to remain constant. It supports a new blockchain paradigm by providing a low-level, stable, and simple ‘Root of Trust’ that cannot be changed through governance processes. Immutability is the highest form of security and Themelio’s novel approach ushers in the revolution of trust that blockchains were always meant to bring. 
+  zh-CN: that
+
 
 index/intro:
   en-US: Melmint is the first cryptocurrency issuance system that enables a trustless stable cryptocurrency. MEL is the native cryptocurrency of Themelio — a stablecoin that isn’t pegged to any government-backed currency. MEL provides purchasing power for in-protocol fees and rewards, while the unpegged SYM token enables MEL to retain its peg and powers Themelio’s proof-of-stake architecture.
-  
+  zh-CN: that
+
+
 index/rethink-1: 
   en-US: Themelio is designed to be trusted. Before decentralization, security, or scalability are brought into question, Themelio ensures its blockchain solution can be trusted to remain constant and unchanging — forever. Only from absolute endogenous trust in any system can decentralization, security, or scalability truly be ensured and preserved for the future of any network. Themelio achieves this through 
+  zh-CN: "empty"
 index/rethink-2: 
   en-US: Themelio ushers in a more secure digital future by rearchitecting blockchains.
-
+  zh-CN: "empty"
 index/explore:
   en-US: Explore the Themelio Stack
-
-
+  zh-CN: "empty"
 index/investors:
   en-US: Investors
-
+  zh-CN: "empty"
 index/dev-stake: 
   en-US: <h3>Themelio Stakeholders</h3>
     <p class="text--lead">Run a thin client or full node on Themelio’s testnet to prepare for mainnet launch.
@@ -71,41 +75,52 @@ index/dev-build:
     <p class="text--lead">Get familiar with building on Themelio, test wallets, mint MEL, and more.
     </p>
     <a class="unavailable">Build</a>
+  zh-CN: "empty"
 index/dev-docs: 
   en-US: <h3>Themelio Stakeholders</h3>
     <p class="text--lead">All the documentation developers and stakeholders need to learn how to get started with Themelio.
     </p>
     <a class="unavailable">Learn</a>
+  zh-CN: "empty"
 index/res-lib: 
   en-US: <h3>Themelio Library</h3>
     <p class="text--lead">Guides, resources, and explanations for all the core elements of Themelio, MEL, SYM, and the growing ecosystem of endogenous trust.
     </p>
+  zh-CN: "empty"
 index/res-faq: 
   en-US: <h3>Themelio Library</h3>
     <p class="text--lead">A straightforward guide to all your questions about Themelio.
     </p>
+  zh-CN: "empty"
 index/res-whitepapers: 
   en-US: <h3>Themelio Library</h3>
     <p class="text--lead">The three core whitepapers about the Themelio protocol.</p>
 index/res-blog: 
   en-US: <h3>Themelio Library</h3>
     <p class="text--lead">Stay up to date with everything happening in the Themelio ecosystem through our blog. </p>
+  zh-CN: "empty"
 
 index/meet:
   en-US: The team building Themelio is a group of engineers, academics, and crypto experts helping steer Web3 in a sustainable, open, and secure direction through a paradigm-shifting approach to blockchain technology.
-
+  
+  zh-CN: "empty"
 
 index/meet-eric: 
   en-US: the mentat
+  zh-CN: "empty"
 index/meet-meade: 
   en-US: the stickler for organization
+  zh-CN: "empty"
 index/meet-jay: 
   en-US: the blockchain guru
+  zh-CN: "empty"
 index/meet-shane: 
   en-US: the housekeeper
+  zh-CN: "empty"
 
 index/join:
   en-US: Join the Themelio Community
+  zh-CN: "empty"
 
 index/built-to-last:
   en-US: <h2>A blockchain built to last</h2>

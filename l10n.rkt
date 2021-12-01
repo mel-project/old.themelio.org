@@ -41,4 +41,4 @@
 
 ;; Look up a value
 (define (l10n-lookup str lang)
-  (hash-ref (hash-ref l10n-mapping str)  lang))
+  (hash-ref (hash-ref l10n-mapping str)  lang "!MISSING!"))
