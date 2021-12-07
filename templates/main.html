@@ -28,6 +28,7 @@
 
 @define[NAVBAR]{
 @list{
+
 <a class="@(if (equal? ACTIVE-PAGE 'home) 'nav-active 'inactive )" href='@(l10n-url "index.html")'>@(l10n "nav/home")</a>
 <a class="@(if (equal? ACTIVE-PAGE ' roadmap) 'nav-active ' inactive )" href='@(l10n-url "roadmap.html")'>@(l10n "nav/roadmap")</a>
 <a class="@(if (equal? ACTIVE-PAGE ' resources) 'nav-active ' inactive )" href="resources.html">@(l10n "nav/resources")</a>
