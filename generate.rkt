@@ -5,7 +5,7 @@
 (require "l10n.rkt")
 
 (define-macro (generate fname)
-  `(let ([FILENAME ,fname])
+  `(let ([FILENAME, fname])
      (with-output-to-file (if (equal? LANG "en-US")
                               ,fname
                               (string-replace ,fname ".html"
@@ -18,10 +18,12 @@
 (define-macro (generate-all fname)
   `(let ()
      (generate ,fname)
-     (let ([LANG "zh-CN"])
-       (generate ,fname))
-     (let ([LANG "zh-HK"])
-       (generate ,fname))))
+    ;;;  (let ([LANG "zh-CN"])
+    ;;;    (generate ,fname))
+    ;;;  (let ([LANG "zh-HK"])
+    ;;;    (generate ,fname))))
+
+  ))
 
 (define LANG "en-US")
 
@@ -41,6 +43,6 @@
 
 (generate-all "index.html")
 
-(generate-all "resources.html")
-(generate-all "roadmap.html")
+;;; (generate-all "resources.html")
+;;; (generate-all "roadmap.html")
 (displayln "HTML compilation complete")

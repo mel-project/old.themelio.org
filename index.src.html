@@ -9,7 +9,8 @@
                 <h1>@(l10n "index/tagline")</h1>
                 <p class="text--blead">@(l10n "index/subtitle")</p>
             </div>
-            <div class="col"></div>
+            <div class="col-12">
+            </div>
         </div>
     </div>
 </div>
@@ -24,21 +25,145 @@
             <div class="col-lg">
                 @(l10n "index/about")
             </div>
-            <div class="col-lg-6 text-center">
-                <img src="images/goodstack.png" style="max-height: 500px;width:auto;max-width: 100%">
+            <div class="col-lg-6">
+                <a href="">@(l10n "index/learn-about-themelio")</a>   
             </div>
+            
         </div>
     </div>
 </div>
 
 <div class="section">
-    <div class="section__inner container text-center">
+    <div class="section__inner container">
         <div class="row">
-            @(l10n "index/three-column")
+            <div class="col-12 col-lg-9">
+                <h3>@(l10n "index/introducing-melmint")</h2>
+                <p">@(l10n "index/melmint-summary")</p>
+            </div>
+            <div class="col-12">
+                <a href="">@(l10n "index/themelio-tokenomics")</a>
+            </div>
         </div>
     </div>
 </div>
 
+<div class="section section--darken">
+    <div class="section__inner container">
+        <div class="row">
+            <div class="col-12 col-lg-9">
+                <h3>@(l10n "index/principles-title")</h2>
+                @(l10n "index/principles-conclusion")
+            </div>
+            <div class="col-12 col-lg-9">
+                <h4>@(l10n "index/immutability")</h4>
+                <p class="">@(l10n "index/immutability-summary")</p>
+            </div>
+            <div class="col-12 col-lg-9">
+                <h4>@(l10n "index/minimal-governance")</h2>
+                <p class="">@(l10n "index/minimal-governance-summary")</p>
+            </div>
+            <div class="col-12 col-lg-9">
+                <h4>@(l10n "index/vertical-scalability")</h2>
+                <p class="">@(l10n "index/vertical-scalability-summary")</p>
+            </div>
+            <a>@(l10n "index/explore-the-stack")</a>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section__inner container">
+        <div class="row">
+            <h3>@(l10n "index/themelio-for-developers")</h3>
+            <div class="col-12 col-lg-9">
+                <h4>@(l10n "index/themelio-stakeholders")</h2>
+                <p>@(l10n "index/themelio-stakeholders-summary")</p>
+            </div>
+            <div class="col-12 col-lg-9">
+                <h4>@(l10n "index/build-with-themelio")</h4>
+                <p class="">@(l10n "index/build-with-themelio-summary")</p>
+            </div>
+            <div class="col-12 col-lg-9">
+                <h4>@(l10n "index/minimal-governance")</h2>
+                <p class="">@(l10n "index/minimal-governance-summary")</p>
+            </div>
+            <div class="col-12 col-lg-9">
+                <h4>@(l10n "index/documentation")</h2>
+                <p class="">@(l10n "index/documentation-summary")</p>
+            </div>
+            <a>@(l10n "index/explore-the-stack")</a>
+        </div>
+    </div>
+</div>
+
+<div class="section section--darken">
+    <div class="section__inner container">
+        <div class="row">
+            <h3>@(l10n "index/themelio-res")</h3>
+            <div class="col-12 col-lg-9">
+                @(l10n "index/res-lib")
+            </div>
+            <div class="col-12 col-lg-9">
+                @(l10n "index/res-faq")
+            </div>
+            <div class="col-12 col-lg-9">
+                @(l10n "index/res-whitepapers")
+            </div>
+            <div class="col-12 col-lg-9">
+                @(l10n "index/res-blog")
+            </div>
+            <a>@(l10n "index/explore-the-stack")</a>
+        </div>
+    </div>
+</div>
+<style>
+    .bio-sections img{
+        width: 10em;
+    }
+    .bio-section{
+        padding: 2em;
+    }
+</style>
+<div class="section">
+    <div class="section__inner container">
+        <div class="row">
+            <div class="col-12 col-lg-9">
+                <h3>@(l10n "index/meet-title")</h2>
+                <p>@(l10n "index/meet")</p>
+                <div class="bio-sections" style="display: flex; max-width: 100vw; flex-direction: column;">
+                    <div class="bio-section">
+                        <span>
+                            <img src="images/team/eric.png" alt="">
+                        </span>
+                        <h4>@(l10n "index/eric-title")</h2>
+                        <p>@(l10n "index/eric-bio")</p>
+                    </div>
+    
+                    <div class="bio-section">
+                        <span>
+                            <img src="images/team/meade.jpg" alt="">
+                        </span>
+                        <h4>@(l10n "index/meade-title")</h2>
+                        <p>@(l10n "index/meade-bio")</p>
+                    </div>
+    
+                    <div class="bio-section">
+                        <span>
+                            <img src="images/team/jay.png" alt="">`
+                        </span>
+                        <h4>@(l10n "index/jay-title")</h2>
+                        <p>@(l10n "index/jay-bio")</p>
+                    </div>
+                </div>
+               
+
+            <div class="col-12">
+                <!-- <a href="">@(l10n "index/themelio-tokenomics")</a> -->
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- <div class="section section--darken text-center">
     <div class="section__inner container">
