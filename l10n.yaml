@@ -45,9 +45,14 @@ common/trustless-stable-coin:
   en-US: "MEL: the Trustless Stablecoin"
   zh-CN: "empty"
 
-common/SYM:the-proof-of-stake-token:
+common/the-proof-of-stake-token:
   en-US:  "SYM: the Proof of Stake Token"
   zh-CN: "empty"
+
+common/learn-more:
+  en-US:  "SYM: the Proof of Stake Token"
+  zh-CN: "empty"
+
 # Language names
 name:
   en-US: English
@@ -244,8 +249,11 @@ learn/tokenomics-description:
   zh-CN: "empty"
 
 learn/what-is-themelio-description:
-  en-US: "Themelio is a decentralized, public blockchain designed to serve as a low-level, stable, and radically simple base layer for an application ecosystem. Themelio’s goal is to ensure endogenous trust, which can be achieved only through radical immutability. No governance process or developer updates can change the Themelio blockchain once it is launched, ensuring unprecedented trust in any application or solution built on top.
-    Three overarching features enable Themelio to power a paradigm shift in Web3: an improved UXTO model, a novel PoS consensus mechanism, and an algorithmic stablecoin not pegged to any government currency."
+  en-US: "common/what-is-themelio-description: Themelio is a decentralized, public blockchain designed to serve as a low-level, stable, and radically simple base layer for an application ecosystem. Themelio’s goal is to ensure endogenous trust, which can be achieved only through radical immutability. Any trustworthy protocol must be immutable. If the protocol is allowed to change you must then ask: “who is making the changes?”. Whether the answer is whole governments or lone software engineers, governance creates an avenue for interested, powerful parties to influence the protocol in their favor. For that reason, no governance process or developer updates can change the Themelio blockchain once it is launched, ensuring thus offering unprecedented trust security in any application or solution built on top.
+
+  ***This is about the point where I begin to wonder about themelio’s flexibility. If the protocol isn’t allowed to change, how will it deal with the unknown future needs of decentralized applications?***
+
+  Three overarching features enable Themelio to power a paradigm shift in Web3: an improved UXTO model, a novel PoS consensus mechanism, and an algorithmic stablecoin not pegged to any government currency.
   zh-CN: "empty"
 
 
@@ -260,7 +268,8 @@ learn/synkletos-proof-of-stake:
 learn/synkeltos-summary:
   en-US: Synkletos is Themelio’s Proof of Stake architecture, designed to be resilient, secure, and unchanging
   zh-CN: "empty"
-learn/breaking-down-melvm:
+
+learn/breaking-down-melvm-summary:
   en-US: "Welcome to MelVM, the execution layer of the Themelio tech stack. … (more info)<link?>"
   zh-CN: "empty"
 learn/endogenous-trust-summary:
@@ -769,7 +778,7 @@ roadmap/timeline:
     </div>
 
 
-index/immutability:
+common/immutability:
   en-US: "Immutability"
   zh-CN: "empty"
 
@@ -777,15 +786,15 @@ index/immutability-summary:
   en-US: "Elegant in its simplicity, Themelio does not change. It decouples the blockchain from user-facing applications to prevent friction."
   zh-CN: "empty"
 
-index/minimal-governance:
+common/minimal-governance:
   en-US: "Minimal Governance"
   zh-CN: "empty"
 
-index/minimal-governance-summary:
+common/minimal-governance-summary:
   en-US: "By eliminating governance from the core blockchain protocol, Themelio provides a rock-solid foundation that preserves blockchain’s core value: trust."
   zh-CN: "empty"
 
-index/vertical-scalability:
+common/vertical-scalability:
   en-US: "Vertical Scalability"
   zh-CN: "empty"
 
@@ -808,7 +817,6 @@ index/explore-the-stack:
 index/investors:
   en-US: "Investors"
   zh-CN: "empty"
-
 
 index/sign-up:
   en-US: "<Sign up>"
@@ -843,7 +851,7 @@ index/meade-title:
   zh-CN: "empty"
 
 index/jay-title:
-  en-US: "Software Engineer"
+  en-US: "Compiler Engineer"
   zh-CN: "empty"
 
 index/eric-bio:
@@ -856,5 +864,59 @@ index/meade-bio:
 
 index/jay-bio:
   en-US: "Jay is a free software engineer with a focus on compiler design at Themelio. Previously he worked as an independent consultant on projects in the Ethereum and Polkadot ecosystems, concerning zero-knowledge NFTs and composable graph databases. He is interested in developing tools which empower not enslave."
+  zh-CN: "empty"
+
+index/melmint-summary:
+  en-US: "Melmint is the first cryptocurrency issuance system that enables a trustless stable cryptocurrency. MEL is the native cryptocurrency of Themelio — a stablecoin that isn’t pegged to any government-backed currency. MEL provides purchasing power for in-protocol fees and rewards, while the unpegged SYM token enables MEL to retain its peg and powers Themelio’s proof-of-stake architecture."
+  zh-CN: "empty"
+
+
+
+learn/breaking-down-melvm:
+  en-US: "Breaking down MelVM"
+  zh-CN: "empty"
+
+common/read-the-whitepaper:
+  en-US: "<Read the whitepaper>"
+  zh-CN: "empty"
+
+learn/melmint:
+  en-US: "Melmint: Trustless Stable Cryptocurrency"
+  zh-CN: "empty"
+
+learn/elasticoin:
+  en-US: "Elasticoin: Low-Volatility Cryptocurrency with Proofs of Sequential Work"
+  zh-CN: "empty"
+
+learn/elasticoin-whitepaper-intro:
+  en-US: "This paper describes Elasticoin, a way of issuing a token with stable minting cost that paved the way to the development of Melmint."
+  zh-CN: "empty"
+
+learn/elasticoin-whitepaper-link:
+  en-US: "Yuhao Dong, Raouf Boutaba — IEEE ICBC 2019"
+  zh-CN: "empty"
+
+learn/bitforest:
+  en-US: "Bitforest: a Portable and Efficient Blockchain-Based Naming System"
+  zh-CN: "empty"
+
+learn/bitforest-whitepaper-intro:
+  en-US: "Bitforest, a naming system with decentralized trust, is a great example of a powerful "coin-driven" dApp built with UTXOs rather than smart contracts. This paper describes Bitforest on blockchains with no significant scripting capability; on Themelio Bitforest would not need an untrusted central "helper". Read as an example of the surprising versatility of UTXO blockchain semantics."
+  zh-CN: "empty"
+
+learn/bitforest-whitepaper-link:
+  en-US: "Yuhao Dong, Woojung Kim, Raouf Boutaba — CNSM 2018"
+  zh-CN: "empty"
+
+learn/conifer:
+  en-US: "Conifer: centrally-managed PKI with blockchain-rooted trust"
+  zh-CN: "empty"
+
+learn/conifer-whitepaper-intro:
+  en-US: "Conifer is an earlier iteration of the Bitforest naming system. It has different semantics that allow most operations to happen off-chain, at the cost of introducing a tradeoff between performance and centralized trust. Read to understand how rooting trust onto a blockchain in an otherwise centralized and conventional system can greatly enhance security."
+  zh-CN: "empty"
+
+learn/conifer-whitepaper-link:
+  en-US: "Yuhao Dong, Woojung Kim, Raouf Boutaba — IEEE Blockchain 2018"
   zh-CN: "empty"
 
