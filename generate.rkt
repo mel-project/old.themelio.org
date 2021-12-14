@@ -6,24 +6,24 @@
 
 (define-macro (generate fname)
   `(let ([FILENAME, fname])
-     (with-output-to-file (if (equal? LANG "en-US")
+     (with-output-to-file (string-append "build/" (if (equal? LANG "en-US")
+        
                               ,fname
                               (string-replace ,fname ".html"
                                               (format "-~a.html"
-                                                      (string-downcase (string-replace LANG "-" "")))))
+                                                      (string-downcase (string-replace LANG "-" ""))))))
        #:exists 'replace
        (lambda ()
-         (display (include-template ,(string-replace fname ".html" ".src.html")))))))
+         (display (include-template , (string-append 
+         "templates/routes/" (string-replace fname ".html" ".src.html"))))))))
 
 (define-macro (generate-all fname)
   `(let ()
      (generate ,fname)
-    ;;;  (let ([LANG "zh-CN"])
-    ;;;    (generate ,fname))
-    ;;;  (let ([LANG "zh-HK"])
-    ;;;    (generate ,fname))))
-
-  ))
+     (let ([LANG "zh-CN"])
+       (generate ,fname))
+     (let ([LANG "zh-HK"])
+       (generate ,fname))))
 
 (define LANG "en-US")
 
@@ -42,7 +42,6 @@
      (l10n-url ,str)))
 
 (generate-all "index.html")
-
-;;; (generate-all "resources.html")
-;;; (generate-all "roadmap.html")
+(generate-all "resources.html")
+(generate-all "roadmap.html")
 (displayln "HTML compilation complete")
