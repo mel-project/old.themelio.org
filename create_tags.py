@@ -25,7 +25,7 @@ def next_root_tag(yaml_iter, prev=None):
     while True:
         child = next(yaml_iter)
         if len(child) == 0: continue
-        else if child[0] == " ": children.push(child)
+        elif child[0] == " ": children.push(child)
         return (prev, PreTag(root, children.join("\n")))
 
 
