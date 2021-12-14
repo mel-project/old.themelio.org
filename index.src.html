@@ -4,12 +4,32 @@
 @define[BODY-CONTENT]{@list{
 <div class="section  section--hero">
     <div class="section__inner container">
-        <div class="row">
+        <div class="col">
             <div class="col-12 col-lg-9">
                 <h1>@(l10n "index/tagline")</h1>
                 <p class="text--blead">@(l10n "index/subtitle")</p>
             </div>
-            <div class="col-12">
+            <div class="col-6 col-md-12">
+                <div id="mc_embed_signup">
+                    <form action="https://pm.us20.list-manage.com/subscribe/post?u=d1fa068da18aba6d2e0e0dc79&amp;id=61a9213385" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div class="d-flex" id="mc_embed_signup_scroll">
+                            <div class="mc-field-group form-group mr-3 pr-3">
+                                <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="your&#x40;email.com">
+                                <small class="form-text text-muted">@(l10n "footer/noshare")</small>
+                            </div>
+                            <div id="mce-responses" class="clear form-group">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d1fa068da18aba6d2e0e0dc79_61a9213385" tabindex="-1" value=""></div>
+                            <div class="clear form-group">
+                                <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-dark">
+                                    @(l10n "footer/subscribe")
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
@@ -82,7 +102,7 @@
 <div class="short-section">
     <div class="section__inner container">
         <div class="col">
-            <div class="">
+            <div class="col">
                 <h2>
                     @(l10n "index/investors")
                 </h2>
