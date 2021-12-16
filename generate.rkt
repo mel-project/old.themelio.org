@@ -6,7 +6,7 @@
 
 (define-macro (generate fname)
   `(let ([FILENAME, fname])
-     (with-output-to-file (string-append "docs/" (if (equal? LANG "en-US")
+     (with-output-to-file (string-append "build/" (if (equal? LANG "en-US")
         
                               ,fname
                               (string-replace ,fname ".html"

@@ -1,293 +1,280 @@
-@(define HEADER-FULL? #t) @(define ACTIVE-PAGE 'home)
+@(define HEADER-FULL? #t)
+@(define ACTIVE-PAGE 'home)
+
 @define[BODY-CONTENT]{@list{
-<div class="section section--hero">
-  <div class="section__inner container">
-    <div class="col">
-      <div class="col-12 col-lg-9">
-        <h1>@(l10n "index/tagline")</h1>
-        <p class="text--blead">@(l10n "index/subtitle")</p>
-      </div>
-      <div class="col-6 col-md-12">
-        <div id="mc_embed_signup">
-          <form
-            action="https://pm.us20.list-manage.com/subscribe/post?u=d1fa068da18aba6d2e0e0dc79&amp;id=61a9213385"
-            method="post"
-            id="mc-embedded-subscribe-form"
-            name="mc-embedded-subscribe-form"
-            class="validate"
-            target="_blank"
-            novalidate
-          >
-            <div class="d-flex" id="mc_embed_signup_scroll">
-              <div class="mc-field-group form-group mr-3 pr-3">
-                <input
-                  type="email"
-                  value=""
-                  name="EMAIL"
-                  class="required email form-control"
-                  id="mce-EMAIL"
-                  placeholder="your&#x40;email.com"
-                />
-                <small class="form-text text-muted"
-                  >@(l10n "footer/noshare")</small
-                >
-              </div>
-              <div id="mce-responses" class="clear form-group">
-                <div
-                  class="response"
-                  id="mce-error-response"
-                  style="display: none"
-                ></div>
-                <div
-                  class="response"
-                  id="mce-success-response"
-                  style="display: none"
-                ></div>
-              </div>
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px" aria-hidden="true">
-                <input
-                  type="text"
-                  name="b_d1fa068da18aba6d2e0e0dc79_61a9213385"
-                  tabindex="-1"
-                  value=""
-                />
-              </div>
-              <div class="clear form-group">
-                <button
-                  type="submit"
-                  name="subscribe"
-                  id="mc-embedded-subscribe"
-                  class="btn btn-dark"
-                >
-                  @(l10n "footer/subscribe")
-                </button>
-              </div>
+<div class="section  section--hero">
+    <div class="section__inner container">
+        <div class="col">
+            <div class="col-12 col-lg-9">
+                <h1>@(l10n "index/tagline")</h1>
+                <p class="text--blead">@(l10n "index/subtitle")</p>
             </div>
-          </form>
+            <div class="col-6 col-md-12">
+                <div id="mc_embed_signup">
+                    <form action="https://pm.us20.list-manage.com/subscribe/post?u=d1fa068da18aba6d2e0e0dc79&amp;id=61a9213385" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div class="d-flex" id="mc_embed_signup_scroll">
+                            <div class="mc-field-group form-group mr-3 pr-3">
+                                <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="your&#x40;email.com">
+                                <small class="form-text text-muted">@(l10n "footer/noshare")</small>
+                            </div>
+                            <div id="mce-responses" class="clear form-group">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d1fa068da18aba6d2e0e0dc79_61a9213385" tabindex="-1" value=""></div>
+                            <div class="clear form-group">
+                                <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-dark">
+                                    @(l10n "footer/subscribe")
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </div>
 
+
 <div class="section section--darken">
-  <div class="section__inner container">
-    <div class="col text--lead">
-      <h2 class="col-lg">@(l10n "index/about-title")</h2>
-      <p class="col-lg">@(l10n "index/about")</p>
-      <div class="col-lg-6">
-        <a href="">@(l10n "index/learn-about-themelio")</a>
-      </div>
+    <div class="section__inner container">
+        <div class="col text--lead">
+            <h2 class="col-lg">
+                @(l10n "index/about-title")
+            </h2>
+            <p class="col-lg">
+                @(l10n "index/about")
+            </p>
+            <div class="col-lg-6">
+                <a href="">@(l10n "index/learn-about-themelio")</a>
+            </div>
+
+        </div>
     </div>
-  </div>
 </div>
 
 <div class="section">
-  <div class="section__inner container">
-    <div class="col">
-      <div class="col-12 col-lg-9">
-        <h3>@(l10n "index/introducing-melmint")</h3>
-        <p>@(l10n "index/melmint-summary")</p>
-      </div>
-      <div class="col-12">
-        <a href="">@(l10n "index/themelio-tokenomics")</a>
-      </div>
+    <div class="section__inner container">
+        <div class="col">
+            <div class="col-12 col-lg-9">
+                <h3>@(l10n "index/introducing-melmint")</h2>
+                    <p">@(l10n "index/melmint-summary")</p>
+            </div>
+            <div class="col-12">
+                <a href="">@(l10n "index/themelio-tokenomics")</a>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
 <div class="section section--darken">
-  <div class="section__inner container">
-    <div class="col">
-      <div class="col-12 pb-3">
-        <h3>@(l10n "index/principles-title")</h3>
-      </div>
-      <div class="row-lg-12">
+    <div class="section__inner container">
         <div class="col">
-          <h4>@(l10n "common/immutability")</h4>
-          <p class="">@(l10n "index/immutability-summary")</p>
-        </div>
-        <div class="col">
-          <h4>@(l10n "common/minimal-governance")</h4>
-          <p class="">@(l10n "index/minimal-governance-summary")</p>
-        </div>
-        <div class="col">
-          <h4>@(l10n "common/vertical-scalability")</h4>
-          <p class="">@(l10n "index/vertical-scalability-summary")</p>
-        </div>
-        <div class="col">
-          <p class="">@(l10n "index/principles-conclusion")</p>
-        </div>
-      </div>
+            <div class="col-12 pb-3">
+                <h3>@(l10n "index/principles-title")</h2>
+            </div>
+            <div class="row-lg-12">
+                <div class="col">
+                    <h4>@(l10n "common/immutability")</h4>
+                    <p class="">@(l10n "index/immutability-summary")</p>
+                </div>
+                <div class="col">
+                    <h4>@(l10n "common/minimal-governance")</h2>
+                        <p class="">@(l10n "index/minimal-governance-summary")</p>
+                </div>
+                <div class="col">
+                    <h4>@(l10n "common/vertical-scalability")</h2>
+                        <p class="">@(l10n "index/vertical-scalability-summary")</p>
+                </div>
+                <div class="col">
+                    <p class="">
+                        @(l10n "index/principles-conclusion")
+                    </p>
+                </div>
+            </div>
 
-      <a class="col-12" href="">@(l10n "index/explore-the-stack")</a>
+
+            <a class="col-12" href="">@(l10n "index/explore-the-stack")</a>
+        </div>
     </div>
-  </div>
 </div>
 
 <div class="short-section">
-  <div class="section__inner container">
-    <div class="col">
-      <div class="col">
-        <h2>@(l10n "index/investors")</h2>
-      </div>
-      <div class="row" style="display: flex; justify-content: center">
-        <img src="images/investors/polychain.png" alt="" srcset="" />
-      </div>
+    <div class="section__inner container">
+        <div class="col">
+            <div class="col">
+                <h2>
+                    @(l10n "index/investors")
+                </h2>
+            </div>
+            <div class="row" style="display:flex; justify-content: center;">
+                <img src="images/investors/polychain.png" alt="" srcset="">
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
 <div class="section section--darken">
-  <div class="section__inner container">
-    <div class="col">
-      <div class="col-12 pb-3">
-        <h3>@(l10n "index/themelio-for-developers")</h3>
-      </div>
-      <div class="col-12">
-        <div class="">
-          <h4>@(l10n "index/themelio-stakeholders")</h4>
-          <span>
-            <div>@(l10n "index/themelio-stakeholders-summary")</div>
-            <a href="">@(l10n "index/get-started")</a>
-          </span>
+    <div class="section__inner container">
+        <div class="col">
+            <div class="col-12 pb-3">
+                <h3>@(l10n "index/themelio-for-developers")</h3>
+            </div>
+            <div class="col-12">
+                <div class="">
+                    <h4>@(l10n "index/themelio-stakeholders")</h2>
+                        <p>
+                        <div>@(l10n "index/themelio-stakeholders-summary")</div>
+                        <a href="">@(l10n "index/get-started")</a>
+                        </p>
+                </div>
+                <div class="">
+                    <h4>@(l10n "index/build-with-themelio")</h4>
+                    <p>
+                    <div class="">@(l10n "index/build-with-themelio-summary")</div>
+                    <a href="">@(l10n "index/build")</a>
+                    </p>
+
+                </div>
+                <div class="">
+                    <h4>@(l10n "index/documentation")</h2>
+                        <p>
+                        <div class="">@(l10n "index/documentation-summary")</div>
+                        <a href="">@(l10n "index/learn")</a>
+                        </p>
+
+                </div>
+            </div>
         </div>
-        <div class="">
-          <h4>@(l10n "index/build-with-themelio")</h4>
-          <span>
-            <div class="">@(l10n "index/build-with-themelio-summary")</div>
-            <a href="">@(l10n "index/build")</a>
-          </span>
-        </div>
-        <div class="">
-          <h4>@(l10n "index/documentation")</h4>
-          <span>
-            <div class="">@(l10n "index/documentation-summary")</div>
-            <a href="">@(l10n "index/learn")</a>
-          </span>
-        </div>
-      </div>
     </div>
-  </div>
 </div>
+
+
 
 <div class="section section">
-  <div class="section__inner container">
-    <div class="col">
-      <div class="col pb-3">
-        <h3>@(l10n "index/themelio-res")</h3>
-      </div>
-      <div class="col">
-        <div class="">
-          <h4>
-            <a href=""> @(l10n "index/res-lib") </a>
-          </h4>
-          <span>
-            <div class="">@(l10n "index/res-lib-description")</div>
-          </span>
+    <div class="section__inner container">
+        <div class="col">
+            <div class="col pb-3">
+                <h3>@(l10n "index/themelio-res")</h3>
+            </div>
+            <div class="col">
+                <div class="">
+                    <h4>
+                        <a href="">
+                            @(l10n "index/res-lib")
+                        </a>
+                    </h4>
+                    <p>
+                    <div class="">@(l10n "index/res-lib-description")</div>
+                    </p>
+                </div>
+                <div class="">
+                    <h4>
+                        <a href="">
+                            @(l10n "index/res-faq")
+                        </a>
+                    </h4>
+                    <p>
+                    <div class="">@(l10n "index/res-faq-description")</div>
+                    </p>
+                </div>
+                <div class="">
+                    <h4>
+                        <a href="">
+                            @(l10n "index/res-whitepapers")
+                        </a>
+                    </h4>
+                    <p>
+                    <div class="">@(l10n "index/res-whitepapers-description")</div>
+                    </p>
+                </div>
+                <div class="">
+                    <h4>
+                        <a href="">
+                            @(l10n "index/res-blog")
+                        </a>
+                    </h4>
+                    <p>
+                    <div class="">@(l10n "index/res-blog-description")</div>
+                    </p>
+                </div>
+                <!-- <a href="" >@(l10n "index/explore-the-stack")</a> -->
+            </div>
         </div>
-        <div class="">
-          <h4>
-            <a href=""> @(l10n "index/res-faq") </a>
-          </h4>
-          <span>
-            <div class="">@(l10n "index/res-faq-description")</div>
-          </span>
-        </div>
-        <div class="">
-          <h4>
-            <a href=""> @(l10n "index/res-whitepapers") </a>
-          </h4>
-          <span>
-            <div class="">@(l10n "index/res-whitepapers-description")</div>
-          </span>
-        </div>
-        <div class="">
-          <h4>
-            <a href=""> @(l10n "index/res-blog") </a>
-          </h4>
-          <span>
-            <div class="">@(l10n "index/res-blog-description")</div>
-          </span>
-        </div>
-        <!-- <a href="" >@(l10n "index/explore-the-stack")</a> -->
-      </div>
     </div>
-  </div>
 </div>
-<style>
-  .bio-sections img {
-    width: 10em;
-  }
+<style >
+    .bio-sections img {
+        width: 10em;
+    }
 
-  .bio-section {
-    padding-top: 2em;
-  }
+    .bio-section {
+        padding-top: 2em;
+    }
 
-  .short-section {
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-  }
+    .short-section {
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+    }
 
-  .section {
-    padding-top: 3em;
-    padding-bottom: 3em;
-  }
+    .section {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
 
-  .col-row {
-    display: grid;
-    gap: 1em;
-    grid-template-columns: repeat(auto-fill, minmax(min(10rem, 100%), 1fr));
-  }
+    .col-row {
+        display: grid;
+        gap: 1em;
+        grid-template-columns: repeat(auto-fill, minmax(min(10rem, 100%), 1fr));
+    }
 
-  .social-media-icon {
-    max-width: 4em;
-  }
-  .section__inner.container {
-    padding: 0;
-  }
-  .section__inner.container > .col {
-    margin: 0;
-    padding: 0;
-  }
+    .social-media-icon {
+        max-width: 4em;
+    }
+    .section__inner.container{
+        padding: 0;
+    }
+    .section__inner.container>.col{
+        margin: 0;
+        padding: 0;
+    }
 </style>
 <div class="section section--darken">
-  <div class="section__inner container">
-    <div class="col">
-      <div class="col">
-        <h3>@(l10n "index/meet-title")</h3>
-        <p>@(l10n "index/meet")</p>
-        <div
-          class="bio-sections"
-          style="display: flex; max-width: 100vw; flex-direction: column"
-        >
-          <div class="bio-section">
-            <span>
-              <img src="images/team/eric.png" alt="" />
-            </span>
-            <h4>@(l10n "index/eric-title")</h4>
-            <p>@(l10n "index/eric-bio")</p>
-          </div>
+    <div class="section__inner container">
+        <div class="col">
+            <div class="col">
+                <h3>@(l10n "index/meet-title")</h2>
+                    <p>@(l10n "index/meet")</p>
+                    <div class="bio-sections" style="display: flex; max-width: 100vw; flex-direction: column;">
+                        <div class="bio-section">
+                            <span>
+                                <img src="images/team/eric.png" alt="">
+                            </span>
+                            <h4>@(l10n "index/eric-title")</h2>
+                                <p>@(l10n "index/eric-bio")</p>
+                        </div>
 
-          <div class="bio-section">
-            <span>
-              <img src="images/team/meade.jpg" alt="" />
-            </span>
-            <h4>@(l10n "index/meade-title")</h4>
-            <p>@(l10n "index/meade-bio")</p>
-          </div>
+                        <div class="bio-section">
+                            <span>
+                                <img src="images/team/meade.jpg" alt="">
+                            </span>
+                            <h4>@(l10n "index/meade-title")</h2>
+                                <p>@(l10n "index/meade-bio")</p>
+                        </div>
 
-          <div class="bio-section">
-            <span> <img src="images/team/jay.png" alt="" />` </span>
-            <h4>@(l10n "index/jay-title")</h4>
-            <p>@(l10n "index/jay-bio")</p>
-          </div>
-          <a href="">@(l10n "index/meet-link")</a>
+                        <div class="bio-section">
+                            <span>
+                                <img src="images/team/jay.png" alt="">`
+                            </span>
+                            <h4>@(l10n "index/jay-title")</h2>
+                                <p>@(l10n "index/jay-bio")</p>
+                        </div>
+                        <a href="">@(l10n "index/meet-link")</a>
+                    </div>
+
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </div>
 
 <!-- <div class="section section--darken text-center">
@@ -313,19 +300,22 @@
 </div> -->
 
 <div class="section section">
-  <div class="section__inner container">
-    <div class="col">
-      <div class="col text-center pb-5">
-        <h3>@(l10n "common/join-the-community")</h3>
-      </div>
-      <div class="col d-flex justify-content-around">
-        @(for/list ([i '("discord" "github" "linkedin" "telegram" "twitter")])
-        (define img "<a href=""
-          ><img class="social-media-icon" src="images/social_media/{}.png" /></a
-        >") (string-replace img "{}" i))
-      </div>
+    <div class="section__inner container">
+        <div class="col">
+            <div class="col text-center pb-5">
+                <h3>@(l10n "common/join-the-community")</h3>
+            </div>
+            <div class="col d-flex justify-content-around">
+                @(for/list ([i '("discord" "github" "linkedin" "telegram" "twitter")])
+                (define
+                img "<a href=''><img class='social-media-icon' src='images/social_media/{}.png'></a>")
+                (string-replace img "{}" i))
+
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
-}} @(include-template "../main.html")
+}}
+
+@(include-template "../main.html")

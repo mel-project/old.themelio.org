@@ -1,0 +1,15 @@
+| @(define HEADER-FULL? #t)
+| @(define ACTIVE-PAGE 'home)
+| @define[BODY-CONTENT]{@list{
+
+mixin section(dark=false)
+    .section(class=dark ? "section--dark" : "")
+        div.section__inner.container
+            div.col.text--lead
+                block
+
++section(true)
+    h2 this is the content in the section
+
+| }}
+| @(include-template "../main.html")

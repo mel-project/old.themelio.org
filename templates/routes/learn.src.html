@@ -1,10 +1,4 @@
-@(define HEADER-FULL? #t) @(define ACTIVE-PAGE 'home)
-@define[BODY-CONTENT]{@list{
-<div class="section section--dark">
-  <div class="section__inner container">
-    <div class="col text--lead">
-      <h2>this is the content in the section</h2>
-    </div>
-  </div>
-</div>
-}} @(include-template "../main.html")
+@(define HEADER-FULL? #t)
+@(define ACTIVE-PAGE 'home)
+@define[BODY-CONTENT]{@list{<div class="section section--dark"><div class="section__inner container"><div class="col text--lead"><h2>this is the content in the section</h2></div></div></div>}}
+@(include-template "../main.html")
