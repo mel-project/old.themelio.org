@@ -1,133 +1,161 @@
-@(define HEADER-FULL? #f)
-
-@(define ACTIVE-PAGE 'resources)
-
+@(define HEADER-FULL? #f) @(define ACTIVE-PAGE 'resources)
 @define[HEADER-CONTENT]{@list{
 <div class="col-lg-9">
-    <h1>Resources</h1>
-    <p class="text--blead">
-        Learn more about Themelio with our resources.
-    </p>
+  <h1>Resources</h1>
+  <p class="text--blead">Learn more about Themelio with our resources.</p>
 </div>
 <div class="col-lg"></div>
-}}
-
-@define[LIPSUM]{@list{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum}}
-
+}} @define[LIPSUM]{@list{Lorem ipsum dolor sit amet, consectetur adipiscing
+elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+non proident, sunt in culpa qui officia deserunt mollit anim id est laborum}}
 @define[BODY-CONTENT]{@list{
 
 <div class="section section--darken">
-    <div class="section__inner container">
-        <div class="row text-center">
-            <div class="col">
-                <h2>Documentation website</h2>
-                <p class="text--lead text-left">
-                    Our <a href="https://docs.themelio.org">documetation website</a> contains pretty much everything else you might need. That includes documentation for users, technical specs, and FAQs.
-                </p>
-            </div>
-        </div>
+  <div class="section__inner container">
+    <div class="row text-center">
+      <div class="col">
+        <h2>Documentation website</h2>
+        <p class="text--lead text-left">
+          Our
+          <a href="https://docs.themelio.org">documetation website</a> contains
+          pretty much everything else you might need. That includes
+          documentation for users, technical specs, and FAQs.
+        </p>
+      </div>
     </div>
+  </div>
 </div>
 
 <div class="section section">
-    <div class="section__inner container">
-        <div class="row">
-            <div class="col">
-                <h2>Design whitepaper</h2>
-                <p class="text--lead">
-                    An overview of the motivation and design of Themelio. Read this to understand why we made a new blockchain and why Themelio is different from other blockchains.
-                </p>
-                <p>
-                    <a href="https://docs.themelio.org/whitepapers/themelio/" class="btn btn-primary">
-                        <ion-icon name="document"></ion-icon> Read now
-                    </a>
-                </p>
-            </div>
-        </div>
+  <div class="section__inner container">
+    <div class="row">
+      <div class="col">
+        <h2>Design whitepaper</h2>
+        <p class="text--lead">
+          An overview of the motivation and design of Themelio. Read this to
+          understand why we made a new blockchain and why Themelio is different
+          from other blockchains.
+        </p>
+        <p>
+          <a
+            href="https://docs.themelio.org/whitepapers/themelio/"
+            class="btn btn-primary"
+          >
+            <ion-icon name="document"></ion-icon> Read now
+          </a>
+        </p>
+      </div>
     </div>
+  </div>
 </div>
 
 <div class="section section--darken">
-    <div class="section__inner container">
-        <div class="row">
-            <div class="col">
-                <h2>Research papers</h2>
-                <p class="text--lead">
-                    A selection of academic papers relevant to Themelio that we authored
-                </p>
-                <br>
-                <br>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            Melmint: Trustless Stable Cryptocurrency
-                        </h5>
-                        <h6 class="card-subtitle mb-2 text-muted">
-                            <a href="https://assets.pubpub.org/1tfwdfex/01581339020290.pdf">Yuhao Dong, Raouf Boutaba &mdash; Cryptoeconomic Systems 2020</a>
-                        </h6>
-                        <hr>
-                        <p class="card-text">
-                            This paper describes our groundbreaking decentralized stablecoin design. Read to learn about the math behind a coin that holds a stable value without pegs, oracles, or centralization.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            Elasticoin: Low-Volatility Cryptocurrency with Proofs of Sequential Work
-                        </h5>
-                        <h6 class="card-subtitle mb-2 text-muted">
-                            <a href="assets/elasticoin.pdf">Yuhao Dong, Raouf Boutaba &mdash; IEEE ICBC 2019</a>
-                        </h6>
-                        <hr>
-                        <p class="card-text">
-                            This paper describes Elasticoin, a way of issuing a token with stable minting cost that paved the way to the development of Melmint.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            Bitforest: a Portable and Efficient Blockchain-Based Naming System
-                        </h5>
-                        <h6 class="card-subtitle mb-2 text-muted">
-                            <a href="http://rboutaba.cs.uwaterloo.ca/Papers/Conferences/2018/DongCNSM18.pdf">Yuhao Dong, Woojung Kim, Raouf Boutaba &mdash; CNSM 2018</a>
-                        </h6>
-                        <hr>
-                        <p class="card-text">
-                            Bitforest, a naming system with decentralized trust, is a great example of a powerful "coin-driven" dApp built with UTXOs rather than smart contracts. Our paper describes Bitforest on blockchains with no significant scripting capability; on Themelio Bitforest would not need an untrusted central "helper". Read as an example of the surprising versatility of UTXO blockchain semantics.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            Conifer: centrally-managed PKI with blockchain-rooted trust
-                        </h5>
-                        <h6 class="card-subtitle mb-2 text-muted">
-                            <a href="https://pdfs.semanticscholar.org/117f/0a4710543fea0d78a00f2221d52b0a47e7ee.pdf">Yuhao Dong, Woojung Kim, Raouf Boutaba &mdash; IEEE Blockchain 2018</a>
-                        </h6>
-                        <hr>
-                        <p class="card-text">
-                            Conifer is an earlier iteration of the Bitforest naming system. It has different semantics that allow most operations to happen off-chain, at the cost of introducing a tradeoff between performance and centralized trust. Read to understand how rooting trust onto a blockchain in an otherwise centralized and conventional system can greatly enhance security.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <div class="section__inner container">
+    <div class="row">
+      <div class="col">
+        <h2>Research papers</h2>
+        <p class="text--lead">
+          A selection of academic papers relevant to Themelio that we authored
+        </p>
+        <br />
+        <br />
+      </div>
     </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Melmint: Trustless Stable Cryptocurrency</h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              <a href="https://assets.pubpub.org/1tfwdfex/01581339020290.pdf"
+                >Yuhao Dong, Raouf Boutaba &mdash; Cryptoeconomic Systems
+                2020</a
+              >
+            </h6>
+            <hr />
+            <p class="card-text">
+              This paper describes our groundbreaking decentralized stablecoin
+              design. Read to learn about the math behind a coin that holds a
+              stable value without pegs, oracles, or centralization.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">
+              Elasticoin: Low-Volatility Cryptocurrency with Proofs of
+              Sequential Work
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              <a href="assets/elasticoin.pdf"
+                >Yuhao Dong, Raouf Boutaba &mdash; IEEE ICBC 2019</a
+              >
+            </h6>
+            <hr />
+            <p class="card-text">
+              This paper describes Elasticoin, a way of issuing a token with
+              stable minting cost that paved the way to the development of
+              Melmint.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">
+              Bitforest: a Portable and Efficient Blockchain-Based Naming System
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              <a
+                href="http://rboutaba.cs.uwaterloo.ca/Papers/Conferences/2018/DongCNSM18.pdf"
+                >Yuhao Dong, Woojung Kim, Raouf Boutaba &mdash; CNSM 2018</a
+              >
+            </h6>
+            <hr />
+            <p class="card-text">
+              Bitforest, a naming system with decentralized trust, is a great
+              example of a powerful "coin-driven" dApp built with UTXOs rather
+              than smart contracts. Our paper describes Bitforest on blockchains
+              with no significant scripting capability; on Themelio Bitforest
+              would not need an untrusted central "helper". Read as an example
+              of the surprising versatility of UTXO blockchain semantics.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">
+              Conifer: centrally-managed PKI with blockchain-rooted trust
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              <a
+                href="https://pdfs.semanticscholar.org/117f/0a4710543fea0d78a00f2221d52b0a47e7ee.pdf"
+                >Yuhao Dong, Woojung Kim, Raouf Boutaba &mdash; IEEE Blockchain
+                2018</a
+              >
+            </h6>
+            <hr />
+            <p class="card-text">
+              Conifer is an earlier iteration of the Bitforest naming system. It
+              has different semantics that allow most operations to happen
+              off-chain, at the cost of introducing a tradeoff between
+              performance and centralized trust. Read to understand how rooting
+              trust onto a blockchain in an otherwise centralized and
+              conventional system can greatly enhance security.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
-}}
-
-@(include-template "../main.html")
+}} @(include-template "../main.html")
