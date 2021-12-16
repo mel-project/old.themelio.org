@@ -41,7 +41,7 @@
   `(let ([LANG ,lang])
      (l10n-url ,str)))
 
-(generate-all "index.html")
-(generate-all "resources.html")
-(generate-all "roadmap.html")
+(generate-all "learn.html")
+;;; (generate-all "resources.html")
+;;; (generate-all "roadmap.html")
 (displayln "HTML compilation complete")
