@@ -6,16 +6,16 @@
 
 (define-macro (generate fname)
   `(let ([FILENAME, fname])
-     (with-output-to-file (string-append "docs/" (if (equal? LANG "en-US")
-        
-                              ,fname
-                              (string-replace ,fname ".html"
-                                              (format "-~a.html"
-                                                      (string-downcase (string-replace LANG "-" ""))))))
+     (with-output-to-file (string-append "build/" (if (equal? LANG "en-US")
+
+                                                      ,fname
+                                                      (string-replace ,fname ".html"
+                                                                      (format "-~a.html"
+                                                                              (string-downcase (string-replace LANG "-" ""))))))
        #:exists 'replace
        (lambda ()
-         (display (include-template , (string-append 
-         "templates/routes/" (string-replace fname ".html" ".src.html"))))))))
+         (display (include-template , (string-append
+                                       "templates/routes/" (string-replace fname ".html" ".src.html"))))))))
 
 (define-macro (generate-all fname)
   `(let ()

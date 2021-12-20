@@ -292,3 +292,7 @@ footer {
   margin-bottom: 10px;
   display: inline-block;
 }
+
+.team-avatar {
+  border-radius: 100%;
+}

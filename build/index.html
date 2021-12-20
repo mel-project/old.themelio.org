@@ -270,13 +270,17 @@
           </div>
       </div>
   </div>
-  <style >
+  <style>
       .bio-sections img {
-          width: 10em;
+          width: 10rem;
+          height: 10rem;
+          margin-right: 2rem;
       }
 
       .bio-section {
           padding-top: 2em;
+          display: flex;
+          flex-direction: row;
       }
 
       .short-section {
@@ -298,45 +302,47 @@
       .social-media-icon {
           max-width: 4em;
       }
-      .section__inner.container{
+
+      .section__inner.container {
           padding: 0;
       }
-      .section__inner.container>.col{
+
+      .section__inner.container>.col {
           margin: 0;
           padding: 0;
       }
+
   </style>
   <div class="section section--darken">
       <div class="section__inner container">
-          <div class="col">
+          <div class="row">
               <div class="col">
                   <h3>Meet Themelio</h2>
                       <p>The team building Themelio is a group of engineers, academics, and crypto experts helping steer Web3 in a sustainable, open, and secure direction through a paradigm-shifting approach to blockchain technology.</p>
                       <div class="bio-sections" style="display: flex; max-width: 100vw; flex-direction: column;">
                           <div class="bio-section">
-                              <span>
-                                  <img src="images/team/eric.png" alt="">
-                              </span>
-                              <h4>Founder, CEO</h2>
-                                  <p>Eric is a computer security researcher and entrepreneur. Growing up between China and Canada, he is passionate about technology that enables a more open, decentralized, and secure Internet. He is the founder of Themelio, a new public blockchain designed to achieve unprecedented security, stability, and immutability. He also created and single-handedly runs Geph, a VPN project focused on defeating censorship in regions like China and Iran.</p>
+                              <img src="images/team/eric.jpg" alt="" class="team-avatar">
+                              <div>
+                                  <h4>Founder, CEO</h2>
+                                      <p>Eric is a computer security researcher and entrepreneur. Growing up between China and Canada, he is passionate about technology that enables a more open, decentralized, and secure Internet. He is the founder of Themelio, a new public blockchain designed to achieve unprecedented security, stability, and immutability. He also created and single-handedly runs Geph, a VPN project focused on defeating censorship in regions like China and Iran.</p>
+                              </div>
                           </div>
 
                           <div class="bio-section">
-                              <span>
-                                  <img src="images/team/meade.jpg" alt="">
-                              </span>
-                              <h4>Head of DevOps</h2>
-                                  <p>With over 15 years of professional experience, Meade has worked on everything from global infrastructure to the Rust compiler. He is self taught with an insatiable thirst for knowledge and a huge proponent of open source projects. As Head Of DevOps for Themelio, Meade directs the development and implementation of a global network, finds show-stopping bugs, and optimises safety and performance.</p>
+                              <img src="images/team/meade.jpg" alt="" class="team-avatar">
+                              <div>
+                                  <h4>Head of DevOps</h2>
+                                      <p>With over 15 years of professional experience, Meade has worked on everything from global infrastructure to the Rust compiler. He is self taught with an insatiable thirst for knowledge and a huge proponent of open source projects. As Head Of DevOps for Themelio, Meade directs the development and implementation of a global network, finds show-stopping bugs, and optimises safety and performance.</p>
+                              </div>
                           </div>
 
                           <div class="bio-section">
-                              <span>
-                                  <img src="images/team/jay.png" alt="">`
-                              </span>
-                              <h4>Compiler Engineer</h2>
-                                  <p>Jay is a free software engineer with a focus on compiler design at Themelio. Previously he worked as an independent consultant on projects in the Ethereum and Polkadot ecosystems, concerning zero-knowledge NFTs and composable graph databases. He is interested in developing tools which empower not enslave.</p>
+                              <img src="images/team/jay.jpg" alt="" class="team-avatar">
+                              <div>
+                                  <h4>Compiler Engineer</h2>
+                                      <p>Jay is a free software engineer with a focus on compiler design at Themelio. Previously he worked as an independent consultant on projects in the Ethereum and Polkadot ecosystems, concerning zero-knowledge NFTs and composable graph databases. He is interested in developing tools which empower not enslave.</p>
+                              </div>
                           </div>
-                          <a href="">The Themelio Team</a>
                       </div>
 
               </div>
