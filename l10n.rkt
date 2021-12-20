@@ -5,17 +5,17 @@
 
 ;; OpenCC conversion
 (define (cn->hk str)
-  (with-input-from-string str
-    (lambda()
-      (with-output-to-string
-        (lambda()
-          (system "opencc -c s2hk.json"))))))
+  str #;(with-input-from-string str
+          (lambda()
+            (with-output-to-string
+              (lambda()
+                (system "opencc -c s2hk.json"))))))
 (define (hk->cn str)
-  (with-input-from-string str
-    (lambda()
-      (with-output-to-string
-        (lambda()
-          (system "opencc -c hk2s.json"))))))
+  str #;(with-input-from-string str
+          (lambda()
+            (with-output-to-string
+              (lambda()
+                (system "opencc -c hk2s.json"))))))
 
 ;; big mapping
 (define-runtime-path l10n-yaml "l10n.yaml")
