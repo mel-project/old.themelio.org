@@ -1,39 +1,25 @@
-@(define HEADER-FULL? #f)
-@(define ACTIVE-PAGE 'roadmap)
-
+@(define HEADER-FULL? #f) @(define ACTIVE-PAGE 'roadmap)
 @define[HEADER-CONTENT]{@list{
 <div class="col-lg-9">
-    <h1>Roadmap</h1>
-    <p class="text--blead">
-        Our plans for Themelio and beyond
-    </p>
+  <h1>Roadmap</h1>
+  <p class="text--blead">Our plans for Themelio and beyond</p>
 </div>
 <div class="col-lg"></div>
-}}
-
-@define[BODY-CONTENT]{@list{
-<div class="section ">
-    <div class="section__inner container">
-        <div class="row mb-3">
-            <div class="col">
-                @(l10n "roadmap/phases")
-            </div>
-        </div>
+}} @define[BODY-CONTENT]{@list{
+<div class="section">
+  <div class="section__inner container">
+    <div class="row mb-3">
+      <div class="col">@(l10n "roadmap/phases")</div>
     </div>
+  </div>
 </div>
 
 <div class="section section--darken">
-    <div class="section__inner container">
-        <div class="row mb-3">
-            <div class="col-lg-6">
-                @(l10n "roadmap/past-and-future")
-            </div>
-            <div class="col-lg-6 container-fluid">
-                @(l10n "roadmap/timeline")
-            </div>
-        </div>
+  <div class="section__inner container">
+    <div class="row mb-3">
+      <div class="col-lg-6">@(l10n "roadmap/past-and-future")</div>
+      <div class="col-lg-6 container-fluid">@(l10n "roadmap/timeline")</div>
     </div>
+  </div>
 </div>
-}}
-
-@(include-template "../main.html")
+}} @(include-template "../main.html")

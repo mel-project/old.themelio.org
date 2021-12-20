@@ -7,11 +7,10 @@
 (define-macro (generate fname)
   `(let ([FILENAME, fname])
      (with-output-to-file (string-append "build/" (if (equal? LANG "en-US")
-
-                                                      ,fname
-                                                      (string-replace ,fname ".html"
-                                                                      (format "-~a.html"
-                                                                              (string-downcase (string-replace LANG "-" ""))))))
+                              ,fname
+                              (string-replace ,fname ".html"
+                                              (format "-~a.html"
+                                                      (string-downcase (string-replace LANG "-" ""))))))
        #:exists 'replace
        (lambda ()
          (display (include-template , (string-append
@@ -41,7 +40,7 @@
   `(let ([LANG ,lang])
      (l10n-url ,str)))
 
-(generate-all "index.html")
-(generate-all "resources.html")
-(generate-all "roadmap.html")
+(generate-all "learn.html")
+;;; (generate-all "resources.html")
+;;; (generate-all "roadmap.html")
 (displayln "HTML compilation complete")
