@@ -203,13 +203,17 @@
         </div>
     </div>
 </div>
-<style >
+<style>
     .bio-sections img {
-        width: 10em;
+        width: 10rem;
+        height: 10rem;
+        margin-right: 2rem;
     }
 
     .bio-section {
         padding-top: 2em;
+        display: flex;
+        flex-direction: row;
     }
 
     .short-section {
@@ -231,45 +235,47 @@
     .social-media-icon {
         max-width: 4em;
     }
-    .section__inner.container{
+
+    .section__inner.container {
         padding: 0;
     }
-    .section__inner.container>.col{
+
+    .section__inner.container>.col {
         margin: 0;
         padding: 0;
     }
+
 </style>
 <div class="section section--darken">
     <div class="section__inner container">
-        <div class="col">
+        <div class="row">
             <div class="col">
                 <h3>@(l10n "index/meet-title")</h2>
                     <p>@(l10n "index/meet")</p>
                     <div class="bio-sections" style="display: flex; max-width: 100vw; flex-direction: column;">
                         <div class="bio-section">
-                            <span>
-                                <img src="images/team/eric.png" alt="">
-                            </span>
-                            <h4>@(l10n "index/eric-title")</h2>
-                                <p>@(l10n "index/eric-bio")</p>
+                            <img src="images/team/eric.jpg" alt="" class="team-avatar">
+                            <div>
+                                <h4>@(l10n "index/eric-title")</h2>
+                                    <p>@(l10n "index/eric-bio")</p>
+                            </div>
                         </div>
 
                         <div class="bio-section">
-                            <span>
-                                <img src="images/team/meade.jpg" alt="">
-                            </span>
-                            <h4>@(l10n "index/meade-title")</h2>
-                                <p>@(l10n "index/meade-bio")</p>
+                            <img src="images/team/meade.jpg" alt="" class="team-avatar">
+                            <div>
+                                <h4>@(l10n "index/meade-title")</h2>
+                                    <p>@(l10n "index/meade-bio")</p>
+                            </div>
                         </div>
 
                         <div class="bio-section">
-                            <span>
-                                <img src="images/team/jay.png" alt="">`
-                            </span>
-                            <h4>@(l10n "index/jay-title")</h2>
-                                <p>@(l10n "index/jay-bio")</p>
+                            <img src="images/team/jay.jpg" alt="" class="team-avatar">
+                            <div>
+                                <h4>@(l10n "index/jay-title")</h2>
+                                    <p>@(l10n "index/jay-bio")</p>
+                            </div>
                         </div>
-                        <a href="">@(l10n "index/meet-link")</a>
                     </div>
 
             </div>

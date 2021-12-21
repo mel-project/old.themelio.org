@@ -4,17 +4,17 @@
          (for-syntax racket/string))
 (require "l10n.rkt")
 
-;;; (define-macro (generate fname)
-;;;   `(let ([FILENAME, fname])
-;;;      (with-output-to-file (string-append "build/" (if (equal? LANG "en-US")
-;;;                               ,fname
-;;;                               (string-replace ,fname ".html"
-;;;                                               (format "-~a.html"
-;;;                                                       (string-downcase (string-replace LANG "-" ""))))))
-;;;        #:exists 'replace
-;;;        (lambda ()
-;;;          (display (include-template , (string-append 
-;;;          "templates/routes/" (string-replace fname ".html" ".src.html"))))))))
+(define-macro (generate fname)
+  `(let ([FILENAME, fname])
+     (with-output-to-file (string-append "build/" (if (equal? LANG "en-US")
+                              ,fname
+                              (string-replace ,fname ".html"
+                                              (format "-~a.html"
+                                                      (string-downcase (string-replace LANG "-" ""))))))
+       #:exists 'replace
+       (lambda ()
+         (display (include-template , (string-append
+                                       "templates/routes/" (string-replace fname ".html" ".src.html"))))))))
 
 ;;; (define-macro (generate-all fname)
 ;;;   `(let ()
@@ -40,7 +40,18 @@
 ;;;   `(let ([LANG ,lang])
 ;;;      (l10n-url ,str)))
 
+<<<<<<< HEAD
 ;;; (generate-all "learn.html")
 ;;; ;;; (generate-all "resources.html")
 ;;; ;;; (generate-all "roadmap.html")
 ;;; (displayln "HTML compilation complete") 
+=======
+(define-macro (l10n-url-foreign str lang)
+  `(let ([LANG ,lang])
+     (l10n-url ,str)))
+
+(generate-all "learn.html")
+;;; (generate-all "resources.html")
+;;; (generate-all "roadmap.html")
+(displayln "HTML compilation complete")
+>>>>>>> d86faaaff8215466d2fd256c24a0ff1bf02eb039
