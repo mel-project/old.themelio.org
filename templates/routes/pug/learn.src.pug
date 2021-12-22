@@ -62,11 +62,23 @@ mixin list_item(header, content)
         p= bodies[i] 
 
 +section(true)
+    h2 Whitepapers and Academic Publications
     - var headers = ["Themelio: A stable blockchain for an unstable world","Themelio’s collusion-resistant consensus mechanism","Trustless stable cryptocurrency"]
     each val,i in headers
-        div.md-3
-                    h5= headers[i]
-                    a.font-weight-normal(style="font-size: 1rem" href="")   Read the Whitepaper
+        div.mb-3
+                    h5.mb-1= headers[i]
+                    a.mb-3.font-weight-normal(style="font-size: 1rem" href="")   Read the Whitepaper
+
+    - var headers = ["Melmint: Trustless Stable Cryptocurrency","Elasticoin: Low-Volatility Cryptocurrency with Proofs of Sequential Work", "Bitforest: a Portable and Efficient Blockchain-Based Naming System","Conifer: centrally-managed PKI with blockchain-rooted trust"]
+    - var bodies = ["An overview of Themelio’s groundbreaking decentralized stablecoin design. Read to learn about the math behind a coin that holds a stable value without pegs, oracles, or centralization.", "This paper describes Elasticoin, a way of issuing a token with stable minting cost that paved the way to the development of Melmint.", 'Bitforest, a naming system with decentralized trust, is a great example of a powerful "coin-driven" dApp built with UTXOs rather than smart contracts. This paper describes Bitforest on blockchains with no significant scripting capability; on Themelio Bitforest would not need an untrusted central "helper". Read as an example of the surprising versatility of UTXO blockchain semantics.'," Conifer is an earlier iteration of the Bitforest naming system. It has different semantics that allow most operations to happen off-chain, at the cost of introducing a tradeoff between performance and centralized trust. Read to understand how rooting trust onto a blockchain in an otherwise centralized and conventional system can greatly enhance security."]
+    - var papers = ["Yuhao Dong, Raouf Boutaba — Cryptoeconomic Systems 2020","Yuhao Dong, Raouf Boutaba — IEEE ICBC 2019"," Yuhao Dong, Woojung Kim, Raouf Boutaba — CNSM 2018","Yuhao Dong, Woojung Kim, Raouf Boutaba — IEEE Blockchain 2018"]
+    - var links  = ["https://assets.pubpub.org/1tfwdfex/01581339020290.pdf", "https://themelio.org/assets/elasticoin.pdf","http://rboutaba.cs.uwaterloo.ca/Papers/Conferences/2018/DongCNSM18.pdf","https://pdfs.semanticscholar.org/117f/0a4710543fea0d78a00f2221d52b0a47e7ee.pdf"]
+    span.mb-5
+        each val,i in headers
+            div.mb-3
+                h4= headers[i]
+                p.mb-1= bodies[i]
+                a(href=links[i]) Read the Whitepaper
 
 | }}
 | @(include-template "../main.html")   
