@@ -17,17 +17,17 @@ build_pug () {
     pug templates/routes/pug -o templates/routes/ 
 }
 
+PUG=1
+SASS=1
 while [[ "$#" -gt 0 ]]; do
     case $1 in
-        -s|--sass) 
-            SASS=true
+        -ns|--no-sass) 
+            echo 'Skipping SASS build'
+            SASS=`false`
             shift ;;
-        -p|--pug) 
-            PUG=true
-            shift ;;
-        --init)
-            SASS=true
-            PUG=true
+        -np|--no-pug) 
+            echo 'Skipping pug build'
+            PUG=`false`
             shift ;;
         *) echo "Unknown parameter passed: $1"; exit 1 ;;
     esac

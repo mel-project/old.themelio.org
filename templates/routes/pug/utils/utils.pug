@@ -1,0 +1,27 @@
+
+
+- function* _Gen(list) {
+- for(let i of list){
+-    yield i
+- }
+- }
+
+
+- function listGenerator(list){
+-    let gen = _Gen(list)
+-    gen.n = gen.next
+-    gen.next = (pages) => {
+-        if(pages <= 1){
+-            gen.n().value
+-        }
+-
+-        else{
+-            pageList = []
+-            for(let i = 0; i < pages; i++){
+-                pageList.push(gen.n().value)
+-            }
+-            return pageList
+-        }}
+-    return gen
+- }
+
