@@ -10,18 +10,17 @@
 - function listGenerator(list){
 -    let gen = _Gen(list)
 -    gen.n = gen.next
--    gen.next = (pages) => {
+-    gen.next = (pages=1) => {
 -        if(pages <= 1){
--            gen.n().value
+-            return gen.n().value
 -        }
 -
--        else{
--            pageList = []
+-           let pageList = [];
 -            for(let i = 0; i < pages; i++){
--                pageList.push(gen.n().value)
+-                pageList.push(gen.n().value);
 -            }
--            return pageList
--        }}
+-            return pageList;
+-    }
 -    return gen
 - }
 
