@@ -1,26 +1,35 @@
 
 
-- function* _Gen(list) {
-- for(let i of list){
--    yield i
-- }
-- }
+-    let link_re = /<([\w\d\. ]+)(;; ?src=(.*))?>/
 
-
-- function listGenerator(list){
--    let gen = _Gen(list)
--    gen.n = gen.next
--    gen.next = (pages=1) => {
--        if(pages <= 1){
--            return gen.n().value
--        }
 -
--           let pageList = [];
--            for(let i = 0; i < pages; i++){
--                pageList.push(gen.n().value);
--            }
--            return pageList;
--    }
--    return gen
-- }
+    function* _Gen(list) {
+        for(let i of list){
+            yield i
+        }
+    }
 
+
+
+-
+    function listGenerator(list){
+        let gen = _Gen(list)
+        gen.n = gen.next
+        gen.next = (pages=1) => {
+            if(pages <= 1){
+            return gen.n().value
+        }
+
+           let pageList = [];
+            for(let i = 0; i < pages; i++){
+                pageList.push(gen.n().value);
+            }
+            return pageList;
+        }
+        return gen
+    }
+
+- 
+   function parse(str){
+        let match = link_re.exec(str)
+    }
