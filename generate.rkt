@@ -41,6 +41,7 @@
      (l10n-url ,str)))
 
 ;;; (displayln "HTML compilation...")
+(generate-all "index.html")
 (generate-all "learn4.html")
 ;;; (generate-all "resources.html")
 ;;; (generate-all "roadmap.html")

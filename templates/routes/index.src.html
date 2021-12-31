@@ -38,30 +38,31 @@
 
 <div class="section section--darken">
     <div class="section__inner container">
-        <div class="col text--lead">
-            <h2 class="col-lg">
-                @(l10n "index/about-title")
-            </h2>
-            <p class="col-lg">
+        <div class="row text--lead">
+            <div class="col-lg">
+                <h2>
+                    @(l10n "index/about-title")
+                </h2>
                 @(l10n "index/about")
-            </p>
-            <div class="col-lg-6">
-                <a href="">@(l10n "index/learn-about-themelio")</a>
             </div>
-
+            <div class="col-lg text-center">
+                <img src="images/goodstack.png" style="max-height: 500px;width:auto;max-width: 100%">
+            </div>
         </div>
     </div>
 </div>
 
 <div class="section">
     <div class="section__inner container">
-        <div class="col">
-            <div class="col-12 col-lg-9">
-                <h3>@(l10n "index/introducing-melmint")</h2>
-                    <p">@(l10n "index/melmint-summary")</p>
+        <div class="row">
+            <div class="col-12 col-lg-3">
+                (insert infographic)
             </div>
-            <div class="col-12">
-                <a href="">@(l10n "index/themelio-tokenomics")</a>
+            <div class="col-12 col-lg-9">
+                <h3>@(l10n "index/introducing-melmint")</h3>
+                <p>@(l10n "index/melmint-summary")</p>
+
+                <a href="" class="more-link">@(l10n "index/themelio-tokenomics")</a>
             </div>
         </div>
     </div>
@@ -69,33 +70,43 @@
 
 <div class="section section--darken">
     <div class="section__inner container">
-        <div class="col">
-            <div class="col-12 pb-3">
-                <h3>@(l10n "index/principles-title")</h2>
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <h3>@(l10n "index/principles-title")</h3>
+                <p class="">
+                    @(l10n "index/principles-conclusion")
+                </p>
+                <a class="more-link" href="">@(l10n "index/explore-the-stack")</a>
             </div>
-            <div class="row-lg-12">
-                <div class="col">
+            <div class="col-12 col-lg-6">
+                <div class="rethink-point">
                     <h4>@(l10n "common/immutability")</h4>
                     <p class="">@(l10n "index/immutability-summary")</p>
                 </div>
-                <div class="col">
-                    <h4>@(l10n "common/minimal-governance")</h2>
-                        <p class="">@(l10n "index/minimal-governance-summary")</p>
+                <div class="rethink-point">
+                    <h4>@(l10n "common/minimal-governance")</h4>
+                    <p class="">@(l10n "index/minimal-governance-summary")</p>
                 </div>
-                <div class="col">
-                    <h4>@(l10n "common/vertical-scalability")</h2>
-                        <p class="">@(l10n "index/vertical-scalability-summary")</p>
-                </div>
-                <div class="col">
-                    <p class="">
-                        @(l10n "index/principles-conclusion")
-                    </p>
+                <div class="rethink-point">
+                    <h4>@(l10n "common/vertical-scalability")</h4>
+                    <p class="">@(l10n "index/vertical-scalability-summary")</p>
                 </div>
             </div>
-
-
-            <a class="col-12" href="">@(l10n "index/explore-the-stack")</a>
         </div>
+        <!-- <div class="row">
+            <div class="col">
+                <h4>@(l10n "common/immutability")</h4>
+                <p class="">@(l10n "index/immutability-summary")</p>
+            </div>
+            <div class="col">
+                <h4>@(l10n "common/minimal-governance")</h4>
+                <p class="">@(l10n "index/minimal-governance-summary")</p>
+            </div>
+            <div class="col">
+                <h4>@(l10n "common/vertical-scalability")</h4>
+                <p class="">@(l10n "index/vertical-scalability-summary")</p>
+            </div>
+        </div> -->
     </div>
 </div>
 
@@ -204,6 +215,12 @@
     </div>
 </div>
 <style>
+    .bio-sections {
+        display: flex;
+        max-width: 100vw;
+        flex-direction: column;
+    }
+
     .bio-sections img {
         width: 10rem;
         height: 10rem;
@@ -214,6 +231,7 @@
         padding-top: 2em;
         display: flex;
         flex-direction: row;
+        align-items: center;
     }
 
     .short-section {
@@ -252,7 +270,7 @@
             <div class="col">
                 <h3>@(l10n "index/meet-title")</h2>
                     <p>@(l10n "index/meet")</p>
-                    <div class="bio-sections" style="display: flex; max-width: 100vw; flex-direction: column;">
+                    <div class="bio-sections">
                         <div class="bio-section">
                             <img src="images/team/eric.jpg" alt="" class="team-avatar">
                             <div>
