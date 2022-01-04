@@ -1,57 +1,55 @@
 # Common titles used throught the platform
 common/get-started:
   en-US: Get Started
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 common/what-is-themelio:
   en-US: What is themelio?
-  zh-CN: "empty-in-chinese"
+  zh-CN: 'empty-in-chinese'
 common/intro-to-themelio:
   en-US: Introduction to Themelio
-  zh-CN: "empty"
+  zh-CN: 'empty'
 common/endogenous-trust:
   en-US: Endogenous Trust
-  zh-CN: "empty"
+  zh-CN: 'empty'
 common/minimal-friction:
   en-US: Minimal Friction
-  zh-CN: "empty"
+  zh-CN: 'empty'
 common/trustless-stablecoin:
   en-US: Trustless Stablecoin
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 common/proof-of-stake:
   en-US: Proof of Stake
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 common/whitepaper:
   en-US: Whitepaper
-  zh-CN: "whitepaper but chinese"
+  zh-CN: 'whitepaper but chinese'
 
 common/start-building:
   en-US: Start Building
-  zh-CN: "empty"
-
+  zh-CN: 'empty'
 
 common/start-validating:
   en-US: Start Validating
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 common/tech-stack:
   en-US: The Themelio Tech Stack
-  zh-CN: "empty"
-
+  zh-CN: 'empty'
 
 common/trustless-stable-coin:
-  en-US: "MEL: the Trustless Stablecoin"
-  zh-CN: "empty"
+  en-US: 'MEL: the Trustless Stablecoin'
+  zh-CN: 'empty'
 
 common/the-proof-of-stake-token:
-  en-US:  "SYM: the Proof of Stake Token"
-  zh-CN: "empty"
+  en-US: 'SYM: the Proof of Stake Token'
+  zh-CN: 'empty'
 
 common/learn-more:
-  en-US:  "SYM: the Proof of Stake Token"
-  zh-CN: "empty"
+  en-US: 'SYM: the Proof of Stake Token'
+  zh-CN: 'empty'
 
 # Language names
 name:
@@ -92,340 +90,329 @@ footer/partners:
 
 # Homepage
 index/tagline:
-  en-US: It's time to <b>rethink</b> blockchains
+  en-US: The foundation of a<br><b>trustless</b> Internet
   zh-CN: 新时代互联网的<br><b>去信任化根基</b>
 index/subtitle:
-  en-US: Themelio is a radically simple blockchain protocol requiring <b>zero</b> trust.
+  en-US: 'Themelio is a <b>radical rethinking of the public blockchain</b> focused on its core purpose: establishing an immutable, permanent root of trust.'
   zh-CN: Themelio 是一个全新、从零设计的公共区块链，旨在打造一种<b>从根本上不可改变的信任底层</b>，从而为下一代去中心化应用提供无与伦比的<b>稳定性、安全性与性能表现</b>。
 
 index/about-title:
-  en-US: About Themelio
-  zh-CN: "empty"
+  en-US: A blockchain built to last
+  zh-CN: 'empty'
 
 index/about:
-  en-US: Blockchains are meant to be stable. Today’s solutions, however, remain volatile — threatened by governance models that can re-architect and upheave the foundations on which applications and ecosystems are built.
-    Themelio is pioneering a new way to think about blockchain technology. Above all else, Themelio is designed to remain constant. It supports a new blockchain paradigm by providing a low-level, stable, and simple ‘Root of Trust’ that cannot be changed through governance processes. Immutability is the highest form of security and Themelio’s novel approach ushers in the revolution of trust that blockchains were always meant to bring. 
-  zh-CN: "empty"
+  en-US:
+    Blockchains are meant to be stable. Today’s solutions, however, remain volatile — threatened by governance models that can re-architect and upheave the foundations on which applications and ecosystems are built.
+    Themelio is pioneering a new way to think about blockchain technology. Above all else, Themelio is designed to remain constant. It supports a new blockchain paradigm by providing a low-level, stable, and simple ‘Root of Trust’ that cannot be changed through governance processes. Immutability is the highest form of security and Themelio’s novel approach ushers in the revolution of trust that blockchains were always meant to bring.
+  zh-CN: 'empty'
 
 index/learn-about-themelio:
   en-US: Learn about Themelio
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 index/introducing-melmint:
   en-US: Introducing Melmint
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 index/melmint-summary:
   en-US: Melmint is the first cryptocurrency issuance system that enables a trustless stable cryptocurrency. MEL is the native cryptocurrency of Themelio — a stablecoin that isn’t pegged to any government-backed currency. MEL provides purchasing power for in-protocol fees and rewards, while the unpegged SYM token enables MEL to retain its peg and powers Themelio’s proof-of-stake architecture.
-  zh-CN: "!MISSING"
+  zh-CN: '!MISSING'
 
 index/themelio-tokenomics:
-    en-US: Themelio Tokenomics
-    zh-CN: "empty"
-  
+  en-US: Themelio Tokenomics
+  zh-CN: 'empty'
 
-index/dev-docs: 
+index/dev-docs:
   en-US: <h3>Themelio Stakeholders</h3>
     <p class="text--lead">All the documentation developers and stakeholders need to learn how to get started with Themelio.
     </p>
     <a class="unavailable">Learn</a>
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 index/themelio-stakeholders:
-  en-US: "Themelio Stakeholders"
-  zh-CN: "empty"
+  en-US: 'Themelio Stakeholders'
+  zh-CN: 'empty'
 
 index/themelio-stakeholders-summary:
-  en-US: "Run a thin client or full node on Themelio’s testnet to prepare for mainnet launch."
-  zh-CN: "empty"
+  en-US: 'Run a thin client or full node on Themelio’s testnet to prepare for mainnet launch.'
+  zh-CN: 'empty'
 
 index/get-started:
-  en-US: "Get Started"
-  zh-CN: "empty"
+  en-US: 'Get Started'
+  zh-CN: 'empty'
 
 index/build-with-themelio-summary:
-  en-US: "Get familiar with building on Themelio, test wallets, mint MEL, and more."
-  zh-CN: "empty"
+  en-US: 'Get familiar with building on Themelio, test wallets, mint MEL, and more.'
+  zh-CN: 'empty'
 
 index/build:
-  en-US: "Build"
-  zh-CN: "empty"
+  en-US: 'Build'
+  zh-CN: 'empty'
 
 index/documentation:
-  en-US: "Documentation"
-  zh-CN: "empty"
+  en-US: 'Documentation'
+  zh-CN: 'empty'
 
 index/documentation-summary:
-  en-US: "All the documentation developers and stakeholders need to learn how to get started with Themelio."
-  zh-CN: "empty"
+  en-US: 'All the documentation developers and stakeholders need to learn how to get started with Themelio.'
+  zh-CN: 'empty'
 
 index/learn:
-  en-US: "Learn"
-  zh-CN: "empty"
-
+  en-US: 'Learn'
+  zh-CN: 'empty'
 
 index/themelio-res:
-  en-US: "Themelio Resources"
-  zh-CN: "empty"
+  en-US: 'Themelio Resources'
+  zh-CN: 'empty'
 
-index/res-lib: 
+index/res-lib:
   en-US: Themelio Library
-  zh-CN: "empty"
-index/res-faq: 
+  zh-CN: 'empty'
+index/res-faq:
   en-US: Themelio FAQ
-  zh-CN: "empty"
-index/res-whitepapers: 
+  zh-CN: 'empty'
+index/res-whitepapers:
   en-US: Whitepapers
-  zh-CN: "!MISSING"
-index/res-blog: 
+  zh-CN: '!MISSING'
+index/res-blog:
   en-US: Blog
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 index/meet-themelio:
   en-US: Meet Themelio
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 index/meet:
   en-US: The team building Themelio is a group of engineers, academics, and crypto experts helping steer Web3 in a sustainable, open, and secure direction through a paradigm-shifting approach to blockchain technology.
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
-index/meet-eric: 
+index/meet-eric:
   en-US: the mentat
-  zh-CN: "empty"
-index/meet-meade: 
+  zh-CN: 'empty'
+index/meet-meade:
   en-US: the stickler for organization
-  zh-CN: "empty"
-index/meet-jay: 
+  zh-CN: 'empty'
+index/meet-jay:
   en-US: the blockchain guru
-  zh-CN: "empty"
-index/meet-shane: 
+  zh-CN: 'empty'
+index/meet-shane:
   en-US: the housekeeper
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 index/join-community:
   en-US: Join the Themelio Community
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 ## Learning Introduction
 
 learn/guide-to-themelio:
   en-US: Your Guide to Themelio
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 learn/guide-description:
   en-US: A complete library of resources, articles, documentation, and information about Themelio and the future of minimal blockchains.
-  zh-CN: "empty"
+  zh-CN: 'empty'
 learn/get-started-description:
- en-US: "Welcome to Themelio, Web3’s Root of Trust. Themelio is a blockchain built with one fundamental feature: immutability. The protocol can never be changed or upgraded, ensuring absolute trust by the developers and applications built on top that the architecture will always support decentralization and security."
- zh-CN: "empty"
-
+  en-US: 'Welcome to Themelio, Web3’s Root of Trust. Themelio is a blockchain built with one fundamental feature: immutability. The protocol can never be changed or upgraded, ensuring absolute trust by the developers and applications built on top that the architecture will always support decentralization and security.'
+  zh-CN: 'empty'
 
 learn/intro-to-themelio-description:
   en-US: Welcome to Themelio, the Root of Trust for Web3. Get familiar with the blockchain redefining trustless applications for the decentralized future.
-  zh-CN: "empty"
-
+  zh-CN: 'empty'
 
 learn/tech-stack-description:
   en-US: Themelio’s layer 1, standard protocols, and application layer work together to rebuild the foundation for trustless, decentralized use cases.
-  zh-CN: "empty"
-
+  zh-CN: 'empty'
 
 learn/trustless-stable-coin-description:
   en-US: The Themelio ecosystem is powered by MEL, an algorithmic stablecoin not pegged to any global currency, but rather to on-chain activity.
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 learn/tokenomics:
   en-US: MEL, SYM, and Themelio’s Tokenomics
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 learn/tokenomics-description:
   en-US: The MEL stablecoin retains its peg through the SYM token. Learn how Themelios tokenomics are redefining native blockchain currencies.
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 learn/what-is-themelio-description:
-  en-US: "Themelio is a decentralized, public blockchain designed to serve as a low-level, stable, and radically simple base layer for an application ecosystem. Themelio’s goal is to ensure endogenous trust, which can be achieved only through radical immutability. Any trustworthy protocol must be immutable. If the protocol is allowed to change you must then ask: 'who is making the changes?'. Whether the answer is whole governments or lone software engineers, governance creates an avenue for interested, powerful parties to influence the protocol in their favor. For that reason, no governance process or developer updates can change the Themelio blockchain once it is launched, ensuring thus offering unprecedented trust security in any application or solution built on top.
+  en-US:
+    "Themelio is a decentralized, public blockchain designed to serve as a low-level, stable, and radically simple base layer for an application ecosystem. Themelio’s goal is to ensure endogenous trust, which can be achieved only through radical immutability. Any trustworthy protocol must be immutable. If the protocol is allowed to change you must then ask: 'who is making the changes?'. Whether the answer is whole governments or lone software engineers, governance creates an avenue for interested, powerful parties to influence the protocol in their favor. For that reason, no governance process or developer updates can change the Themelio blockchain once it is launched, ensuring thus offering unprecedented trust security in any application or solution built on top.
     ***This is about the point where I begin to wonder about themelio’s flexibility. If the protocol isn’t allowed to change, how will it deal with the unknown future needs of decentralized applications?***
-    Three overarching features enable Themelio to power a paradigm shift in Web3: an improved UXTO model, a novel PoS consensus mechanism, and an algorithmic stablecoin not pegged to any government currency." 
-  zh-CN: "empty"
-
+    Three overarching features enable Themelio to power a paradigm shift in Web3: an improved UXTO model, a novel PoS consensus mechanism, and an algorithmic stablecoin not pegged to any government currency."
+  zh-CN: 'empty'
 
 learn/themelio-tech-deeper-look:
-  en-US: "Themelio’s Technology: A Deeper Look"
-  zh-CN: "empty"
+  en-US: 'Themelio’s Technology: A Deeper Look'
+  zh-CN: 'empty'
 
 learn/synkletos-proof-of-stake:
   en-US: Synkletos, Proof of Stake
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 learn/synkeltos-summary:
   en-US: Synkletos is Themelio’s Proof of Stake architecture, designed to be resilient, secure, and unchanging
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 learn/breaking-down-melvm-summary:
-  en-US: "Welcome to MelVM, the execution layer of the Themelio tech stack. … (more info)<link?>"
-  zh-CN: "empty"
+  en-US: 'Welcome to MelVM, the execution layer of the Themelio tech stack. … (more info)<link?>'
+  zh-CN: 'empty'
 learn/endogenous-trust-summary:
-  en-US: The foundation of Themelio’s minimal blockchain. Endogenous trust describes the ability to trust that a blockchain network will behave in a particular way without needing to trust or know who is running it. Among many of today’s leading L1 blockchains, endogenous trust does not exist — protocols can be changed, updated, and altered through relatively easy mechanisms. Above all else, Themelio is architectured to endow the ecosystem built on top of it with endogenous trust. 
-  zh-CN: "empty"
+  en-US: The foundation of Themelio’s minimal blockchain. Endogenous trust describes the ability to trust that a blockchain network will behave in a particular way without needing to trust or know who is running it. Among many of today’s leading L1 blockchains, endogenous trust does not exist — protocols can be changed, updated, and altered through relatively easy mechanisms. Above all else, Themelio is architectured to endow the ecosystem built on top of it with endogenous trust.
+  zh-CN: 'empty'
 
 learn/themelio-use-cases:
   en-US: Themelio Use Cases
-  zh-CN: "empty"
-  
+  zh-CN: 'empty'
+
 learn/use-case-intro:
   en-us: Themelio’s trustless architecture enables new paradigms for applications, use cases, and industries to be built. Explore what can be built on Themelio, and learn how to get started.
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 learn/applications:
   en-US: Applications on Themelio
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 learn/applications-description:
   en-US: Explore the kinds of applications and use cases that can be built on top of Themelio.
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 learn/nfts-on-themelio:
   en-US: NFTs on Themelio
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 learn/nfts-on-themelio-description:
-  en-US: How NFTs can benefit from Themelio’s minimal blockchain architecture. 
-  zh-CN: "empty"
+  en-US: How NFTs can benefit from Themelio’s minimal blockchain architecture.
+  zh-CN: 'empty'
 
 learn/white-papers-and-publications:
   en-US: Whitepapers and Academic Publications
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 learn/stable-block-chain:
-  en-US: "Themelio: A stable blockchain for an unstable world"
-  zh-CN: "empty"
+  en-US: 'Themelio: A stable blockchain for an unstable world'
+  zh-CN: 'empty'
 
 learn/synkletos-collusion-resistant:
-  en-US: "Synkletos: Themelio’s collusion-resistant consensus mechanism"
-  zh-CN: "empty"
+  en-US: 'Synkletos: Themelio’s collusion-resistant consensus mechanism'
+  zh-CN: 'empty'
 
 learn/melmint-trustless-stable:
-  en-US: "Melmint: Trustless stable cryptocurrency"
-  zh-CN: "empty"
-
+  en-US: 'Melmint: Trustless stable cryptocurrency'
+  zh-CN: 'empty'
 
 learn/melmint-whitepaper-intro:
   en-US: An overview of Themelio’s groundbreaking decentralized stablecoin design. Read to learn about the math behind a coin that holds a stable value without pegs, oracles, or centralization.
-  zh-CN: "empty"
-
+  zh-CN: 'empty'
 
 learn/elasticoin-title:
-  en-US: "Elasticoin: Low-Volatility Cryptocurrency with Proofs of Sequential Work"
-  zh-CN: "empty"
+  en-US: 'Elasticoin: Low-Volatility Cryptocurrency with Proofs of Sequential Work'
+  zh-CN: 'empty'
 
 learn/bitforest-title:
-  en-US: "Bitforest: a Portable and Efficient Blockchain-Based Naming System"
-  zh-CN: "empty"
+  en-US: 'Bitforest: a Portable and Efficient Blockchain-Based Naming System'
+  zh-CN: 'empty'
 
 learn/bitforest-whitepaper-summary:
   en-US: Bitforest, a naming system with decentralized trust, is a great example of a powerful "coin-driven" dApp built with UTXOs rather than smart contracts. This paper describes Bitforest on blockchains with no significant scripting capability; on Themelio Bitforest would not need an untrusted central "helper". Read as an example of the surprising versatility of UTXO blockchain semantics.
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 learn/conifer-title:
-  en-US: "Conifer: centrally-managed PKI with blockchain-rooted trust"
-  zh-CN: "empty"
+  en-US: 'Conifer: centrally-managed PKI with blockchain-rooted trust'
+  zh-CN: 'empty'
 
 introduction/web3-root-of-trust:
   en-US: Web3’s Root of Trust
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 introduction/web3-root-of-trust-tagline:
   en-US: Themelio is a blockchain network designed to provide absolute trust to the emerging decentralized world.
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 introduction/web3-root-of-trust-summary:
-  en-US: "Themelio is a blockchain built with a new paradigm of trust. The protocol can never be changed, governed, upgraded, or manipulated — ensuring developers, users, and applications can transact with confidence knowing the underlying technology will always remain decentralized and secure. Themelio offers its users:"
-  zh-CN: "empty"
+  en-US: 'Themelio is a blockchain built with a new paradigm of trust. The protocol can never be changed, governed, upgraded, or manipulated — ensuring developers, users, and applications can transact with confidence knowing the underlying technology will always remain decentralized and secure. Themelio offers its users:'
+  zh-CN: 'empty'
 
 introduction/endogenuos-trust-summary:
   en-US: Endogenous trust is the “killer feature” of blockchain technology. It describes the scenario in which actors on a decentralized network can trust it will behave as it should without trusting those who run it, like the validators or core developers. In other words, the blockchain itself can promise and ensure trust; an endogenous system.
-  zh-CN: "empty"
-
+  zh-CN: 'empty'
 
 introduction/trustless-stablecoin-summary:
   en-US: The Themelio protocol is secured with a dual token system of MEL and SYM. MEL is an endogenous stablecoin, offering users trust in its stability without relying on a peg to a “real-world” currency like USD. An algorithm known as Melmint pegs MEL to a computation metric known as “day of sequential computation” (DOSC). DOSC exists entirely within the Themelio blockchain, ensuring no outside geopolitical forces can influence the stability of MEL.
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 introduction/minimal-friction-summary:
   en-US: Today’s layer 1 protocols are held back by application-blockchain friction, which results when application performance (throughput) requires changes to the protocol that could jeopardize security or decentralization. Themelio eliminates this friction by establishing an immutable, simple base layer and an easily-upgradeable middleware that can support the ever-changing needs of applications.
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 introduction/proof-of-stake-summary:
   en-US: Themelio’s Proof of Stake consensus mechanism is known as Synkletos. Synkletos simplifies the incentive structure of a classic PoS architecture, flipping on its head the classic assumption of uncoordination among PoS actors. Instead, Themelio assumes a perfectly coordinated monopoly, then deploys cryptoeconomics and game theory to simulate this model.
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 introduction/tokenomics-title:
-  en-US: "Themelio Tokenomics: MEL & SYM"
-  zh-CN: "empty"
+  en-US: 'Themelio Tokenomics: MEL & SYM'
+  zh-CN: 'empty'
 
 introduction/tokenomics-intro:
-  en-US: "There are two tokens native to the Themelio ecosystem: MEL and SYM."
-  zh-CN: "empty"
+  en-US: 'There are two tokens native to the Themelio ecosystem: MEL and SYM.'
+  zh-CN: 'empty'
 
 introduction/mel-description:
-  en-US: MEL is the primary token of the Themelio blockchain. It is an algorithmic stablecoin that is not pegged to any real world currency, like most standard stablecoins. Rather, MEL is pegged to something known as day of sequential computing (DOSC). DOSC tracks the computational cost of 24 hours of sequential computation on the Themelio blockchain. 
+  en-US:
+    MEL is the primary token of the Themelio blockchain. It is an algorithmic stablecoin that is not pegged to any real world currency, like most standard stablecoins. Rather, MEL is pegged to something known as day of sequential computing (DOSC). DOSC tracks the computational cost of 24 hours of sequential computation on the Themelio blockchain.
     By offering a stable asset without relying on trust of an outside mechanism like a USD peg, MEL ensures additional endogenous trust in the Themelio ecosystem. MEL is optimized to serve as the day-to-day transaction currency on Themelio, and undergird a growing ecosystem of financial and consumer applications.
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 introduction/sym-description:
   en-US: The other native token in Themelio is SYM, which can be traded freely like MELs, but which serves a critical role in Synkletos, the network’s Proof of Stake consensus mechanism. 1 SYM is generated per block, equating to roughly 1.05 million SYMs per year in circulation. In order to become a Synkletos stakeholder (analogous to an Eth2 validator), one must stake 1,000 SYMs and lock them for at least 500,000 blocks. Unlike MEL, SYM is not a stablecoin, and is free to fluctuate in price as the market dictates.
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 introduction/tokenomics-learn-more:
   en-US: MEL, SYM, and Themelio’s Tokenomics. <a>Learn more<\a>.
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 introduction/roadmap-2017:
   en-US: <div class="roadmap-section roadmap-timespan-1">
-      <div>2017</div>
-      <div>Work on themelio begins</div>
+    <div>2017</div>
+    <div>Work on themelio begins</div>
     </div>
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 introduction/roadmap-q1-2019:
   en-US: <div class="roadmap-section roadmap-timespan-2">
-      <div>Q1 2019</div>
-      <div>Prototype client and network released.</div>
+    <div>Q1 2019</div>
+    <div>Prototype client and network released.</div>
     </div>
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 introduction/roadmap-q3-2020:
   en-US: <div class="roadmap-section roadmap-timespan-3">
-      <div>Q3 2020</div>
-      <div>Public launch of a non-persistent alphanet</div>
+    <div>Q3 2020</div>
+    <div>Public launch of a non-persistent alphanet</div>
     </div>
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 introduction/roadmap-q2-2021:
   en-US: <div class="roadmap-section roadmap-timespan-4">
-      <div>Q2 2021</div>
-      <div>Public launch of a persistent betanet</div>
+    <div>Q2 2021</div>
+    <div>Public launch of a persistent betanet</div>
     </div>
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 introduction/roadmap-q1-2022:
   en-US: <div class="roadmap-section roadmap-timespan-5">
-      <div>Q1 2022</div>
-      <div>MEL and SYM token launch</div>
+    <div>Q1 2022</div>
+    <div>MEL and SYM token launch</div>
     </div>
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 introduction/roadmap-q2-2022:
   en-US: <div class="roadmap-section roadmap-timespan-6">
-      <div>Q2 2022</div>
-      <div>Public launch of Themelio mainnet.</div>
+    <div>Q2 2022</div>
+    <div>Public launch of Themelio mainnet.</div>
     </div>
-  zh-CN: "empty"
-
-
-
-
-
+  zh-CN: 'empty'
 
 index/built-to-last:
   en-US: <h2>A blockchain built to last</h2>
@@ -761,161 +748,158 @@ roadmap/timeline:
     </div>
     </div>
 
-
 common/immutability:
-  en-US: "Immutability"
-  zh-CN: "empty"
+  en-US: 'Immutability'
+  zh-CN: 'empty'
 
 index/immutability-summary:
-  en-US: "Elegant in its simplicity, Themelio does not change. It decouples the blockchain from user-facing applications to prevent friction."
-  zh-CN: "empty"
+  en-US: 'Elegant in its simplicity, Themelio does not change. It decouples the blockchain from user-facing applications to prevent friction.'
+  zh-CN: 'empty'
 
 common/minimal-governance:
-  en-US: "Minimal Governance"
-  zh-CN: "empty"
+  en-US: 'Minimal Governance'
+  zh-CN: 'empty'
 
 index/minimal-governance-summary:
-  en-US: "By eliminating governance from the core blockchain protocol, Themelio provides a rock-solid foundation that preserves blockchain’s core value: trust."
-  zh-CN: "empty"
+  en-US: 'By eliminating governance from the core blockchain protocol, Themelio provides a rock-solid foundation that preserves blockchain’s core value: trust.'
+  zh-CN: 'empty'
 
 common/vertical-scalability:
-  en-US: "Vertical Scalability"
-  zh-CN: "empty"
+  en-US: 'Vertical Scalability'
+  zh-CN: 'empty'
 
 index/vertical-scalability-summary:
-  en-US: "Simple yet robust, Themelio’s highly-composable infrastructure allows a new ecosystem of untold innovations and evolutions to thrive."
-  zh-CN: "empty"
+  en-US: 'Simple yet robust, Themelio’s highly-composable infrastructure allows a new ecosystem of untold innovations and evolutions to thrive.'
+  zh-CN: 'empty'
 
 index/principles-title:
-  en-US: "It’s time to rethink blockchains"
-  zh-CN: "empty"
+  en-US: 'It’s time to rethink blockchains'
+  zh-CN: 'empty'
 
 index/principles-conclusion:
-  en-US: "Themelio ushers in a more secure digital future by rearchitecting blockchains."
-  zh-CN: "empty"
+  en-US: 'Themelio ushers in a more secure digital future by rearchitecting blockchains.'
+  zh-CN: 'empty'
 
 index/explore-the-stack:
-  en-US: "Explore the Themelio Stack"
-  zh-CN: "empty"
+  en-US: 'Explore the Themelio Stack'
+  zh-CN: 'empty'
 
 index/investors:
-  en-US: "Investors"
-  zh-CN: "empty"
+  en-US: 'Investors'
+  zh-CN: 'empty'
 
 index/sign-up:
-  en-US: "Sign up"
-  zh-CN: "empty"
+  en-US: 'Sign up'
+  zh-CN: 'empty'
 
 index/themelio-for-developers:
-  en-US: "Themelio for Developers"
-  zh-CN: "empty"
+  en-US: 'Themelio for Developers'
+  zh-CN: 'empty'
 
 index/build-with-themelio:
-  en-US: "Build with Themelio"
-  zh-CN: "empty"
+  en-US: 'Build with Themelio'
+  zh-CN: 'empty'
 
 index/meet-title:
-  en-US: "Meet Themelio"
-  zh-CN: "empty"
+  en-US: 'Meet Themelio'
+  zh-CN: 'empty'
 
 index/eric-title:
-  en-US: "Founder, CEO"
-  zh-CN: "empty"
+  en-US: 'Founder, CEO'
+  zh-CN: 'empty'
 
 index/meade-title:
-  en-US: "Head of DevOps"
-  zh-CN: "empty"
+  en-US: 'Head of DevOps'
+  zh-CN: 'empty'
 
 index/jay-title:
-  en-US: "Compiler Engineer"
-  zh-CN: "empty"
+  en-US: 'Compiler Engineer'
+  zh-CN: 'empty'
 
 index/eric-bio:
-  en-US: "Eric is a computer security researcher and entrepreneur. Growing up between China and Canada, he is passionate about technology that enables a more open, decentralized, and secure Internet. He is the founder of Themelio, a new public blockchain designed to achieve unprecedented security, stability, and immutability. He also created and single-handedly runs Geph, a VPN project focused on defeating censorship in regions like China and Iran."
-  zh-CN: "empty"
+  en-US: 'Eric is a computer security researcher and entrepreneur. Growing up between China and Canada, he is passionate about technology that enables a more open, decentralized, and secure Internet. He is the founder of Themelio, a new public blockchain designed to achieve unprecedented security, stability, and immutability. He also created and single-handedly runs Geph, a VPN project focused on defeating censorship in regions like China and Iran.'
+  zh-CN: 'empty'
 
 index/meade-bio:
-  en-US: "With over 15 years of professional experience, Meade has worked on everything from global infrastructure to the Rust compiler. He is self taught with an insatiable thirst for knowledge and a huge proponent of open source projects. As Head Of DevOps for Themelio, Meade directs the development and implementation of a global network, finds show-stopping bugs, and optimises safety and performance."
-  zh-CN: "empty"
+  en-US: 'With over 15 years of professional experience, Meade has worked on everything from global infrastructure to the Rust compiler. He is self taught with an insatiable thirst for knowledge and a huge proponent of open source projects. As Head Of DevOps for Themelio, Meade directs the development and implementation of a global network, finds show-stopping bugs, and optimises safety and performance.'
+  zh-CN: 'empty'
 
 index/jay-bio:
-  en-US: "Jay is a free software engineer with a focus on compiler design at Themelio. Previously he worked as an independent consultant on projects in the Ethereum and Polkadot ecosystems, concerning zero-knowledge NFTs and composable graph databases. He is interested in developing tools which empower not enslave."
-  zh-CN: "empty"
+  en-US: 'Jay is a free software engineer with a focus on compiler design at Themelio. Previously he worked as an independent consultant on projects in the Ethereum and Polkadot ecosystems, concerning zero-knowledge NFTs and composable graph databases. He is interested in developing tools which empower not enslave.'
+  zh-CN: 'empty'
 
 learn/breaking-down-melvm:
-  en-US: "Breaking down MelVM"
-  zh-CN: "empty"
+  en-US: 'Breaking down MelVM'
+  zh-CN: 'empty'
 
 common/read-the-whitepaper:
-  en-US: "Read the whitepaper"
-  zh-CN: "empty"
+  en-US: 'Read the whitepaper'
+  zh-CN: 'empty'
 
 learn/melmint:
-  en-US: "Melmint: Trustless Stable Cryptocurrency"
-  zh-CN: "empty"
+  en-US: 'Melmint: Trustless Stable Cryptocurrency'
+  zh-CN: 'empty'
 
 learn/elasticoin:
-  en-US: "Elasticoin: Low-Volatility Cryptocurrency with Proofs of Sequential Work"
-  zh-CN: "empty"
+  en-US: 'Elasticoin: Low-Volatility Cryptocurrency with Proofs of Sequential Work'
+  zh-CN: 'empty'
 
 learn/elasticoin-whitepaper-intro:
-  en-US: "This paper describes Elasticoin, a way of issuing a token with stable minting cost that paved the way to the development of Melmint."
-  zh-CN: "empty"
+  en-US: 'This paper describes Elasticoin, a way of issuing a token with stable minting cost that paved the way to the development of Melmint.'
+  zh-CN: 'empty'
 
 learn/elasticoin-whitepaper-link:
-  en-US: "Yuhao Dong, Raouf Boutaba — IEEE ICBC 2019"
-  zh-CN: "empty"
+  en-US: 'Yuhao Dong, Raouf Boutaba — IEEE ICBC 2019'
+  zh-CN: 'empty'
 
 learn/bitforest:
-  en-US: "Bitforest: a Portable and Efficient Blockchain-Based Naming System"
-  zh-CN: "empty"
+  en-US: 'Bitforest: a Portable and Efficient Blockchain-Based Naming System'
+  zh-CN: 'empty'
 
 learn/bitforest-whitepaper-intro:
   en-US: 'Bitforest, a naming system with decentralized trust, is a great example of a powerful "coin-driven" dApp built with UTXOs rather than smart contracts. This paper describes Bitforest on blockchains with no significant scripting capability; on Themelio Bitforest would not need an untrusted central "helper". Read as an example of the surprising versatility of UTXO blockchain semantics.'
-  zh-CN: "empty"
+  zh-CN: 'empty'
 
 learn/bitforest-whitepaper-link:
-  en-US: "Yuhao Dong, Woojung Kim, Raouf Boutaba — CNSM 2018"
-  zh-CN: "empty"
+  en-US: 'Yuhao Dong, Woojung Kim, Raouf Boutaba — CNSM 2018'
+  zh-CN: 'empty'
 
 learn/conifer:
-  en-US: "Conifer: centrally-managed PKI with blockchain-rooted trust"
-  zh-CN: "empty"
+  en-US: 'Conifer: centrally-managed PKI with blockchain-rooted trust'
+  zh-CN: 'empty'
 
 learn/conifer-whitepaper-intro:
-  en-US: "Conifer is an earlier iteration of the Bitforest naming system. It has different semantics that allow most operations to happen off-chain, at the cost of introducing a tradeoff between performance and centralized trust. Read to understand how rooting trust onto a blockchain in an otherwise centralized and conventional system can greatly enhance security."
-  zh-CN: "empty"
+  en-US: 'Conifer is an earlier iteration of the Bitforest naming system. It has different semantics that allow most operations to happen off-chain, at the cost of introducing a tradeoff between performance and centralized trust. Read to understand how rooting trust onto a blockchain in an otherwise centralized and conventional system can greatly enhance security.'
+  zh-CN: 'empty'
 
 learn/conifer-whitepaper-link:
-  en-US: "Yuhao Dong, Woojung Kim, Raouf Boutaba — IEEE Blockchain 2018"
-  zh-CN: "empty"
+  en-US: 'Yuhao Dong, Woojung Kim, Raouf Boutaba — IEEE Blockchain 2018'
+  zh-CN: 'empty'
 
 index/res-lib-description:
-  en-US: "Guides, resources, and explanations for all the core elements of Themelio, MEL, SYM, and the growing ecosystem of endogenous trust."
-  zh-CN: "empty"
+  en-US: 'Guides, resources, and explanations for all the core elements of Themelio, MEL, SYM, and the growing ecosystem of endogenous trust.'
+  zh-CN: 'empty'
 
 index/res-faq-description:
-  en-US: "A straightforward guide to all your questions about Themelio."
-  zh-CN: "empty"
+  en-US: 'A straightforward guide to all your questions about Themelio.'
+  zh-CN: 'empty'
 
 index/res-blog-description:
-  en-US: "Stay up to date with everything happening in the Themelio ecosystem through our blog."
-  zh-CN: "empty"
+  en-US: 'Stay up to date with everything happening in the Themelio ecosystem through our blog.'
+  zh-CN: 'empty'
 
 index/res-whitepapers-description:
-  en-US: "The three core whitepapers about the Themelio protocol."
-  zh-CN: "empty"
+  en-US: 'The three core whitepapers about the Themelio protocol.'
+  zh-CN: 'empty'
 
 index/meet-link:
-  en-US: "The Themelio Team"
-  zh-CN: "empty"
+  en-US: 'The Themelio Team'
+  zh-CN: 'empty'
 
 common/join-the-community:
-  en-US: "Join the Themelio Community"
-  zh-CN: "empty"
-
+  en-US: 'Join the Themelio Community'
+  zh-CN: 'empty'
 
 learn/index-top-menu:
-  en-US: "this is the top menu"
-  zh-CN: "empty"
-
+  en-US: 'this is the top menu'
+  zh-CN: 'empty'

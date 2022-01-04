@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 
 ## this doesn't handle unknown parameters well
