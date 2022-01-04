@@ -102,8 +102,10 @@ index/about-title:
 
 index/about:
   en-US:
-    Blockchains are meant to be stable. Today’s solutions, however, remain volatile — threatened by governance models that can re-architect and upheave the foundations on which applications and ecosystems are built.
-    Themelio is pioneering a new way to think about blockchain technology. Above all else, Themelio is designed to remain constant. It supports a new blockchain paradigm by providing a low-level, stable, and simple ‘Root of Trust’ that cannot be changed through governance processes. Immutability is the highest form of security and Themelio’s novel approach ushers in the revolution of trust that blockchains were always meant to bring.
+    "<p>Blockchains must be immutable. At least if they want to revolutionize trust. Endogenous trust is the whole revolution: in place of the software maintainers’ or some third party’s reputation, we can trust mechanisms internal to the protocol itself to keep it secure. But if the protocol could be altered, then we’re back at the mercy of whomever has the authority to alter it.</p>
+ 
+<p>Yet governance events routinely upheave today’s blockchains. In contrast, Themelio is designed to avoid all change. By decoupling the blockchain from the greatest source of instability—the application, we attain both immutability and a better layer of abstraction. This makes the blockchain not only safer, but much more flexible and performant.</p>"
+
   zh-CN: 'empty'
 
 index/learn-about-themelio:
@@ -111,11 +113,14 @@ index/learn-about-themelio:
   zh-CN: 'empty'
 
 index/introducing-melmint:
-  en-US: Introducing Melmint
+  en-US: "MEL: cryptocurrency done right"
   zh-CN: 'empty'
 
 index/melmint-summary:
-  en-US: Melmint is the first cryptocurrency issuance system that enables a trustless stable cryptocurrency. MEL is the native cryptocurrency of Themelio — a stablecoin that isn’t pegged to any government-backed currency. MEL provides purchasing power for in-protocol fees and rewards, while the unpegged SYM token enables MEL to retain its peg and powers Themelio’s proof-of-stake architecture.
+  en-US: "<p>MEL is Themelio’s native cryptocurrency. Unlike traditional cryptocurrencies (such as Bitcoin and Ether), MEL keeps a stable value over time. This makes MEL a much more useful currency. Unlike stablecoins, MEL is fully trustless: it is not pegged to any government-backed currency. </p>
+  
+<p>Behind all this is Melmint, a groundbreaking stabilization mechanism based on peer-reviewed research.
+SYM is Themelio’s separate proof-of-stake token that powers Themelio’s consensus. Unlike MEL, it has a fixed supply and a fluctuating price that reflects Themelio’s network valuation. It also plays an important role in Melmint as a “backing” asset that stabilizes MEL.</p>"
   zh-CN: '!MISSING'
 
 index/themelio-tokenomics:
@@ -183,7 +188,7 @@ index/meet-themelio:
   zh-CN: 'empty'
 
 index/meet:
-  en-US: The team building Themelio is a group of engineers, academics, and crypto experts helping steer Web3 in a sustainable, open, and secure direction through a paradigm-shifting approach to blockchain technology.
+  en-US: We are on a mission to build a reliable, permanent root of trust for a new paradigm of faster, more usable, and far more secure decentralized apps. We envision a future where the true potential of public blockchains is unlocked, with blockchain-based endogenous trust enabling secure and open online interaction without dependence on unaccountable centralized roots of trust.
   zh-CN: 'empty'
 
 index/meet-eric:
@@ -773,7 +778,7 @@ index/vertical-scalability-summary:
   zh-CN: 'empty'
 
 index/principles-title:
-  en-US: 'It’s time to rethink blockchains'
+  en-US: 'Key features'
   zh-CN: 'empty'
 
 index/principles-conclusion:
@@ -801,7 +806,7 @@ index/build-with-themelio:
   zh-CN: 'empty'
 
 index/meet-title:
-  en-US: 'Meet Themelio'
+  en-US: 'Meet the Team'
   zh-CN: 'empty'
 
 index/eric-title:
