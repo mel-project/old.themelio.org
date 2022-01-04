@@ -1,21 +1,10 @@
 <footer class="container" id="footer">
     <style>
-    img.social-media-icon {
-        max-width: 4em;
-    }
-    </style>
-    <div class="col mb-5">
-        <div class="col text-center pb-5">
-            <h3>@(l10n "common/join-the-community")</h3>
-        </div>
-        <div class="col d-flex justify-content-around">
-            @(for/list ([i '("discord" "github" "linkedin" "telegram" "twitter")])
-            (define
-            img "<a href=''><img class='social-media-icon' src='images/social_media/{}.png'></a>")
-            (string-replace img "{}" i))
+        img.social-media-icon {
+            max-width: 4em;
+        }
 
-        </div>
-    </div>
+    </style>
     <div class="row">
         <div class="col-lg mb-3">
             <h5><b>@(l10n "footer/updates")</b></h5>
