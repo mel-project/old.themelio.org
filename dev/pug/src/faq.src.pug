@@ -2,8 +2,8 @@
 | @(define ACTIVE-PAGE 'home)
 | @define[BODY-CONTENT]{@list{
 
-include utils/utils.pug
- 
+include ../utils/utils.pug
+
 
 mixin section(dark=false)
     .section(class=(dark ? "section--darken" : "")+(attributes.class || ""))

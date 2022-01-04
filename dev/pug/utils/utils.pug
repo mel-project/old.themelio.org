@@ -29,3 +29,17 @@
         return gen
     }
 
+mixin section(dark=false)
+    .section(class=(dark ? "section--darken" : "")+(attributes.class || ""))
+        div.section__inner.container
+            div.col.text--lead
+                block
+
+
+mixin main
+    | @(define HEADER-FULL? #t)
+    | @(define ACTIVE-PAGE 'home)
+    | @define[BODY-CONTENT]{@list{
+    block 
+    | }}
+    | @(include-template "../main.html")   
