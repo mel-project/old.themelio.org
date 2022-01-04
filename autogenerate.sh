@@ -14,7 +14,7 @@ build_sass () {
 }
 
 build_pug () {
-    pug templates/routes/pug -o templates/routes/ 
+    pug dev/pug/src -o templates/routes/ 
 }
 
 PUG=1
