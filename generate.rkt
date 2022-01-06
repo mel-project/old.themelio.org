@@ -47,6 +47,7 @@
 (generate-all "resources.html")
 (generate-all "roadmap.html")
 (generate-all "developers.html")
+(generate-all "index.html")
 (generate-all "learn.html")
 (generate-all "learn1.html")
 (generate-all "learn2.html")
