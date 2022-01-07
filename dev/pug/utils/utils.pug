@@ -36,7 +36,9 @@ mixin section(dark=false)
                 block
 
 
-mixin main
+mixin main(page)
+    | @(define HEADER-FULL? #t)   
+    | @(define ACTIVE-PAGE '!{page})
     | @define[BODY-CONTENT]{@list{
     block 
     | }}
