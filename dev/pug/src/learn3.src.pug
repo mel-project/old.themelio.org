@@ -3,38 +3,35 @@
 | @define[BODY-CONTENT]{@list{
 include ../utils/utils.pug
 
-mixin section(dark=false)
-    .section(class=(dark ? "section--darken" : "")+(attributes.class || ""))
-        div.section__inner.container
-            div.col.text--lead
-                block
 
 - var t = ["MEL, SYM, and Themelio's Tokenomics", "The Trustless Blockchain", "Themelio's architecture eliminates protocol-application friction, which has held back blockchain technology from scaling trustlessly to mass adoption.", "The Themelio ecosystem is powered by two tokens: MEL and SYM.", "MEL: the Trustless Stablecoin", "MEL is the primary token of Themelio. A trustless stablecoin, the price of MEL is pegged to a recurring, known computational value of the Themelio blockchain rather than to a fiat currency like USD.", "MEL is pegged to a unit of measurement known as day of sequential computation (DOSC). DOSC tracks the cost of 24 hours of sequential computation at the present time. ", "SYM: the Proof of Stake Token ", "SYM is the complementary token of Themelio, and plays a crucial role in network's Proof of Stake and in the minting of MEL. Every block, 1 SYM token is generated, totaling ~1.05m SYM per year. To participate as a stakeholder, you must stake at least 1,000 SYM for a minimum of 500k blocks.", "Unlike MEL, SYM's price is free to fluctuate as the market demands.", "Melmint: Ensuring Trustless Stability", "MEL and SYM work together to ensure Themelio's dual token system remains stable through a process known as Melmint.", "The cost of a DOSC within a network like Themelio can be verified through non-interactive proofs, a branch of zero knowledge cryptography. DOSC can then be represented on-chain as a token (DOSC) that has a fluctuating exchange rate with SYM. Then, MEL is pegged to 1 DOSC worth of SYM.", "To achieve this, Melmint (technically Melmint v2) uses Melswap, a basic token-swap market modeled after Uniswap v1. Melswap can support any MEL-X token pair, including MEL/SYM and MEL/DOSC. Melmint monitors the MEL/DOSC and SYM/DOSC pools, determining the proper MEL/SYM exchange rate from each token's relative value against 1 DOSC.", "The Melmint v2 specification can be reviewed in more detail here.", "Why two currencies?", "Many blockchains that operate with PoS architectures use their underlying currencies to power staking, such as ETH. Themelio has chosen a different route, establishing SYM as the staking vehicle and MEL as the fundamental network currency. This is because coins used as stake are equity shares, and equity shares are a very inefficient form of money.", "Equity share demand is driven largely by speculation for future cash flow. In the case of blockchains, this is largely correlated with an estimate of a network's future transaction fees. Cash on the other hand is valued in real-time as a medium of exchange. No blockchain network should require the users of everyday money to simultaneously speculate on the future transaction fees of the underlying network. ", "The solution? Two currencies. SYM is used for the role of equity stake, and MEL is used as everyday stable money for the ecosystem.", "Up next:", "Synkletos: Proof of Stake ", "Synkletos: Proof of Stake "]
-+section(false)
-    h4= t[0]
-    h2= t[1]
-    p= t[2]
 
-+section(true)
-    p= t[3]
-    - var headers = [t[4],t[7]]
-    - var bodies = [[t[5],t[6]],[t[8],t[9]]]
-    each _,i in headers
-        h4= headers[i]
-        each _,j in bodies[i]
-            p= bodies[i][j]
-    h3= t[10]
-    - var paras = [t[11],t[12],t[13],t[14]]
-    each _,i in paras
-        p= paras[i]
++main("learn3")
+    +section(false)
+        h4= t[0]
+        h2= t[1]
+        p= t[2]
 
-+section(false)
-    h3= t[15]
-    - var paras = [t[16], t[17], t[18]]
-    each _,i in paras
-        p= paras[i]
-div Up Next: 
-div= t[20]
+    +section(true)
+        p= t[3]
+        - var headers = [t[4],t[7]]
+        - var bodies = [[t[5],t[6]],[t[8],t[9]]]
+        each _,i in headers
+            h4= headers[i]
+            each _,j in bodies[i]
+                p= bodies[i][j]
+        h3= t[10]
+        - var paras = [t[11],t[12],t[13],t[14]]
+        each _,i in paras
+            p= paras[i]
+
+    +section(false)
+        h3= t[15]
+        - var paras = [t[16], t[17], t[18]]
+        each _,i in paras
+            p= paras[i]
+    div Up Next: 
+    div= t[20]
 
 | }}
 | @(include-template "../main.html")   

@@ -1,51 +1,39 @@
-| @(define HEADER-FULL? #t)
-| @(define ACTIVE-PAGE 'home)
-| @define[BODY-CONTENT]{@list{
 
 include ../utils/utils.pug
- 
-
-mixin section(dark=false)
-    .section(class=(dark ? "section--darken" : "")+(attributes.class || ""))
-        div.section__inner.container
-            div.col.text--lead
-                block
 
 - var content = ["Applications on Themelio", "A New Paradigm for Dapps", "Applications built on Themelio benefit from the power of a general-purpose blockchain and the trust of a minimal blockchain at the same time.", "Themelio is designed to eliminate protocol-application friction, which impedes many existing networks from enabling a robust dapp ecosystem without compromising underlying tenets of security and decentralization. Themelio's simple, immutable layer 1 is separated from its application layer by the Themelio Protocol Standards layer. This middleware is expressive, upgradeable, and dynamic allowing developers to easily adapt to the ever-evolving needs of decentralized applications without asking the community to make hard choices about the architecture of the underlying protocol.", "Let's explore some of the applications being built on Themelio:", "Astramel: Scalable Payments", "Conifer and Bitforest: Trust-minimizing Naming", "Themelio processes 1,000 transactions per second. Though fast, that scale cannot keep up with the need for global microtransactions. Astramel is Themelio's payment channel network (PCN), modeled off the PCNs of other coin-based layer 1s, but with faster throughput and finality.", "Themelio developed and published two naming protocols, Conifer and Bitforest, for coin-based blockchains with MelScript to implement a logically decentralized naming system. Compared to existing blockchain solutions, the Themelio-based naming system offers higher performance and decentralized trust. Learn more about Bitforest and Conifer.", "Beyond the applications already underway, Themelio can support a range of new ecosystems and use cases:", "Token Systems", "Custom tokens on Themelio are remarkably easy to create. A new cryptocurrency token can be created by creating any regular transaction while tacking on an additional unlabeled output that sets the token's issuance. It's impossible to duplicate maliciously, since custom tokens are based off of the initial transaction that created them. Themelio also makes it easy to implement NFTs in this same way, by creating a new token unit with a value of 1. ", "Autonomous Applications", "Fully autonomous applications do not exist today; they still require human intervention. With logic outside the blockchain, autonomous applications can rely on Themelio as a secure Root of Trust and achieve trustless operation by synchronizing state through a trustless private blockchain. ", "Trustless Private Blockchains", "Typically, permissioned metachains must scan an entire public blockchain to reach consensus. Themelio allows private chains to bypass that requirement, instead greatly improving their performance while benefiting from Themelio's L1 immutability. This creates a better home for business applications like bid tendering or supply-chain tracking than private or consortium blockchains.", "A new paradigm of decentralized applications await.", "Build on Themelio"]
 - var t = listGenerator(content)
 
-style. 
-    .ecosystem img { 
-        width: 10em;
-        height: auto;
-    }
-+section(false)
-    h4= t.next()
-    h2= t.next()
-    p= t.next()
++main("learn6")
+    style. 
+        .ecosystem img { 
+            width: 10em;
+            height: auto;
+        }
+    +section(false)
+        h4= t.next()
+        h2= t.next()
+        p= t.next()
 
-+section(true)
-    p= t.next()
-    p= t.next()
+    +section(true)
+        p= t.next()
+        p= t.next()
 
-    - var headers = t.next(2)
-    - var bodies = t.next(2)
-    each _,i in headers
-        h4= headers[i]
-        p= bodies[i]
-+section(false)
-    p= t.next()
-    - let sources = listGenerator(["images/goodstack.png","images/goodstack.png","images/goodstack.png"])
-    - for(let i = 0; i < 3; i++)
-        div(class != 'ecosystem d-flex flex-row' + ((i % 2) == 1 ? '-reverse' : ''))
-            div.content
-                h4= t.next()
-                p= t.next()
-            div.image
-                img(src=sources.next())
+        - var headers = t.next(2)
+        - var bodies = t.next(2)
+        each _,i in headers
+            h4= headers[i]
+            p= bodies[i]
+    +section(false)
+        p= t.next()
+        - let sources = listGenerator(["images/goodstack.png","images/goodstack.png","images/goodstack.png"])
+        - for(let i = 0; i < 3; i++)
+            div(class != 'ecosystem d-flex flex-row' + ((i % 2) == 1 ? '-reverse' : ''))
+                div.content
+                    h4= t.next()
+                    p= t.next()
+                div.image
+                    img(src=sources.next())
 
-div= t.next()
-div= t.next()
-
-| }}
-| @(include-template "../main.html")   
+    div= t.next()
+    div= t.next()
