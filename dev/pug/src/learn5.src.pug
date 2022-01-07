@@ -1,55 +1,47 @@
-| @(define HEADER-FULL? #t)
-| @(define ACTIVE-PAGE 'home)
-| @define[BODY-CONTENT]{@list{
 
-mixin section(dark=false)
-    .section(class=(dark ? "section--darken" : "")+(attributes.class || ""))
-        div.section__inner.container
-            div.col.text--lead
-                block
+include ../utils/utils.pug
 
 - var t = ["Breaking down the MelVM", "Themelio' Virtual Machine", "The MelVM is the execution environment for Themelio, endowing particular power and utility on the network' classic UXTO architecture.", "MelVM is the low-level, stack-based virtual machine that powers Themelio' UXTO coin-based model. It is the execution environment where applications operate and can benefit from similar composability of general-purpose blockchains like Ethereum. This reduces protocol-application friction, increases speed, and improves efficiency of the application layer. ", "Revisiting UXTO with MelVM", "UXTO-based architectures are part of blockchain' canon, beginning with Bitcoin. Bitcoin introduced a coin-based UTXO model to track inputs and outputs of coins where covenants specify what sort of transactions can spend the coin. In contrast, many blockchains today like Ethereum use account-based models, through which they rely on 'smart contracts' to act as accounts owned by on-chain code. ", "Themelio believes a coin-based UTXO architecture offers unique benefits over account-based models:", "Transactions can be processed in a freer order, increasing overall network throughput.", "Simpler state transitions provide clearer logic for faster dapp performance, simultaneously reducing bug frequency.", "More expressive UXTO architectures make it easier for developers to write dapps that can map event graphs.", "MelVM makes Themelio' UXTO-based architecture especially powerful. MelVM brings enhanced speed and efficiency to Themelio' coin-based UXTO model because apps see the coin state as a secure database they can freely query, without the need to download a huge and growing transaction history to operate. Themelio' novel approach enables coin-driven applications, ranging from simple wallets to complex covenant-driven apps, to scale without needing any centralized trust.", "Up next", "Applications on Themelio"]
-+section(false)
-    h4= t[0]
-    h2= t[1]
-    p= t[2]
 
-+section(true)
-    p= t[3]
++main
+    +section(false)
+        h4= t[0]
+        h2= t[1]
+        p= t[2]
 
-+section(false)
-    h3= t[4]
-    - var headers = [t[5],t[7],t[9]]
-    - var bodies = [t[6],t[8],t[10]]
-    each _,i in headers
-        h4= headers[i]
-        p= bodies[i]
+    +section(true)
+        p= t[3]
 
-+section(true)
-    h2= t[11]
-    - var paras = [t[12],t[13]]
-    each _,i in paras
-        p= paras[i]
-    - var headers = [t[14],t[16]]
-    - var bodies = [t[15],t[17]]
-    each _,i in headers
-        h4= headers[i]
-        p= bodies[i]
-    p= t[18]
-    ul
-        li
-            b= t[19]
-            span= t[20]
-        li
-            b= t[21]
-            span= t[22]
+    +section(false)
+        h3= t[4]
+        - var headers = [t[5],t[7],t[9]]
+        - var bodies = [t[6],t[8],t[10]]
+        each _,i in headers
+            h4= headers[i]
+            p= bodies[i]
 
-    - var paras = [t[23],t[24]]
-    each _,i in paras
-        p= paras[i]
-    span= t[25]
-div Up Next: 
-div= t[27]
+    +section(true)
+        h2= t[11]
+        - var paras = [t[12],t[13]]
+        each _,i in paras
+            p= paras[i]
+        - var headers = [t[14],t[16]]
+        - var bodies = [t[15],t[17]]
+        each _,i in headers
+            h4= headers[i]
+            p= bodies[i]
+        p= t[18]
+        ul
+            li
+                b= t[19]
+                span= t[20]
+            li
+                b= t[21]
+                span= t[22]
 
-| }}
-| @(include-template "../main.html")   
+        - var paras = [t[23],t[24]]
+        each _,i in paras
+            p= paras[i]
+        span= t[25]
+    div Up Next: 
+    div= t[27]

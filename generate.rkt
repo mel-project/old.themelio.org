@@ -56,4 +56,6 @@
 (generate-all "learn5.html")
 (generate-all "learn6.html")
 (generate-all "faq.html")
+(generate-all "samples.html")
+
 (displayln "HTML compilation complete")

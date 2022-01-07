@@ -37,9 +37,13 @@ mixin section(dark=false)
 
 
 mixin main
-    | @(define HEADER-FULL? #t)
-    | @(define ACTIVE-PAGE 'home)
     | @define[BODY-CONTENT]{@list{
     block 
     | }}
     | @(include-template "../main.html")   
+
+//- a mixin to make sure racket tags work properly
+mixin r
+    |
+    block 
+    |
