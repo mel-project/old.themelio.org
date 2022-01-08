@@ -1,15 +1,6 @@
-| @(define HEADER-FULL? #t)
-| @(define ACTIVE-PAGE 'home)
-| @define[BODY-CONTENT]{@list{
 
-include utils/utils.pug
- 
+include ../utils/utils.pug
 
-mixin section(dark=false)
-    .section(class=(dark ? "section--darken" : "")+(attributes.class || ""))
-        div.section__inner.container
-            div.col.text--lead
-                block
 
 mixin faqs(items, number, classname)
     - for(let i = 0; i < number; i++)
@@ -23,20 +14,17 @@ mixin faqs(items, number, classname)
 - var content = ["Themelio 101", "What is Themelio?", "Themelio is the first trustless blockchain protocol. Its foundational technology is immutable, eradicating the need for any governance model that brings politics, instability, and avoidable complexity. Think of Themelio as the new Internet Protocol, reinvented for Web3. As a low-level application-neutral network protocol, Themelio provides developers a root of trust where they can build a nearly limitless range of intermediary protocols capable of powering a new world of applications. ", "Learn more: <Introduction to Themelio;; src=''>", "What does 'Root of Trust' mean? What does 'endogenous trust' mean?", "A root of trust is the foundation on which all secure operations of a system depend. Endogenous trust means that the trust originates from and perpetuates from within the system itself, not from trust in the operators of the system. Themelio is a root of trust for a new paradigm of blockchain-based systems because it can promise endogenous trust to its users. This is achieved through radical simplicity and immutability. There are no protocol politics and no need to ever trust another party. Themelio is a simple, secure base layer that doesn't change. ", "Learn more: <Endogenous Trust;; src=''>, a New Paradigm", "Is Themelio a layer 1 blockchain?", "Yes. Themelio is a layer 1 blockchain that does one thing  provides robust low-level functionality critical to secure decentralized apps  and does so very well. Its design is firmly centered around decoupling the blockchain from user-facing applications, unlike other layer 1 protocols which suffer from 'protocol-application.' The core blockchain logic is much simpler than other general-purpose blockchains like Ethereum and Tezos, employing immutability and therefore eliminating the need for governance.", "Learn more: Themelio's Tech Stack", "Who built Themelio?", "The team behind Themelio is a group of engineers, cryptographers, academics, and blockchain experts committed to building the most sustainable solutions for Web3. Eric Dong is the founder of Themelio, a computer security researcher and entrepreneur who previously created Geph, a VPN project that focuses on defeating censorship. Growing up between China and Canada, he is passionate about technology that enables a more open, decentralized, and secure Internet. \n Other team members include Meade Kirke, a self-taught hacker, pure and simple. He has worked with startups and major global clients alike, as well as published books on Rust compiler. He is a coinsseir of end-to-end encryption. ", "Meet Themelio", "Is Themelio live?", "Themelio is still in development, currently in betanet (as of Nov. 2021). The Themelio mainnet is set to launch XX-XX-XXXX. This means that although the tooling is far from complete, we have a feature-complete persistent mainnet and testnet running. As a stakeholder ('validator'), you can participate today by running a thin client or full node. As a developer, you can begin testing Themelio's core tooling like minting tokens, using the wallet, and executing transactions.", "Become a stakeholder or start testing.", "Is Themelio Proof of Stake?", "Yes, Themelio operates off a Proof-of-Stake consensus mechanism known as Synkletos. Synkletos not only serves to incentivize good behavior among stakeholders (also known as 'validators' in other PoS chains), but also serves a critical role in moderating the supply of SYM, one of Themelio's native tokens.", "Learn more about Synkletos. ", "How can I learn more about Themelio?", "The best way to learn about Themelio is to check out the \"Learn Themelio\" section of the site  start here!\nYou can also follow us along here:", "| Blog | Discord | Twitter | LinkedIn |", "How can I join the Themelio community?", "There are lots of ways! Our Discord channel is where updates are posted, questions are answered, and the team waxes philosophy. Join us.\nYou can also find us on our blog, Twitter, and LinkedIn.", "REMOVE", "How can I contact the Themelio team?", "The best way to get in touch with the Themelio team is to join Discord and contact us there!", "REMOVE", "MEL and SYM Tokens", "What are MEL and SYM?", "MEL and SYM are the symbiotic tokens that fuel Themelio. MEL and SYM are interdependent, and both critical to unlocking Themelioe2's unique, trustless model. MEL is a fully decentralized low-volatility currency with a dynamic supply that can be liquidated for SYM tokens, the staking utility that undermines all activity on the Themelio network. \nMEL serves as the fundamental currency of the Themelio ecosystem, and is an algorithmic stablecoin pegged to the network's computation, not to any fiat currency. SYM, which is used for staking and serves to ensure MEL's stability, is free to fluctuate as the market demands.", "Learn more about MEL, SYM, and Themelio's Tokenomics.", "What is an algorithmic stablecoin?", "An algorithmic stablecoin is a cryptocurrency that remains stable by using a trustless issuance model rather than pegging the stablecoin to a fiat currency. MEL is the algorithmic stablecoin native to Themelio. It is distributed by Melmint, the first trustless value-stable cryptocurrency issuance model. \nMelmint's algorithm pegs MEL to \"day of sequential computing\" (DOSC), a unit measuring the cost of sequential computation for a day. This is done by combining Elasticoin, an existing algorithm for measuring the value of a DOSC, with a strong implicit reserve based on diluting shares of fee revenue. Unlike all other stablecoin proposals, Melmint operates without any trusted issuers or oracles while maintaining a robust peg, solving a major open problem in cryptocurrency design. \nThe main objective of Melmint is to hold the price of 1 MEL = 1 DOSC. There are two simultaneous processes: an auction that establishes the value of a SYM in DOSC, and a MEL/SYM exchange guarantee that backs every 1 MEL with 1 DOSC worth of SYM. \nThis complex arrangement ensures that MEL is a value-stable cryptocurrency while SYM, the staking utility, may fluctuate in value over time. ", "REMOVE", "How can I get MEL or SYM tokens?", "Upon mainnet launch, MEL and SYM will be available on exchanges  with exact partners to be announced. In the meantime, MEL and SYM can be minted on mainnet by network stakeholders who participate in Synkletos Proof of Stake.", "Become a stakeholder.", "Build with Themelio", "Are there validators on Themelio?", "Yes. Those who stake on Themelio are known as stakeholders'. Stakeholders stake SYM to participate in Themelio's Proof of Stake consensus mechanism, Synkletos. Ahead of mainnet launch, join the Themelio network as a validator and contribute to the network either as a nonvoting auditor node or a voting staker node.", "Learn more about Synkletos and Themelio's Proof of Stake.", "How can I learn more about becoming a stakeholder (validator) on Themelio?", "Learn more about stakeholding on Themelio ", "here. ", "How do I start building on Themelio?", "Themelio's mainnet will launch in early 2022. Develop on Themelio's testnet and start validating, minting SYM, using the melwallet, and executing transactions.", "Start building."]
 - var t = listGenerator(content)
 
++main("faq")
+    +section(false)
+        h1= t.next()
 
-+section(false)
-    h1= t.next()
+    +section(true)
+        +faqs(t, 9, 'themelio')
 
-+section(true)
-    +faqs(t, 9, 'themelio')
+    +section(false)
+        h2= t.next()
+        +faqs(t, 3, 'mel-and-sym')
 
-+section(false)
-    h2= t.next()
-    +faqs(t, 3, 'mel-and-sym')
-
-+section(true)
-    h2= t.next()
-    +faqs(t, 3, 'build-with-themelio')
-
-| }}
-| @(include-template "../main.html")   
+    +section(true)
+        h2= t.next()
+        +faqs(t, 3, 'build-with-themelio')

@@ -1,41 +1,45 @@
-| @(define HEADER-FULL? #t)
-| @(define ACTIVE-PAGE 'home)
-| @define[BODY-CONTENT]{@list{
 
-include utils/utils.pug
+include ../utils/utils.pug
  
 
-mixin section(dark=false)
-    .section(class=(dark ? "section--darken" : "")+(attributes.class || ""))
-        div.section__inner.container
-            div.col.text--lead
-                block
 
-
-- var content = ["Build with Themelio", "Explore the opportunities to build novel applications on Themelio, leveraging new paradigms like endogenous trust, a novel consensus mechanism, and the MEL stablecoin.", "Themelio is a new paradigm for the decentralized internet. It is a public layer 1 blockchain designed to be low-level, simple, and stable through radical immutability. Themelio\xe2\x80\x99s architecture solves the problem of protocol-application friction, enabling a new wave of applications to be built on an ecosystem that benefits from endogenous trust that the underlying protocol will never change.\\n Develop on Themelio\xe2\x80\x99s testnet and start validating, minting SYM, using the melwallet, and executing transactions.", "Development Roadmap", "2017", "Q1 2019", "Q3 2020", "Q2 2021", "Q1 2022", "Q1 2022", "Work on Themelio begins.", "Prototype client and network released.", "Public launch of a non-persistent alphanet.", "Public launch of a persistent betanet.", "MEL and SYM token launch.", "Public launch of Themelio mainnet.", "Subscribe and stay up to date with Themelio\xe2\x80\x99s development", "<Subscribe>", "Themelio Stakeholders", "Stakeholders stake SYM to participate in Themelio\xe2\x80\x99s Proof of Stake consensus mechanism, Synkletos. Ahead of mainnet launch, join the Themelio network as a stakeholder and contribute to the network either as a nonvoting auditor node or a voting staker node.", "<Run a Node>", "Say hello to coins \xe2\x80\x94 with superpowers", "Themelio leverages a classic UXTO transaction architecture, modeled off legacy blockchains like Bitcoin. Though unpopular among most modern account-based protocols, a coin-based architecture endows three primary benefits:", "Parallel Transaction Processing", "Transactions can be processed in a freer order, improving transaction threeput.", "Simplified State Transitions", "Coin-based architectures remove complex state transitions that are prone to bugs and vulnerabilities", "Expressive Transactions", "Transaction DAGs map well to event graphs, enabling dapps that serve as authorities of on-chain actions.", "Themelio\xe2\x80\x99s UXTO model, however, endows coin-based architectures with superpowers that extend their utility far beyond legacy UXTO networks. MelVM is Themelio\xe2\x80\x99s virtual machine, enabling complex functionality to be attached to coins on Themelio. Through MelVM, Themelio retains the benefits of coin-based protocols while also achieving the expression of general-purpose chains.", "<Introduction to MelVM>"]
+- var content = ["Build with Themelio", "Explore the opportunities to build novel applications on Themelio, leveraging new paradigms like endogenous trust, a novel consensus mechanism, and the MEL stablecoin.", "Themelio is a new paradigm for the decentralized internet. It is a public layer 1 blockchain designed to be low-level, simple, and stable through radical immutability. Themelio's architecture solves the problem of protocol-application friction, enabling a new wave of applications to be built on an ecosystem that benefits from endogenous trust that the underlying protocol will never change.\\n Develop on Themelio's testnet and start validating, minting SYM, using the melwallet, and executing transactions.", "Development Roadmap", "2017", "Q1 2019", "Q3 2020", "Q2 2021", "Q1 2022", "Q1 2022", "Work on Themelio begins.", "Prototype client and network released.", "Public launch of a non-persistent alphanet.", "Public launch of a persistent betanet.", "MEL and SYM token launch.", "Public launch of Themelio mainnet.", "Subscribe and stay up to date with Themelio's development", "<Subscribe>", "Themelio Stakeholders", "Stakeholders stake SYM to participate in Themelio's Proof of Stake consensus mechanism, Synkletos. Ahead of mainnet launch, join the Themelio network as a stakeholder and contribute to the network either as a nonvoting auditor node or a voting staker node.", "<Run a Node>", "Say hello to coins  with superpowers", "Themelio leverages a classic UXTO transaction architecture, modeled off legacy blockchains like Bitcoin. Though unpopular among most modern account-based protocols, a coin-based architecture endows three primary benefits:", "Parallel Transaction Processing", "Transactions can be processed in a freer order, improving transaction threeput.", "Simplified State Transitions", "Coin-based architectures remove complex state transitions that are prone to bugs and vulnerabilities", "Expressive Transactions", "Transaction DAGs map well to event graphs, enabling dapps that serve as authorities of on-chain actions.", "Themelio's UXTO model, however, endows coin-based architectures with superpowers that extend their utility far beyond legacy UXTO networks. MelVM is Themelio's virtual machine, enabling complex functionality to be attached to coins on Themelio. Through MelVM, Themelio retains the benefits of coin-based protocols while also achieving the expression of general-purpose chains.", "<Introduction to MelVM>"]
 - var t = listGenerator(content)
 
 
-+section(false)
-    h1= t.next()
-    p= t.next()
++main("developers")
 
-+section(true)
-    p= t.next()
-    a(src="")= t.next()
+    +section(false)
+        h1= t.next()
+        p= t.next()
 
-+section(false)
-    h2= t.next()
-    - var titles = t.next(6)
-    - var bodies = t.next(6)
-    each _,i in titles
-        h3.roadmap-titles= titles[i]
-        p.roadmap-bodies= bodies[i]
-    p=t.next()
+    +section(true)
+        p= t.next()
+        a(src="")= t.next()
 
-+section(true)
-    h2= t.next()
-    +faqs(t, 3, 'build-with-themelio')
+    +section(false)
+        h2= t.next()
+        - var titles = t.next(6)
+        - var bodies = t.next(6)
+        each _,i in titles
+            h5.roadmap-titles= titles[i]
+            - for(let p of bodies[i].split('\n'))
+                    p.roadmap-bodies= p
+        p=t.next()
 
-| }}
-| @(include-template "../main.html")   
+    +section(true)
+        h2= t.next()
+        p= t.next()
+        a(src="")= t.next()
+
+    +section(false)
+        h2= t.next()
+        p= t.next()
+        - var titles = t.next(3)
+        - var bodies = t.next(3)
+        each _,i in titles
+            h5.roadmap-titles= titles[i]
+            - for(let p of bodies[i].split('\n'))
+                    p.roadmap-bodies= p
+        p=t.next()
+        a(src="")= t.next()

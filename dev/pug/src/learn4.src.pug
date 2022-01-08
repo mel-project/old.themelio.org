@@ -1,55 +1,48 @@
-| @(define HEADER-FULL? #t)
-| @(define ACTIVE-PAGE 'home)
-| @define[BODY-CONTENT]{@list{
 
-mixin section(dark=false)
-    .section(class=(dark ? "section--darken" : "")+(attributes.class || ""))
-        div.section__inner.container
-            div.col.text--lead
-                block
+include ../utils/utils.pug
+
+
 
 - var t = ["Synkletos Proof of Stake", "A New Take on Old Consensus", "Themelio runs on a Proof of Stake mechanism known as Synkletos, which incentivizes stakeholders and influences the SYM token.", "Synkletos is the name of Themelio's Proof of Stake consensus mechanism that serves two primary functions for the network. First, it incentivizes good behavior among the stakeholders (known as 'validators' in other PoS chains). Second, it keeps track of the SYM token to ensure MEL's stability.", "Why Proof of Stake?", "Higher security margin", "Compromising a PoS blockchain requires an extraordinary capital expenditure to execute, and an unsuccessful malicious actor risks losing all their stake.", "Immediate finality", "PoS enables asynchronous Byzantine fault-tolerant protocols. Once a block is added, it cannot be reverted promising immediate finality for the network.", "Stronger incentive-compatibility", "Malicious actors on PoS networks risk their staked assets being seized if they act against the interests of the blockchain. The incentives to behave accurately are directly monetary, and thus immensely powerful.", "The Carrot and the Stick (Really Big Ones)", "Synkletos oversees the relationship between stakeholders and the Themelio blockchain, incentivizing behavior that is in the best interest of the network through a carrot-and-stick model that rewards and punishes behavior. (Note: 'stakeholders' are analogous to 'validators' in other PoS networks like Eth2).","Synkletos rewards stakeholders in two ways: SYM inflation and transaction fees.", "SYM Inflation", "Stakeholders can earn rewards of 1 SYM per block. Inflation of SYM provides stakeholders with revenue opportunities, but only in the short term until fees reach a significant level.", "Transaction Fees", "Transaction fees will be the biggest incentive for Themelio stakeholders. Paid in MEL, transaction fees follow a model similar to Ethereum's EIP-1559 to provide fluctuating but low fees.", "Conversely, Synkletos punishes dishonest stakeholders through two slashing conditions:", "Equivocation:", " A stakeholder commits to two different blocks with the same block height.", "Invalid block:", "A stakeholder commits to an invalid block.", "In either case, anyone can submit cryptographic evidence proving either condition was met by a stakeholder. The slashing transaction removes the offending stakeholder from the network and revoke all SYM in the stakeholder account.", "Want to learn more?", "Become a stakeholder on the Themelio network.", "Up next:", "Breaking Down the MelVM"]
-+section(false)
-    h4= t[0]
-    h2= t[1]
-    p= t[2]
++main("learn4")
+    +section(false)
+        h4= t[0]
+        h2= t[1]
+        p= t[2]
 
-+section(true)
-    p= t[3]
+    +section(true)
+        p= t[3]
 
-+section(false)
-    h3= t[4]
-    - var headers = [t[5],t[7],t[9]]
-    - var bodies = [t[6],t[8],t[10]]
-    each _,i in headers
-        h4= headers[i]
-        p= bodies[i]
+    +section(false)
+        h3= t[4]
+        - var headers = [t[5],t[7],t[9]]
+        - var bodies = [t[6],t[8],t[10]]
+        each _,i in headers
+            h4= headers[i]
+            p= bodies[i]
 
-+section(true)
-    h2= t[11]
-    - var paras = [t[12],t[13]]
-    each _,i in paras
-        p= paras[i]
-    - var headers = [t[14],t[16]]
-    - var bodies = [t[15],t[17]]
-    each _,i in headers
-        h4= headers[i]
-        p= bodies[i]
-    p= t[18]
-    ul
-        li
-            b= t[19]
-            span= t[20]
-        li
-            b= t[21]
-            span= t[22]
+    +section(true)
+        h2= t[11]
+        - var paras = [t[12],t[13]]
+        each _,i in paras
+            p= paras[i]
+        - var headers = [t[14],t[16]]
+        - var bodies = [t[15],t[17]]
+        each _,i in headers
+            h4= headers[i]
+            p= bodies[i]
+        p= t[18]
+        ul
+            li
+                b= t[19]
+                span= t[20]
+            li
+                b= t[21]
+                span= t[22]
 
-    - var paras = [t[23],t[24]]
-    each _,i in paras
-        p= paras[i]
-    span= t[25]
-div Up Next: 
-div= t[27]
-
-| }}
-| @(include-template "../main.html")   
+        - var paras = [t[23],t[24]]
+        each _,i in paras
+            p= paras[i]
+        span= t[25]
+    div Up Next: 
+    div= t[27]

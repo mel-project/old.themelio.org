@@ -1,84 +1,73 @@
-| @(define HEADER-FULL? #t)
-| @(define ACTIVE-PAGE 'home)
-| @define[BODY-CONTENT]{@list{
 
-mixin section(dark=false)
-    .section(class=(dark ? "section--darken" : "")+(attributes.class || ""))
-        div.section__inner.container
-            div.col.text--lead
-                block
 
-mixin list_item(header, content)
-    div
-        h3= header
-        p= content
-+section(false)
-    h1 Your Guide to Themelio
-    p A complete library of resources, articles, documentation, and information about Themelio and the future of minimal blockchains.
+include ../utils/utils.pug
 
-+section(true)
-    h2 Get Started
-    p Welcome to Themelio, Web3’s Root of Trust. Themelio is a blockchain built with one fundamental feature: immutability. The protocol can never be changed or upgraded, ensuring absolute trust by the developers and applications built on top that the architecture will always support decentralization and security.
-    - var headers =  ["Introduction to Themelio", "The Themelio Tech Stack", "MEL, the Trustless Stablecoin", "MEL, SYM, and Themelio's Tokenomics"]
-    - var bodies = ["Welcome to Themelio, the Root of Trust for Web3. Get familiar with the blockchain redefining trustless applications for the decentralized future.","Themelio’s layer 1, standard protocols, and application layer work together to rebuild the foundation for trustless, decentralized use cases.","The Themelio ecosystem is powered by MEL, an algorithmic stablecoin not pegged to any global currency, but rather to on-chain activity.","The MEL stablecoin retains its peg through the SYM token. Learn how Themelios tokenomics are redefining native blockchain currencies."]
-    each val,i in headers
-        h4= headers[i]
-        p= bodies[i] 
++main("learn")
+    +section(false)
+        h1.title Your Guide to Themelio
+        p.title-text A complete library of resources, articles, documentation, and information about Themelio and the future of minimal blockchains.
 
-+section(false)
-    h2 What is Themelio?
-    p  
-        | Themelio is a decentralized, public blockchain designed to serve as a low-level, stable, 
-        | and radically simple base layer for an application ecosystem. 
-        | Themelio’s goal is to ensure endogenous trust, which can be achieved 
-        | only through radical immutability. No governance process or developer
-        | updates can change the Themelio blockchain once it is launched, ensuring unprecedented trust in any 
-        | application or solution built on top.
-        | Three overarching features enable Themelio to power a paradigm shift in Web3: an improved UXTO model, a novel PoS consensus mechanism, and an algorithmic stablecoin not pegged to any government currency.
-    
-    span
-        a.pr-3(href="") Introduction to Themelio 
-        a(href="") Whitepaper
+    +section(true)
+        h2.section2-title Get Started
+        p.section2-text Welcome to Themelio, Web3's Root of Trust. Themelio is a blockchain built with one fundamental feature: immutability. The protocol can never be changed or upgraded, ensuring absolute trust by the developers and applications built on top that the architecture will always support decentralization and security.
+        - var headers =  ["Introduction to Themelio", "The Themelio Tech Stack", "MEL, the Trustless Stablecoin", "MEL, SYM, and Themelio's Tokenomics"]
+        - var bodies = ["Welcome to Themelio, the Root of Trust for Web3. Get familiar with the blockchain redefining trustless applications for the decentralized future.","Themelio's layer 1, standard protocols, and application layer work together to rebuild the foundation for trustless, decentralized use cases.","The Themelio ecosystem is powered by MEL, an algorithmic stablecoin not pegged to any global currency, but rather to on-chain activity.","The MEL stablecoin retains its peg through the SYM token. Learn how Themelios tokenomics are redefining native blockchain currencies."]
+        each val,i in headers
+            h4= headers[i]
+            p= bodies[i] 
 
-+section(true)
-    h2 Themelio’s Technology: A Deeper Look
-        - var headers =  ["Synkletos, Proof of Stake", "Breaking down MelVM"]
-        - var bodies = ["Synkletos is Themelio’s Proof of Stake architecture, designed to be resilient, secure, and unchanging.", "Welcome to MelVM, the execution layer of the Themelio tech stack. … (more info)"]
-    each val,i in headers
-        h4= headers[i]
-        p= bodies[i] 
+    +section(false)
+        h2 What is Themelio?
+        p().
+            Themelio is a decentralized, public blockchain designed to serve as a low-level, stable, 
+            and radically simple base layer for an application ecosystem. 
+            Themelio's goal is to ensure endogenous trust, which can be achieved 
+            only through radical immutability. No governance process or developer
+            updates can change the Themelio blockchain once it is launched, ensuring unprecedented trust in any 
+            application or solution built on top.
+            Three overarching features enable Themelio to power a paradigm shift in Web3: an improved UXTO model, a novel PoS consensus mechanism, and an algorithmic stablecoin not pegged to any government currency.
+        
+        span
+            a.pr-3(href="") Introduction to Themelio 
+            a(href="") Whitepaper
 
-    h3 Endogenous Trust
-    p The foundation of Themelio’s minimal blockchain. Endogenous trust describes the ability to trust that a blockchain network will behave in a particular way without needing to trust or know who is running it. Among many of today’s leading L1 blockchains, endogenous trust does not exist — protocols can be changed, updated, and altered through built-in mechanisms. Above all else, Themelio is architectured to endow the ecosystem built on top of it with endogenous trust. 
-    a(href="") Learn More
+    +section(true)
+        h2 Themelio's Technology: A Deeper Look
+            - var headers =  ["Synkletos, Proof of Stake", "Breaking down MelVM"]
+            - var bodies = ["Synkletos is Themelio's Proof of Stake architecture, designed to be resilient, secure, and unchanging.", "Welcome to MelVM, the execution layer of the Themelio tech stack. … (more info)"]
+        each val,i in headers
+            h4= headers[i]
+            p= bodies[i] 
 
-+section(false)
-    h3 Themelio Use Cases
-    p Themelio’s trustless architecture enables new paradigms for applications, use cases, and industries to be built. Explore what can be built on Themelio, and learn how to get started.
-    - var headers =  ["Applications on Themelio", "NFTs on Themelio"]
-    - var bodies = ["Explore the kinds of applications and use cases that can be built on top of Themelio."," Explore the kinds of applications and use cases that can be built on top of Themelio."]
-    each val,i in headers
-        h4= headers[i]
-        p= bodies[i] 
+        h3 Endogenous Trust
+        p The foundation of Themelio's minimal blockchain. Endogenous trust describes the ability to trust that a blockchain network will behave in a particular way without needing to trust or know who is running it. Among many of today's leading L1 blockchains, endogenous trust does not exist — protocols can be changed, updated, and altered through built-in mechanisms. Above all else, Themelio is architectured to endow the ecosystem built on top of it with endogenous trust. 
+        a(href="") Learn More
 
-+section(true)
-    h2 Whitepapers and Academic Publications
-    - var headers = ["Themelio: A stable blockchain for an unstable world","Themelio’s collusion-resistant consensus mechanism","Trustless stable cryptocurrency"]
-    each val,i in headers
-        div.mb-3
-                    h5.mb-1= headers[i]
-                    a.mb-3.font-weight-normal(style="font-size: 1rem" href="")   Read the Whitepaper
+    +section(false)
+        h3 Themelio Use Cases
+        p Themelio's trustless architecture enables new paradigms for applications, use cases, and industries to be built. Explore what can be built on Themelio, and learn how to get started.
+        - var headers =  ["Applications on Themelio", "NFTs on Themelio"]
+        - var bodies = ["Explore the kinds of applications and use cases that can be built on top of Themelio."," Explore the kinds of applications and use cases that can be built on top of Themelio."]
+        each val,i in headers
+            h4= headers[i]
+            p= bodies[i] 
 
-    - var headers = ["Melmint: Trustless Stable Cryptocurrency","Elasticoin: Low-Volatility Cryptocurrency with Proofs of Sequential Work", "Bitforest: a Portable and Efficient Blockchain-Based Naming System","Conifer: centrally-managed PKI with blockchain-rooted trust"]
-    - var bodies = ["An overview of Themelio’s groundbreaking decentralized stablecoin design. Read to learn about the math behind a coin that holds a stable value without pegs, oracles, or centralization.", "This paper describes Elasticoin, a way of issuing a token with stable minting cost that paved the way to the development of Melmint.", 'Bitforest, a naming system with decentralized trust, is a great example of a powerful "coin-driven" dApp built with UTXOs rather than smart contracts. This paper describes Bitforest on blockchains with no significant scripting capability; on Themelio Bitforest would not need an untrusted central "helper". Read as an example of the surprising versatility of UTXO blockchain semantics.'," Conifer is an earlier iteration of the Bitforest naming system. It has different semantics that allow most operations to happen off-chain, at the cost of introducing a tradeoff between performance and centralized trust. Read to understand how rooting trust onto a blockchain in an otherwise centralized and conventional system can greatly enhance security."]
-    - var papers = ["Yuhao Dong, Raouf Boutaba — Cryptoeconomic Systems 2020","Yuhao Dong, Raouf Boutaba — IEEE ICBC 2019"," Yuhao Dong, Woojung Kim, Raouf Boutaba — CNSM 2018","Yuhao Dong, Woojung Kim, Raouf Boutaba — IEEE Blockchain 2018"]
-    - var links  = ["https://assets.pubpub.org/1tfwdfex/01581339020290.pdf", "https://themelio.org/assets/elasticoin.pdf","http://rboutaba.cs.uwaterloo.ca/Papers/Conferences/2018/DongCNSM18.pdf","https://pdfs.semanticscholar.org/117f/0a4710543fea0d78a00f2221d52b0a47e7ee.pdf"]
-    span.mb-5
+    +section(true)
+        h2 Whitepapers and Academic Publications
+        - var headers = ["Themelio: A stable blockchain for an unstable world","Themelio's collusion-resistant consensus mechanism","Trustless stable cryptocurrency"]
         each val,i in headers
             div.mb-3
-                h4= headers[i]
-                p.mb-1= bodies[i]
-                a(href=links[i]) Read the Whitepaper
+                        h5.mb-1= headers[i]
+                        a.mb-3.font-weight-normal(style="font-size: 1rem" href="")   Read the Whitepaper
 
-| }}
-| @(include-template "../main.html")   
+        - var headers = ["Melmint: Trustless Stable Cryptocurrency","Elasticoin: Low-Volatility Cryptocurrency with Proofs of Sequential Work", "Bitforest: a Portable and Efficient Blockchain-Based Naming System","Conifer: centrally-managed PKI with blockchain-rooted trust"]
+        - var bodies = ["An overview of Themelio's groundbreaking decentralized stablecoin design. Read to learn about the math behind a coin that holds a stable value without pegs, oracles, or centralization.", "This paper describes Elasticoin, a way of issuing a token with stable minting cost that paved the way to the development of Melmint.", 'Bitforest, a naming system with decentralized trust, is a great example of a powerful "coin-driven" dApp built with UTXOs rather than smart contracts. This paper describes Bitforest on blockchains with no significant scripting capability; on Themelio Bitforest would not need an untrusted central "helper". Read as an example of the surprising versatility of UTXO blockchain semantics.'," Conifer is an earlier iteration of the Bitforest naming system. It has different semantics that allow most operations to happen off-chain, at the cost of introducing a tradeoff between performance and centralized trust. Read to understand how rooting trust onto a blockchain in an otherwise centralized and conventional system can greatly enhance security."]
+        - var papers = ["Yuhao Dong, Raouf Boutaba — Cryptoeconomic Systems 2020","Yuhao Dong, Raouf Boutaba — IEEE ICBC 2019"," Yuhao Dong, Woojung Kim, Raouf Boutaba — CNSM 2018","Yuhao Dong, Woojung Kim, Raouf Boutaba — IEEE Blockchain 2018"]
+        - var links  = ["https://assets.pubpub.org/1tfwdfex/01581339020290.pdf", "https://themelio.org/assets/elasticoin.pdf","http://rboutaba.cs.uwaterloo.ca/Papers/Conferences/2018/DongCNSM18.pdf","https://pdfs.semanticscholar.org/117f/0a4710543fea0d78a00f2221d52b0a47e7ee.pdf"]
+        span.mb-5
+            each val,i in headers
+                div.mb-3
+                    h4= headers[i]
+                    p.mb-1= bodies[i]
+                    a(href=links[i]) Read the Whitepaper
+

@@ -29,3 +29,23 @@
         return gen
     }
 
+mixin section(dark=false)
+    .section(class=(dark ? "section--darken" : "")+(attributes.class || ""))
+        div.section__inner.container
+            div.col.text--lead
+                block
+
+
+mixin main(page)
+    | @(define HEADER-FULL? #t)   
+    | @(define ACTIVE-PAGE '!{page})
+    | @define[BODY-CONTENT]{@list{
+    block 
+    | }}
+    | @(include-template "../main.html")   
+
+//- a mixin to make sure racket tags work properly
+mixin r
+    |
+    block 
+    |

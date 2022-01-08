@@ -1,37 +1,28 @@
-| @(define HEADER-FULL? #t)
-| @(define ACTIVE-PAGE 'home)
-| @define[BODY-CONTENT]{@list{
-
-mixin section(dark=false)
-    .section(class=(dark ? "section--darken" : "")+(attributes.class || ""))
-        div.section__inner.container
-            div.col.text--lead
-                block
-
-+section(false)
-    h4 The Themelio Tech Stack
-    h2 The Trustless Blockchain
-
-+section(true)
-    p Themelio is a minimal blockchain meaning it is designed to be as simple and immutable as possible. Though a minimal blockchain endows endogenous trust on a decentralized ecosystem, one disadvantage is limited functionality. Minimal blockchains, for example, lack powerful smart-contract systems.
-    p A minimal blockchain like Themelio only makes sense in a richly-layered, multi-functional ecosystem that provides tools to developers and clean utility to users without requiring a compromise of the base protocol. Themelio's ecosystem is built to fit this model:
-
-+section(false)
-    div Themelio Application Layer
-    div Themelio Standard Protocols
-    div Themelio Layer 1
+include ../utils/utils.pug
 
 
-+section(true)
-    - var bolds = ["Themelio's Layer 1", "Themelio Standard Protocols", "Themelio Application Layer"]
-    - var rest = ["is the simplest and most immutable part of the stack, providing endogenous trust to the ecosystem as a whole. This layer 1 architecture provides the foundation of the minimal blockchain", "create a 'middleware' for the Themelio ecosystem. This powerful, flexible, and upgradeable middleware is interacted with by developers to build expressive applications. The protocols are designed to change with the evolving needs of Web3 applications.", "supports a growing ecosystem of dapps while relying on the underlying layer 1 to provide absolute trust, decentralization, and security. The application layer is executed within the MelVM, endowing additional power and throughput."]
-    each _,i in bolds
-        div
-            b.mr-1= bolds[i]
-            span= rest[i]
++main("learn2")
+    +section(false)
+        h4 The Themelio Tech Stack
+        h2 The Trustless Blockchain
 
-div Up Next: 
-div MEL, SYM, and Themelio's Tokenomics
+    +section(true)
+        p Themelio is a minimal blockchain meaning it is designed to be as simple and immutable as possible. Though a minimal blockchain endows endogenous trust on a decentralized ecosystem, one disadvantage is limited functionality. Minimal blockchains, for example, lack powerful smart-contract systems.
+        p A minimal blockchain like Themelio only makes sense in a richly-layered, multi-functional ecosystem that provides tools to developers and clean utility to users without requiring a compromise of the base protocol. Themelio's ecosystem is built to fit this model:
 
-| }}
-| @(include-template "../main.html")   
+    +section(false)
+        div Themelio Application Layer
+        div Themelio Standard Protocols
+        div Themelio Layer 1
+
+
+    +section(true)
+        - var bolds = ["Themelio's Layer 1", "Themelio Standard Protocols", "Themelio Application Layer"]
+        - var rest = ["is the simplest and most immutable part of the stack, providing endogenous trust to the ecosystem as a whole. This layer 1 architecture provides the foundation of the minimal blockchain", "create a 'middleware' for the Themelio ecosystem. This powerful, flexible, and upgradeable middleware is interacted with by developers to build expressive applications. The protocols are designed to change with the evolving needs of Web3 applications.", "supports a growing ecosystem of dapps while relying on the underlying layer 1 to provide absolute trust, decentralization, and security. The application layer is executed within the MelVM, endowing additional power and throughput."]
+        each _,i in bolds
+            div
+                b.mr-1= bolds[i]
+                span= rest[i]
+
+    div Up Next: 
+    div MEL, SYM, and Themelio's Tokenomics

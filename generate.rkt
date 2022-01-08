@@ -41,8 +41,21 @@
      (l10n-url ,str)))
 
 ;;; (displayln "HTML compilation...")
+
+
+(generate-all "company.html")
+(generate-all "resources.html")
+(generate-all "roadmap.html")
+(generate-all "developers.html")
 (generate-all "index.html")
-; (generate-all "developers.html")
-;;; (generate-all "resources.html")
-;;; (generate-all "roadmap.html")
+(generate-all "learn.html")
+(generate-all "learn1.html")
+(generate-all "learn2.html")
+(generate-all "learn3.html")
+(generate-all "learn4.html")
+(generate-all "learn5.html")
+(generate-all "learn6.html")
+(generate-all "faq.html")
+(generate-all "samples.html")
+
 (displayln "HTML compilation complete")
