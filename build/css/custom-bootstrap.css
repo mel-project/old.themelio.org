@@ -48,6 +48,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  letter-spacing: -0.01em;
 }
 
 article,
@@ -140,11 +141,11 @@ dd {
 blockquote {
   margin: 0 0 1rem;
 }
-
+/* 
 b,
 strong {
   font-weight: bolder;
-}
+} */
 
 small {
   font-size: 80%;
@@ -10365,8 +10366,8 @@ body {
 h1,
 h2,
 h3 {
-  font-weight: 500;
-  font-family: 'Overpass', sans-serif;
+  /* font-weight: 400; */
+  /* font-family: 'Overpass', sans-serif; */
   letter-spacing: -0.04em;
 }
 
