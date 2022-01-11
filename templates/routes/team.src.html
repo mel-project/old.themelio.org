@@ -1,0 +1,92 @@
+@(define HEADER-FULL? #f)
+@(define ACTIVE-PAGE 'team)
+@(define TITLE "Team")
+
+@(define (bio-once #:name name #:aka [aka #f] #:title title
+#:blurb [blurb "some blurb"]
+#:website [website #f]
+#:github [github #f]
+#:twitter [twitter #f]
+#:telegram [telegram #f]
+#:linkedin [linkedin #f])
+@list{
+<img src="images/team/eric.jpg" class="team-avatar">
+<h3>@|name|</h3>
+@(if aka @list{<small style="margin-top: -0.5rem; display: block">aka Yuhao Dong, nullchinchilla</small>} "")
+<span class="bio-title">@|title|</span>
+<hr>
+<p>@|blurb|</p>
+@(if website @list{<a class="bio-icon fas fa-globe" href="@|website|" target="_blank" rel="noopener noreferrer"></a>} "")
+@(if github @list{<a class="bio-icon fab fa-github" href="@|github|" target="_blank" rel="noopener noreferrer"></a>} "")
+@(if twitter @list{<a class="bio-icon fab fa-twitter" href="@|twitter|" target="_blank" rel="noopener noreferrer"></a>} "")
+@(if telegram @list{<a class="bio-icon fab fa-telegram" href="@|telegram|" target="_blank" rel="noopener noreferrer"></a>} "")
+@(if linkedin @list{<a class="bio-icon fab fa-linkedin" href="@|linkedin|" target="_blank" rel="noopener noreferrer"></a>} "")
+}
+)
+
+@define[BODY-CONTENT]{@list{
+<div class="section">
+    <div class="section__inner container">
+        <div class="row">
+            <div class="col">
+                <h1>Team</h1>
+            </div>
+            <div class="col">
+                <p>We are on a mission to build a permanent root of trust for a new paradigm of faster, more usable, and far more secure decentralized apps. We envision a future where the true potential of public blockchains is unlocked and secure online interaction is freed from dependence on unaccountable centralization.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section section--darken">
+    <div class="section__inner container">
+        <div class="row">
+            <div class="col-xl-3 col-lg-6 bio-section">
+                @(bio-once #:name "Eric Tung" #:aka "aka Yuhao Dong, nullchinchilla"
+                #:title "Founder, CEO"
+                #:blurb "Cypherpunk, polymath, and security researcher. Founder of Geph, a VPN with unique cryptography-powered privacy protection and censorship circumvention."
+                #:website "https://nullchinchilla.me"
+                #:github "https://github.com/nullchinchilla"
+                #:twitter "https://twitter.com/nullchinchilla"
+                #:telegram "https://t.me/nullchinchilla"
+                #:linkedin "https://www.linkedin.com/in/yuhao-dong2021/")
+            </div>
+            <div class="col-xl"></div>
+            <div class="col-xl"></div>
+        </div>
+        <div class="row">
+            <div class="col-xl-3 col-lg-6 bio-section">
+                <img src="images/team/meade.jpg" class="team-avatar">
+                <h3>Meade Kincke</h3>
+                <span class="bio-title">Head of DevOps</span>
+                <hr>
+                <p>Blah blah blah blah.</p>
+                <a class="bio-icon fab fa-github" href="https://github.com/thedarkula"></a>
+            </div>
+            <div class="col-xl-3 col-lg-6 bio-section">
+                <img src="images/team/jay.jpg" class="team-avatar">
+                <h3>Jay Butera</h3>
+                <span class="bio-title">Compiler Engineer</span>
+                <hr>
+                <p>Blah blah blah blah.</p>
+                <a class="bio-icon fab fa-github" href="https://github.com/jaybutera"></a>
+            </div>
+            <div class="col-xl-3 col-lg-6 bio-section">
+                <img src="images/team/shane.jpg" class="team-avatar">
+                <h3>Shane Mendez</h3>
+                <span class="bio-title">Software Engineer</span>
+                <hr>
+                <p>Blah blah blah blah.</p>
+                <a class="bio-icon fab fa-github" href="https://github.com/sshmendez"></a>
+            </div>
+            <div class="col-xl-3 col-lg-6 bio-section">
+                <img src="images/team/shane.jpg" class="team-avatar">
+                <h3>Marco Serrano</h3>
+                <span class="bio-title">Software Engineer</span>
+                <hr>
+                <p>Blah blah blah blah.</p>
+            </div>
+        </div>
+    </div>
+</div>}}
+@(include-template "../main.html")

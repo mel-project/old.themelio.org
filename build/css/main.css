@@ -297,10 +297,6 @@ footer {
   display: inline-block;
 }
 
-.team-avatar {
-  border-radius: 100%;
-}
-
 .rethink-point {
   border: 0.1rem solid black;
   border-radius: 1rem;
@@ -387,4 +383,41 @@ footer {
 .learn-more {
   padding: 0.5rem;
   font-weight: 500;
+}
+
+.team-avatar {
+  border-radius: 100%;
+  width: 75%;
+  max-width: 50vw;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.bio-section {
+  padding: 2rem;
+}
+
+.bio-section h3 {
+  height: 2rem;
+  display: block;
+}
+
+.bio-title {
+  font-variant: small-caps;
+  text-transform: lowercase;
+  font-weight: 600;
+  opacity: 0.8;
+  font-size: 1.1rem;
+}
+
+.bio-icon {
+  font-size: 1.5rem;
+  color: var(--dark);
+  opacity: 0.7;
+  margin: 0.2rem;
+}
+
+.bio-icon:hover {
+  text-decoration: none;
+  opacity: 1;
 }
