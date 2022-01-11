@@ -110,7 +110,7 @@ index/last:
     This means that although the tooling is far from complete, we have a feature-complete persistent mainnet and testnet running. You can participate today by running a <a href="https://docs.themelio.org/try-themelio/my-first-tx/">thin client</a> or <a href="https://docs.themelio.org/try-themelio/core-cmd-tools/">full node</a>.
     </p>
     <p class="text--lead">
-    Stay tuned for a feature-complete GUI wallet in Q4 2021!
+    Stay tuned for a feature-complete GUI wallet in Q1 2022!
     </p>
     <p class="text--lead">
     We also welcome you to our <a href="https://discord.gg/2HmurW9T9K">Discord channel</a>. If you're interested in following our development, don't forget to star our <a href="https://github.com/themeliolabs/themelio-core">GitHub repository</a>!
@@ -143,7 +143,7 @@ roadmap/phases:
     </p>
     <p class="text--lead">Later into the betanet period, we will also launch <b>token bridge contracts</b> between Themelio and Ethereum. These contracts will allow Themelio tokens like the mel and sym to be traded in the Ethereum DeFi ecosystem as ERC-20 tokens, furthering the potential of financial instruments based on an endogenous stablecoin. This will also let our main cryptocurrency, the mel, to start trading on major decentralized cryptocurrency exchanges, such as Uniswap.</p>
     <p class="text--lead">
-    Finally, we plan our <b>stable release</b> some time in early 2022. This will permanently freeze the protocol specification, while permitting no consensus-critical updates unless to fix critical vulnerabilities. The betanet will shut down, with its history being entirely inherited.
+    Finally, we plan our <b>stable release</b> some time in early 2023. This will permanently freeze the protocol specification, while permitting no consensus-critical updates unless to fix critical vulnerabilities. The betanet will shut down, with its history being entirely inherited.
     </p>
   zh-CN: <h1>研发的各个阶段</h1>
     <p class="text--lead">
@@ -250,7 +250,7 @@ roadmap/timeline:
     </div>
     <div class="row mb-3">
     <div class="col-3 text-right text-secondary text--normweight">
-    Q2-Q4&nbsp;&nbsp;<b class="font-weight-bold">2021</b>
+    Q1-Q4&nbsp;&nbsp;<b class="font-weight-bold">2022</b>
     </div>
     <div class="col">
     <b>Token launch and betanet refinement.</b> Both mels (currency) and syms (consensus stakes) on the betanet will be distributed through a combination of airdrops and DEX-based token sales. We will also use this time to thoroughly audit the protocol, fixing any problems through protocol updates, in preparation for the release launch.
