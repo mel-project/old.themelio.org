@@ -113,14 +113,14 @@ index/learn-about-themelio:
   zh-CN: 'empty'
 
 index/introducing-melmint:
-  en-US: "MEL: cryptocurrency done right"
+  en-US: "Mel: cryptocurrency done&nbsp;right"
   zh-CN: 'empty'
 
 index/melmint-summary:
-  en-US: "<p>MEL is Themelio’s native cryptocurrency. Unlike traditional cryptocurrencies (such as Bitcoin and Ether), MEL keeps a stable value over time. This makes MEL a much more useful currency. Unlike fiat stablecoins, MEL is fully trustless: it is not pegged to any government-backed currency. </p>
+  en-US: "<p>Mel is Themelio’s native cryptocurrency. Unlike traditional cryptocurrencies (such as bitcoin and ether), mel keeps a stable value over time. This makes mel a much more useful currency. Unlike fiat stablecoins, mel is fully trustless: it is not pegged to any government-backed currency. Behind all this is Melmint, a groundbreaking stabilization mechanism based on peer-reviewed research.</p>
   
-<p>Behind all this is Melmint, a groundbreaking stabilization mechanism based on peer-reviewed research.
-SYM is Themelio’s separate proof-of-stake token that powers Themelio’s consensus. Unlike MEL, it has a fixed supply and a fluctuating price that reflects Themelio’s network valuation. It also plays an important role in Melmint as a “backing” asset that stabilizes MEL.</p>"
+<p>
+Sym is Themelio’s separate proof-of-stake token that powers Themelio’s consensus. Unlike mel, it has a fixed supply and a fluctuating price that reflects Themelio’s network valuation. It also plays an important role in Melmint as a “backing” asset that stabilizes mel.</p>"
   zh-CN: '!MISSING'
 
 index/themelio-tokenomics:

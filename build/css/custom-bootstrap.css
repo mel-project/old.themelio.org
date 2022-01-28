@@ -26,7 +26,7 @@
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
-  --dark: #343a40;
+  --dark: #383c3c;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -68,7 +68,7 @@ body {
   margin: 0;
   font-family: 'Public Sans', sans-serif;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 350;
   line-height: 1.5;
   color: #212529;
   text-align: left;
@@ -369,9 +369,9 @@ template {
   display: none;
 }
 
-[hidden] {
+/* [hidden] {
   display: none !important;
-}
+} */
 
 h1,
 h2,
@@ -392,23 +392,23 @@ h6,
 
 h1,
 .h1 {
-  font-size: 2.5rem;
+  font-size: 2.7rem;
 }
 @media (max-width: 1200px) {
   h1,
   .h1 {
-    font-size: calc(1.375rem + 1.5vw);
+    font-size: calc(1.4rem + 2vw);
   }
 }
 
 h2,
 .h2 {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 @media (max-width: 1200px) {
   h2,
   .h2 {
-    font-size: calc(1.325rem + 0.9vw);
+    font-size: calc(1.375rem + 1.2vw);
   }
 }
 
@@ -10356,19 +10356,11 @@ a.text-dark:focus {
   }
 }
 body {
-  color: #383c3c;
+  color: var(--dark);
   line-height: 1.6;
   background-color: #f8fbf8;
   /*background-color: #000000;
     color: #eeeeee;*/
-}
-
-h1,
-h2,
-h3 {
-  /* font-weight: 400; */
-  /* font-family: 'Overpass', sans-serif; */
-  letter-spacing: -0.04em;
 }
 
 .primer-row p {

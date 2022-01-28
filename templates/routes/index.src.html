@@ -29,17 +29,17 @@
         </div>
         <div class="row">
             <div class="rethink-point col-lg">
-                <img class="rethink-icon" />
+                <img class="rethink-icon" src="images/smillust/keyhole.png" />
                 <div>
-                    <h4>Trust the protocol&mdash;<br>don't trust people</h4>
+                    <h4>Trust the protocol&mdash;<br>don&rsquo;t trust people</h4>
                     <p>The killer feature of blockchains has always been <a href="https://medium.com/themelio/the-killer-feature-of-blockchains-bf4c3c25b298">endogenous trust</a>: security based on incentives and cryptography, not the arbitrary decisions of developers or ill-defined user communities. Themelio finally delivers on this long-awaited revolution in trust.</p>
                 </div>
             </div>
             <div class="rethink-point col-lg">
-                <img class="rethink-icon" />
+                <img class="rethink-icon" src="images/smillust/fork.png" />
                 <div>
                     <h4>Stop worrying about upgrades and forks</h4>
-                    <p>Modifying a blockchain's core validation rules <a href="https://nullchinchilla.me/posts/against-blockchain-governance.html">destroys endogenous trust</a>. So Themelio is designed to not change at all. Not only does this get rid of the exhausting, security-ruining politics of "blockchain governance", it also frees you to develop deep technology stacks without worrying about the base layer changing.</p>
+                    <p>Modifying a blockchain's core validation rules <a href="https://nullchinchilla.me/posts/against-blockchain-governance.html">destroys endogenous trust</a>. So Themelio is designed to not change at all. Not only does this get rid of the exhausting, security-ruining politics of &ldquo;blockchain governance&rdquo;, it also frees you to develop deep technology stacks without worrying about the base layer changing.</p>
                 </div>
             </div>
         </div>
@@ -52,31 +52,15 @@
                 </div>
             </div>
             <div class="rethink-point col-lg">
-                <img class="rethink-icon" />
+                <img class="rethink-icon" src="images/smillust/scalability.png" />
                 <div>
                     <h4>A paradigm shift in scalability and usability</h4>
                     <p>Themelio does not try to scale through complex layer-1 mechanisms that further encourage tight coupling to apps and damage endogenous trust. Instead, an <a href="https://docs.themelio.org/basic-concepts/02-state/">elegant, high-performance UTXO data model</a> with uniquely powerful covenant scripts provides a minimal yet flexible foundation for building <a>infinitely scalable</a> upper-layer protocols and applications. </p>
                 </div>
             </div>
         </div>
-        <!-- <div class="row">
-            <div class="col">
-                <h4>@(l10n "common/immutability")</h4>
-                <p class="">@(l10n "index/immutability-summary")</p>
-            </div>
-            <div class="col">
-                <h4>@(l10n "common/minimal-governance")</h4>
-                <p class="">@(l10n "index/minimal-governance-summary")</p>
-            </div>
-            <div class="col">
-                <h4>@(l10n "common/vertical-scalability")</h4>
-                <p class="">@(l10n "index/vertical-scalability-summary")</p>
-            </div>
-        </div> -->
-        <div class="designer-comment">
-            <p>The idea is to draw little icons similar to those on <a href="https://celestia.org/">Celestia's website</a>.</p>
-        </div>
     </div>
+</div>
 </div>
 
 <!--
@@ -103,17 +87,15 @@
 <div class="section">
     <div class="section__inner container">
         <div class="row">
-            <div class="col-12 col-lg-3">
+            <div class="col-12 col-lg-6">
                 (insert infographic)
                 <div class="designer-comment">
                     <p>I am not sure what sort of infographic would fit here. </p>
                 </div>
             </div>
-            <div class="col-12 col-lg-9">
-                <h3>@(l10n "index/introducing-melmint")</h3>
+            <div class="col-12 col-lg-6">
+                <h2>@(l10n "index/introducing-melmint")</h2>
                 @(l10n "index/melmint-summary")
-
-                <a href="" class="more-link">@(l10n "index/themelio-tokenomics")</a>
             </div>
         </div>
     </div>
@@ -121,7 +103,7 @@
 
 
 
-<div class="section">
+<div class="section section--darken">
     <div class="section__inner container">
         <div class="row">
             <div class="col-12 pb-3">
@@ -129,35 +111,43 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg">
-                <h4>Participate</h4>
-                <p>
-                    Though still in alpha, Themelio is fully running and ready for your participation.</p>
+            <div class="col">
+                <div class="tabset">
+                    <input type="radio" name="tabset_1" id="tabset_1_participate" hidden aria-hidden="true" checked>
+                    <input type="radio" name="tabset_1" id="tabset_1_build" hidden aria-hidden="true">
+                    <input type="radio" name="tabset_1" id="tabset_1_learn" hidden aria-hidden="true">
+                    <ul hidden aria-hidden="true">
+                        <li><label for="tabset_1_participate">Participate</label></li>
+                        <li><label for="tabset_1_build">Build</label></li>
+                        <li><label for="tabset_1_learn">Learn</label></li>
+                    </ul>
+                    <div>
+                        <section>
+                            <h3>Participate</h3>
+                            <p>Though still in alpha, Themelio is fully running and ready for your participation.</p>
+                            <p>Run full-featured thin clients or nodes, both on Themelio’s testnet and on its prototype mainnet.</p>
+                            <p>Official wallets let you store and transact in MEL, SYM, and any other Themelio-based token. You can even mint your own MEL.</p>
+                        </section>
+                        <section>
+                            <h3>Build</h3>
+                            <p>Write expressive covenants on Themelio with Melodeon, our purely functional covenant language. </p>
+                            <p>Make your own token with a single command, and use it seamlessly in our official wallets.</p>
+                            <p>Themelio’s paradigm shift spawns a new generation of off-chain apps with on-chain security that you can explore.</p>
+                        </section>
+                        <section>
+                            <h3>Learn</h3>
+                            <p>The Learn page contains everything you need to get started with Themelio.</p>
 
-                <p>Run full-featured thin clients or nodes, both on Themelio’s testnet and on its prototype mainnet.</p>
+                            <p>We also have comprehensive documentation of Themelio’s technologies, including in-depth whitepapers on consensus, Melmint, and more.</p>
 
-                <p>Official wallets let you store and transact in MEL, SYM, and any other Themelio-based token. You can even mint your own MEL.
-                </p>
+                            <p>Follow our latest developments on our blog.</p>
+                        </section>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg">
-                <h4>Build</h4>
-                <p>Write expressive covenants on Themelio with Melodeon, our purely functional covenant language. </p>
-
-                <p>Make your own token with a single command, and use it seamlessly in our official wallets.</p>
-
-                <p>Themelio’s paradigm shift spawns a new generation of off-chain apps with on-chain security that you can explore.</p>
+            <div class="col">
+                <img class="img-fluid" src="images/smillust/placeholder.png" />
             </div>
-            <div class="col-lg">
-                <h4>Learn</h4>
-                <p>The Learn page contains everything you need to get started with Themelio.</p>
-
-                <p>We also have comprehensive documentation of Themelio’s technologies, including in-depth whitepapers on consensus, Melmint, and more.</p>
-
-                <p>Follow our latest developments on our blog.</p>
-            </div>
-        </div>
-        <div class="designer-comment">
-            <p>I don't know what's the best way to layout this information. I feel like a carousel w/ infographics for each page, similar to the <a href="https://eos.io/">"Why EOSIO" section of EOSIO's website</a>, seems reasonable?</p>
         </div>
     </div>
 </div>
