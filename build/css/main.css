@@ -11,17 +11,12 @@
   }
 }
 
-@font-face {
-  font-family: 'RubikVar';
-  src: url('../assets/Rubik[wght].ttf');
-}
-
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: 'RubikVar';
+  font-family: 'Rubik';
   color: #003d2f;
   letter-spacing: -0.015em;
 }
@@ -38,17 +33,17 @@ h5 {
 }
 
 .btn {
-  font-family: 'RubikVar';
+  font-family: 'Rubik';
   border-radius: 1rem;
 }
 
 :lang(zh-CN) {
-  font-family: 'Noto Sans SC', sans-serif;
+  font-family: var(--font-family-sans-serif), 'Noto Sans SC', sans-serif;
 }
 
 :lang(zh-HK) {
-  font-family: 'Chiron Sans HK Pro WS', 'Noto Sans HK', 'Noto Sans TW',
-    sans-serif;
+  font-family: var(--font-family-sans-serif), 'Chiron Sans HK Pro WS',
+    'Noto Sans HK', 'Noto Sans TW', sans-serif;
 }
 
 /* Tabs */

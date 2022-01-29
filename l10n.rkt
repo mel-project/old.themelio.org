@@ -5,17 +5,17 @@
 
 ;; OpenCC conversion
 (define (cn->hk str)
-  str #;(with-input-from-string str
-          (lambda()
-            (with-output-to-string
-              (lambda()
-                (system "opencc -c s2hk.json"))))))
+  (with-input-from-string str
+    (lambda()
+      (with-output-to-string
+        (lambda()
+          (system "opencc -c s2hk.json"))))))
 (define (hk->cn str)
-  str #;(with-input-from-string str
-          (lambda()
-            (with-output-to-string
-              (lambda()
-                (system "opencc -c hk2s.json"))))))
+  (with-input-from-string str
+    (lambda()
+      (with-output-to-string
+        (lambda()
+          (system "opencc -c hk2s.json"))))))
 
 ;; big mapping
 (define-runtime-path l10n-yaml "l10n.yaml")
@@ -30,9 +30,9 @@
         (values key
                 (cond
                   [(not (hash-has-key? bindings "zh-HK")) (hash-set bindings "zh-HK"
-                                                                    (cn->hk (hash-ref bindings "zh-CN")))]
+                                                                    (cn->hk (hash-ref bindings "zh-CN" "!MISSING")))]
                   [(not (hash-has-key? bindings "zh-CN")) (hash-set bindings "zh-CN"
-                                                                    (hk->cn (hash-ref bindings "zh-HK")))]
+                                                                    (hk->cn (hash-ref bindings "zh-HK" "!MISSING")))]
                   [else bindings]))))))
 
 
@@ -41,4 +41,4 @@
 
 ;; Look up a value
 (define (l10n-lookup str lang)
-  (hash-ref (hash-ref l10n-mapping str)  lang "!MISSING!"))
+  (hash-ref (hash-ref l10n-mapping str (hash))  lang "!MISSING!"))
