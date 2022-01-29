@@ -107,7 +107,7 @@
           </div>
           <div class="row">
               <div class="rethink-point col-lg">
-                  <img class="rethink-icon" />
+                  <img class="rethink-icon" src="images/smillust/mel-small.png" />
                   <div>
                       <h4>Revolutionary non-fiat stablecoin</h4>
                       <p class="">Themelio’s base currency, MEL, is the <a href="https://docs.themelio.org/whitepapers/melmint-v2/">world’s first truly decentralized stablecoin</a>, free of any trusted issuers or oracles. MEL demolishes the false dichotomy between trustless issuance and stable value, promising a fundamental breakthrough in DeFi applications.</p>
@@ -151,10 +151,7 @@
       <div class="section__inner container">
           <div class="row">
               <div class="col-12 col-lg-6">
-                  (insert infographic)
-                  <div class="designer-comment">
-                      <p>I am not sure what sort of infographic would fit here. </p>
-                  </div>
+                  <img class="img-fluid p-3" src="images/smillust/mel-big.png" style="mix-blend-mode: darken;">
               </div>
               <div class="col-12 col-lg-6">
                   <h2>Mel: cryptocurrency done&nbsp;right</h2>
@@ -181,7 +178,7 @@
                       <input type="radio" name="tabset_1" id="tabset_1_build" hidden aria-hidden="true">
                       <input type="radio" name="tabset_1" id="tabset_1_learn" hidden aria-hidden="true">
                       <ul hidden aria-hidden="true">
-                          <li><label for="tabset_1_participate">Participate</label></li>
+                          <li><label for="tabset_1_participate" onclick="document.getElementById('tabset-image').src='images/smillust/placeholder.png'">Participate</label></li>
                           <li><label for="tabset_1_build">Build</label></li>
                           <li><label for="tabset_1_learn">Learn</label></li>
                       </ul>
@@ -210,20 +207,24 @@
                   </div>
               </div>
               <div class="col">
-                  <img class="img-fluid" src="images/smillust/placeholder.png" />
+                  <img id="tabset-image" class="img-fluid p-5" src="images/smillust/placeholder.png" style="mix-blend-mode: darken;" />
               </div>
           </div>
       </div>
   </div>
 
-  <div class="section section--darken" id="community-sect">
+  <div class="section" id="community-sect">
       <div class="section__inner container">
           <div class="row">
-              <div class="col-12 col-lg-6">
+              <div class="col-lg-2"></div>
+              <div class="col text-center">
                   <h2>Join our community</h2>
                   <p class="text--lead">Be part of a growing community of global developers, innovators, and users helping us realize Themelio's vision.</p>
               </div>
-              <div class="col-12 col-lg-6">
+              <div class="col-lg-2"></div>
+          </div>
+          <div class="row">
+              <div class="col">
                   <a class="community-card" href="https://discord.gg/VedNp7EXFc">
                       <div class="community-icon">
                           <img src='images/social_media/discord.png'>
@@ -233,6 +234,8 @@
                           <p>Ask questions, chat with global community members, and get technical help from developers.</p>
                       </div>
                   </a>
+              </div>
+              <div class="col">
                   <a class="community-card" href="https://t.me/themeliolabs">
                       <div class="community-icon">
                           <img src='images/social_media/telegram.png'>
@@ -242,6 +245,10 @@
                           <p>Another place to talk about Themelio! Content is synchronized with Discord, so just pick whatever platform you prefer.</p>
                       </div>
                   </a>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col">
                   <a class="community-card" href="https://twitter.com/themeliolabs">
                       <div class="community-icon">
                           <img src='images/social_media/twitter.png'>
@@ -251,6 +258,8 @@
                           <p>Follow @themeliolabs on Twitter to get the latest updates from the Themelio team!</p>
                       </div>
                   </a>
+              </div>
+              <div class="col">
                   <a class="community-card" href="https://github.com/themeliolabs/">
                       <div class="community-icon">
                           <img src='images/social_media/github.png'>
@@ -265,29 +274,30 @@
       </div>
   </div>
 
-  <div class="section section" id="blog-sect">
+  <div class="section section section--darken" id="blog-sect">
       <div class="section__inner container">
           <div class="row">
               <div class="col">
                   <h2>Latest posts from our blog</h2>
-                  <div id="medium-widget"></div>
-                  <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-                  <script>MediumWidget.Init({ renderTo: '#medium-widget', params: { "resource": "https://medium.com/themelio", "postsPerLine": 2, "limit": 4, "picture": "small", "fields": ["description", "author", "claps", "publishAt"], "ratio": "landscape" } })</script>
+                  <rssapp-wall id="XBZoy5LUiQA6UTZM"></rssapp-wall>
+                  <script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
 
               </div>
           </div>
       </div>
   </div>
 
-  <div class="section section--darken" id="team-sect">
+  <div class="section" id="team-sect">
       <div class="section__inner container">
           <div class="row">
-              <div class="col-lg-8">
+              <div class="col-lg"></div>
+              <div class="col-lg-8 text-center">
                   <h2>A visionary founder, top engineers, and industry-leading partners.</h2>
                   <a href="team.html" class="btn btn-outline-primary btn-lg">
                       View our team
                   </a>
               </div>
+              <div class="col-lg"></div>
           </div>
       </div>
   </div>
@@ -425,57 +435,62 @@
   </div> -->
 
 
-  <footer class="container" id="footer">
-    <style>
-        img.social-media-icon {
-            max-width: 4em;
-        }
+  <footer id="footer">
+    <div class="container">
+        <style>
+            img.social-media-icon {
+                max-width: 4em;
+            }
 
-    </style>
-    <div class="row">
-        <div class="col-lg mb-3">
-            <h5><b>Updates</b></h5>
-            <p>We send out periodic emails with what&rsquo;s new for Themelio.</p>
-            <!-- Begin Mailchimp Signup Form -->
-            <div id="mc_embed_signup">
-                <form action="https://pm.us20.list-manage.com/subscribe/post?u=d1fa068da18aba6d2e0e0dc79&amp;id=61a9213385" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
-                        <div class="mc-field-group form-group">
-                            <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="your&#x40;email.com">
-                            <small class="form-text text-muted">We never share your email with other people.</small>
-                        </div>
-                        <div id="mce-responses" class="clear form-group">
-                            <div class="response" id="mce-error-response" style="display:none"></div>
-                            <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d1fa068da18aba6d2e0e0dc79_61a9213385" tabindex="-1" value=""></div>
-                        <div class="clear form-group">
-                            <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-dark">
-                                Subscribe
-                            </button>
-                        </div>
-                    </div>
-                </form>
+        </style>
+        <div class="row">
+            <div class="col-lg-1">
+                <img src="images/logo-only-bw.png" style="max-width: 48px; mix-blend-mode: lighten; opacity: 0.9">
             </div>
-        </div>
-        <div class="col-lg"></div>
-        <div class="col-lg">
-            <p class="text-muted">
-                Themelio Labs
-            </p>
-            <p class="text-muted">
-                8 The Green, Ste A<br>
-                Dover, DE 19901
-            </p>
-            <p class="text--normweight">
-                <a href="https://github.com/themeliolabs/" target="_blank" rel="noopener">GitHub</a> ·
-                <a href="https://medium.com/themelio" target="_blank" rel="noopener">Medium</a> ·
-                <a href="https://discord.gg/VedNp7EXFc" target="_blank" rel="noopener">Discord</a> ·
-                <a href="https://www.linkedin.com/company/themelio-labs" target="_blank" rel="noopener">LinkedIn</a>
-            </p>
-            <hr>
-            <h5><b>Partners</b></h5>
-            <p><a href="https://polychain.capital" target="_blank" rel="noopener"><img src="images/polychain.png" style="width: 150px"></a></p>
+            <div class="col-lg mb-3">
+                <h4>Updates</h4>
+                <p>We send out periodic emails with what&rsquo;s new for Themelio.</p>
+                <!-- Begin Mailchimp Signup Form -->
+                <div id="mc_embed_signup">
+                    <form action="https://pm.us20.list-manage.com/subscribe/post?u=d1fa068da18aba6d2e0e0dc79&amp;id=61a9213385" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <div class="mc-field-group form-group">
+                                <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="your&#x40;email.com">
+                                <small class="form-text text-muted">We never share your email with other people.</small>
+                            </div>
+                            <div id="mce-responses" class="clear form-group">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div> <!-- real people should not fill this in and expect good things - do not r emove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d1fa068da18aba6d2e0e0dc79_61a9213385" tabindex="-1" value=""></div>
+                            <div class="clear form-group">
+                                <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg"></div>
+            <div class="col-lg">
+                <p class="text-muted">
+                    Themelio Labs
+                </p>
+                <p class="text-muted">
+                    8 The Green, Ste A<br>
+                    Dover, DE 19901
+                </p>
+                <p class="text--normweight">
+                    <a href="https://github.com/themeliolabs/" target="_blank" rel="noopener">GitHub</a> ·
+                    <a href="https://medium.com/themelio" target="_blank" rel="noopener">Medium</a> ·
+                    <a href="https://discord.gg/VedNp7EXFc" target="_blank" rel="noopener">Discord</a> ·
+                    <a href="https://www.linkedin.com/company/themelio-labs" target="_blank" rel="noopener">LinkedIn</a>
+                </p>
+                <hr>
+                <h5><b>Partners</b></h5>
+                <p><a href="https://polychain.capital" target="_blank" rel="noopener"><img src="images/polychain.png" style="width: 150px"></a></p>
+            </div>
         </div>
     </div>
 </footer>

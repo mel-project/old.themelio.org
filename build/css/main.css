@@ -19,11 +19,27 @@
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   font-family: 'RubikVar';
-  font-weight: 420;
   color: #003d2f;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.015em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 400;
+}
+
+h5 {
+  font-weight: 500;
+}
+
+.btn {
+  font-family: 'RubikVar';
+  border-radius: 1rem;
 }
 
 :lang(zh-CN) {
@@ -344,6 +360,26 @@ select {
 footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+footer * {
+  color: var(--white) !important;
+}
+
+footer .text-muted {
+  color: var(--white) !important;
+  opacity: 0.8;
+}
+
+footer .btn {
+  background-color: #00be92;
+  color: var(--white) !important;
+}
+
+footer > div > div > div {
+  padding-bottom: 2rem;
 }
 
 .footer__logo {
@@ -428,19 +464,22 @@ footer {
 }
 
 .community-card {
-  border: 1px solid #ccc;
+  border: 1px solid var(--primary-color);
   border-radius: 1rem;
-  margin: 0.5rem;
-  padding: 1rem;
-  padding-bottom: 0.5rem;
+  margin: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 2rem;
   display: flex;
   flex-direction: row;
   color: var(--dark);
+  background-color: #f2f7f2;
+  height: 13rem;
 }
 
 .community-card:hover {
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .community-icon {
