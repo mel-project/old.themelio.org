@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link href="" rel="icon">
-  <link href="css/custom-bootstrap.css" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg==" crossorigin="anonymous" defer></script>
 
@@ -23,23 +22,47 @@
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700" rel="stylesheet">
 </head>
 
+@(define (dropdown name mapping)
+@list{
+<span class="dropdown">
+  <a class="inactive dropdown-toggle" target="_blank" rel="noopener" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">@|name|</a>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    @(for/list ([k mapping])
+    @list{<a href="@(cdr k)">@(car k)</a>})
+  </div>
+</span>}
+)
+
 @define[NAVBAR]{
 @list{
 
 <a class="@(if (equal? ACTIVE-PAGE 'home) 'nav-active 'inactive )" href='@(l10n-url "index.html")'>@(l10n "nav/home")</a>
-<a class="@(if (equal? ACTIVE-PAGE 'roadmap) 'nav-active ' inactive )" href='@(l10n-url "roadmap.html")'>@(l10n "nav/roadmap")</a>
+<!-- <a class="@(if (equal? ACTIVE-PAGE 'roadmap) 'nav-active ' inactive )" href='@(l10n-url "roadmap.html")'>@(l10n "nav/roadmap")</a>
 <a class="@(if (equal? ACTIVE-PAGE 'learn) 'nav-active ' inactive )" href="learn.html">Learn</a>
 <a class="@(if (equal? ACTIVE-PAGE 'docs) 'nav-active 'inactive )" href="https://docs.themelio.org">@(l10n "nav/docs")</a>
-<a class="inactive" target="_blank" rel="noopener" href="https://scan.themelio.org">Melscan</a>
+<a class="inactive" target="_blank" rel="noopener" href="https://scan.themelio.org">Melscan</a> -->
+@(dropdown (l10n "nav/learn")
+(list
+(cons (l10n "nav/overview") (l10n-url "overview.html"))
+(cons (l10n "nav/roadmap") (l10n-url "roadmap.html"))
+))
+
+@(dropdown (l10n "nav/developers")
+(list
+(cons (l10n "nav/docs") "https://docs.themelio.org")
+(cons "GitHub" "https://github.com/themeliolabs")
+(cons "Melscan" "https://scan.themelio.org")
+))
+<a class="@(if (equal? ACTIVE-PAGE 'team) 'nav-active 'inactive )" href='@(l10n-url "team.html")'>@(l10n "nav/team")</a>
 }}
 
 <body>
   <header class="@(when HEADER-FULL? 'header--full)">
     <nav class="navbar py-md-2 py-1 navbar-expand-md navbar-light">
-      <div class="container-fluid">
+      <div class="container">
         <div class="row align-items-center" style="width: 100%;">
           <div class="col-md-3 col-6">
-            <a class="navbar-brand px-2">
+            <a class="navbar-brand px-2" href='@(l10n-url "index.html")'>
               <img class="img-fluid" src="./images/logo-whiteback.png" alt="themelio logo">
             </a>
           </div>

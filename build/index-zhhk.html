@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link href="" rel="icon">
-  <link href="css/custom-bootstrap.css" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg==" crossorigin="anonymous" defer></script>
 
@@ -26,10 +25,10 @@
 <body>
   <header class="header--full">
     <nav class="navbar py-md-2 py-1 navbar-expand-md navbar-light">
-      <div class="container-fluid">
+      <div class="container">
         <div class="row align-items-center" style="width: 100%;">
           <div class="col-md-3 col-6">
-            <a class="navbar-brand px-2">
+            <a class="navbar-brand px-2" href='index-zhhk.html'>
               <img class="img-fluid" src="./images/logo-whiteback.png" alt="themelio logo">
             </a>
           </div>
@@ -38,10 +37,24 @@
           <div class="col d-md-block d-none top-nav">
 
             <a class="nav-active" href='index-zhhk.html'>主頁</a>
-            <a class="inactive" href='roadmap-zhhk.html'>路線圖</a>
+            <!-- <a class="inactive" href='roadmap-zhhk.html'>路線圖</a>
             <a class="inactive" href="learn.html">Learn</a>
             <a class="inactive" href="https://docs.themelio.org">文檔</a>
-            <a class="inactive" target="_blank" rel="noopener" href="https://scan.themelio.org">Melscan</a>
+            <a class="inactive" target="_blank" rel="noopener" href="https://scan.themelio.org">Melscan</a> -->
+            <span class="dropdown">
+              <a class="inactive dropdown-toggle" target="_blank" rel="noopener" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">!MISSING</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a href="overview-zhhk.html">!MISSING</a><a href="roadmap-zhhk.html">路線圖</a>
+              </div>
+            </span>
+
+            <span class="dropdown">
+              <a class="inactive dropdown-toggle" target="_blank" rel="noopener" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">!MISSING</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a href="https://docs.themelio.org">文檔</a><a href="https://github.com/themeliolabs">GitHub</a><a href="https://scan.themelio.org">Melscan</a>
+              </div>
+            </span>
+            <a class="inactive" href='team-zhhk.html'>!MISSING</a>
           </div>
 
           <div class="col-md-3 col-6 text-right">
@@ -55,10 +68,24 @@
           <div class="col top-nav top-nav-collapse">
 
             <a class="nav-active" href='index-zhhk.html'>主頁</a>
-            <a class="inactive" href='roadmap-zhhk.html'>路線圖</a>
+            <!-- <a class="inactive" href='roadmap-zhhk.html'>路線圖</a>
             <a class="inactive" href="learn.html">Learn</a>
             <a class="inactive" href="https://docs.themelio.org">文檔</a>
-            <a class="inactive" target="_blank" rel="noopener" href="https://scan.themelio.org">Melscan</a>
+            <a class="inactive" target="_blank" rel="noopener" href="https://scan.themelio.org">Melscan</a> -->
+            <span class="dropdown">
+              <a class="inactive dropdown-toggle" target="_blank" rel="noopener" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">!MISSING</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a href="overview-zhhk.html">!MISSING</a><a href="roadmap-zhhk.html">路線圖</a>
+              </div>
+            </span>
+
+            <span class="dropdown">
+              <a class="inactive dropdown-toggle" target="_blank" rel="noopener" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">!MISSING</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a href="https://docs.themelio.org">文檔</a><a href="https://github.com/themeliolabs">GitHub</a><a href="https://scan.themelio.org">Melscan</a>
+              </div>
+            </span>
+            <a class="inactive" href='team-zhhk.html'>!MISSING</a>
           </div>
         </div>
       </div>
@@ -122,26 +149,6 @@
   </div>
   </div>
 
-  <!--
-  <div class="section section--darken">
-      <div class="section__inner container">
-          <div class="row text--lead">
-              <div class="col-lg">
-                  <h2>
-                      !MISSING
-                  </h2>
-                  !MISSING
-              </div>
-              <div class="col-lg text-center">
-                  <img src="images/goodstack.png" style="max-height: 500px;width:auto;max-width: 100%">
-              </div>
-          </div>
-          <div class="designer-comment">
-              <p>Right-hand graphic can be used as a guide for a <b>very</b> vague idea of the look and feel (i.e. somewhat skeuomorphic and not too flat). However, I am not a graphics designer, so feel free to greatly improve the style :)</p>
-              <p>Putting the right-hand side graphic in whatever style might be a good way to try out different styles.</p>
-          </div>
-      </div>
-  </div>-->
 
   <div class="section">
       <div class="section__inner container">
@@ -399,7 +406,7 @@
                         Dover, DE 19901
                     </div>
                 </div>
-                <div class="row text--normweight">
+                <div class="row text--normweight mt-3">
                     <div class="col">
                         <a href="https://github.com/themeliolabs/" target="_blank" rel="noopener">GitHub</a>
                     </div>

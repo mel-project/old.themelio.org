@@ -12,12 +12,22 @@ nav/home:
 nav/roadmap:
   en-US: Roadmap
   zh-CN: 路线图
+nav/learn:
+  en-US: Learn
+nav/overview:
+  en-US: Overview
 nav/resources:
   en-US: Resources
   zh-CN: 资源
+
+nav/developers:
+  en-US: Developers
 nav/docs:
   en-US: Docs
   zh-CN: 文档
+
+nav/team:
+  en-US: Team
 
 # Footer
 footer/updates:
@@ -355,7 +365,7 @@ roadmap/phases:
     </p>
     <p class="text--lead">Later into the betanet period, we will also launch <b>token bridge contracts</b> between Themelio and Ethereum. These contracts will allow Themelio tokens like the mel and sym to be traded in the Ethereum DeFi ecosystem as ERC-20 tokens, furthering the potential of financial instruments based on an endogenous stablecoin. This will also let our main cryptocurrency, the mel, to start trading on major decentralized cryptocurrency exchanges, such as Uniswap.</p>
     <p class="text--lead">
-    Finally, we plan our <b>stable release</b> some time in early 2022. This will permanently freeze the protocol specification, while permitting no consensus-critical updates unless to fix critical vulnerabilities. The betanet will shut down, with its history being entirely inherited.
+    Finally, we plan our <b>stable release</b> some time in early 2023. This will permanently freeze the protocol specification, while permitting no consensus-critical updates unless to fix critical vulnerabilities. The betanet will shut down, with its history being entirely inherited.
     </p>
   zh-CN: <h1>研发的各个阶段</h1>
     <p class="text--lead">
@@ -369,7 +379,7 @@ roadmap/phases:
     </p>
     <p class="text--lead">随着 betanet 阶段的深入，我们还会推出 Themelio 与以太坊之间的<b>代币桥接合约</b>。合约将使 Themelio 的代币（如 Mel 以及 Sym）得以在以太坊 DeFi 生态系统中以 ERC-20 的形式进行交易，进一步激发其作为基于内生信任稳定币的金融工具的潜力。这也将使我们的主要加密货币梅尔币 (Mel) 得以开始在几大去中心化加密货币交易所（如 Uniswap）上进行交易。</p>
     <p class="text--lead">
-    最后，我们计划于 2022 年早些时候发布<b>稳定版本</b>。这将永久冻结协议规范，不允许任何关键性的共识更新（除非是为了修复严重的漏洞）。betanet 将关闭，但其历史将获得完整继承。
+    最后，我们计划于 2023 年早些时候发布<b>稳定版本</b>。这将永久冻结协议规范，不允许任何关键性的共识更新（除非是为了修复严重的漏洞）。betanet 将关闭，但其历史将获得完整继承。
     </p>
 roadmap/past-and-future:
   en-US: <h2>The past and future of Themelio</h2>
@@ -462,7 +472,7 @@ roadmap/timeline:
     </div>
     <div class="row mb-3">
     <div class="col-3 text-right text-secondary text--normweight">
-    Q2-Q4&nbsp;&nbsp;<b class="font-weight-bold">2021</b>
+    Q1-Q4&nbsp;&nbsp;<b class="font-weight-bold">2022</b>
     </div>
     <div class="col">
     <b>Token launch and betanet refinement.</b> Both mels (currency) and syms (consensus stakes) on the betanet will be distributed through a combination of airdrops and DEX-based token sales. We will also use this time to thoroughly audit the protocol, fixing any problems through protocol updates, in preparation for the release launch.
@@ -470,7 +480,7 @@ roadmap/timeline:
     </div>
     <div class="row mb-3">
     <div class="col-3 text-right text-secondary text--normweight">
-    Q1&nbsp;&nbsp;<b class="font-weight-bold">2022</b>
+    Q1&nbsp;&nbsp;<b class="font-weight-bold">2023</b>
     </div>
     <div class="col">
     <b>Release launch of the Themelio blockchain.</b> Hard forks in the blockchains are thereafter forbidden except to fix security vulnerabilities.
@@ -565,7 +575,7 @@ roadmap/timeline:
     </div>
     <div class="row mb-3">
     <div class="col-3 text-right text-secondary text--normweight">
-    Q2-Q4 <b class="font-weight-bold">2021</b>
+    Q1-Q4 <b class="font-weight-bold">2022</b>
     </div>
     <div class="col">
     <b>推出代币，完善 betanet.</b> betanet 上的 Mel（货币）和 Sym（共识赌注币）二者均将通过空投和基于 DEX 的代币销售两种方式的组合来进行分发。我们也将借此时机彻底审核协议，通过协议更新修复任何存在的问题，以为未来的正式发布做准备。
@@ -573,7 +583,7 @@ roadmap/timeline:
     </div>
     <div class="row mb-3">
     <div class="col-3 text-right text-secondary text--normweight">
-    Q1 <b class="font-weight-bold">2022</b>
+    Q1 <b class="font-weight-bold">2023</b>
     </div>
     <div class="col">
     <b>正式发布 Themelio 区块链。</b>从此以后，除修复安全漏洞外，区块链上的硬分叉将被禁止。
