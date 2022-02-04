@@ -11,6 +11,11 @@
   }
 }
 
+#collapse {
+  max-height: 30px !important;
+  height: 30px;
+}
+
 h1,
 h2,
 h3,
@@ -132,7 +137,7 @@ h5 {
 
 /* DROPDOWN */
 .dropdown-menu {
-  background-color: rgba(255, 255, 255, 0.5) !important;
+  background-color: rgba(255, 255, 255, 0.9) !important;
   box-shadow: none !important;
   border: var(--primary-color) 1px solid !important;
   top: 1.5rem !important;
