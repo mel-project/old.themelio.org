@@ -45,6 +45,7 @@
 (list
 (cons (l10n "nav/overview") (l10n-url "overview.html"))
 (cons (l10n "nav/roadmap") (l10n-url "roadmap.html"))
+(cons "Tokenomics" (l10n-url "#"))
 ))
 
 @(dropdown (l10n "nav/developers")
@@ -54,6 +55,7 @@
 (cons "Melscan" "https://scan.themelio.org")
 ))
 <a class="@(if (equal? ACTIVE-PAGE 'team) 'nav-active 'inactive )" href='@(l10n-url "team.html")'>@(l10n "nav/team")</a>
+<a class="inactive" href='https://medium.com/themelio'>@(l10n "nav/blog")</a>
 }}
 
 <body>

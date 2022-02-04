@@ -29,6 +29,9 @@ nav/docs:
 nav/team:
   en-US: Team
 
+nav/blog:
+  en-US: Blog
+
 # Footer
 footer/updates:
   en-US: Updates
