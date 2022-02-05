@@ -541,14 +541,23 @@ footer > div > div > div {
 
 .team-avatar {
   border-radius: 100%;
-  width: 75%;
+  width: 50%;
   max-width: 50vw;
   height: auto;
   margin-bottom: 1rem;
 }
 
+.bio-row {
+  padding-bottom: 2rem;
+}
+
 .bio-section {
   padding: 2rem;
+  height: 100%;
+  border: var(--primary-color) solid 1px;
+  border-radius: 1rem;
+  background-color: var(--white);
+  box-sizing: border-box;
 }
 
 .bio-section h3 {
@@ -566,8 +575,8 @@ footer > div > div > div {
 
 .bio-icon {
   font-size: 1.5rem;
-  color: var(--dark);
-  opacity: 0.7;
+  color: var(--primary-color);
+  opacity: 1;
   margin: 0.2rem;
 }
 
