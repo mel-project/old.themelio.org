@@ -80,7 +80,7 @@ index/why-title:
 
 index/why-1:
   en-US: |
-    <h4>Trust the protocol&mdash;<br>don&rsquo;t trust people</h4>
+    <h4>Trust the protocol&mdash;don&rsquo;t trust people</h4>
     <p>The killer feature of blockchains has always been <a href="https://medium.com/themelio/the-killer-feature-of-blockchains-bf4c3c25b298">endogenous trust</a>: security based on incentives and cryptography, not the arbitrary decisions of developers or ill-defined user communities. Themelio finally delivers on this long-awaited revolution in trust.</p>
 
 index/why-2:
@@ -156,7 +156,7 @@ index/community/twitter:
 index/community/github:
   en-US: |
     <h4>GitHub</h4>
-    <p>Interested in Themelio's implementation? Follow development, contribute code, and participate in engineering discussions on GitHub. </p>
+    <p>Follow development, contribute code, and participate in engineering discussions on GitHub. </p>
 
 index/blog:
   en-US: Latest posts from our blog

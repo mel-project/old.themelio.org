@@ -456,9 +456,29 @@ footer > div > div > div {
   padding-bottom: 1rem;
   padding-right: 2rem;
   margin: 1rem;
-  display: flex;
-  flex-direction: row;
   background-color: var(--white);
+}
+
+.rethink-point h4 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 992px) {
+  .rethink-point {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 992px) {
+  .rethink-point {
+    text-align: center;
+  }
+
+  .rethink-point div {
+    text-align: left;
+  }
 }
 
 .rethink-icon {
@@ -480,6 +500,11 @@ footer > div > div > div {
   width: 100%;
 }
 
+.rss-container {
+  margin-left: -1.8rem;
+  margin-right: -1.8rem;
+}
+
 .community-card {
   border: 1px solid var(--primary-color);
   border-radius: 1rem;
@@ -491,7 +516,7 @@ footer > div > div > div {
   flex-direction: row;
   color: var(--dark);
   background-color: #f2f7f2;
-  height: 13rem;
+  min-height: 13rem;
 }
 
 .community-card:hover {
