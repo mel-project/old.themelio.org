@@ -8,29 +8,34 @@ name:
 # Navbar
 nav/home:
   en-US: Home
-  zh-CN: 主页
+  zh-CN: 首页
 nav/roadmap:
   en-US: Roadmap
   zh-CN: 路线图
 nav/learn:
   en-US: Learn
+  zh-CN: 了解
 nav/overview:
   en-US: Overview
+  zh-CN: 概览
 nav/resources:
   en-US: Resources
   zh-CN: 资源
 
 nav/developers:
   en-US: Developers
+  zh-CN: 开发者
 nav/docs:
   en-US: Docs
   zh-CN: 文档
 
 nav/team:
   en-US: Team
+  zh-CN: 团队
 
 nav/blog:
   en-US: Blog
+  zh-CN: 博客
 
 # Footer
 footer/updates:
@@ -38,321 +43,303 @@ footer/updates:
   zh-CN: 订阅更新
 footer/updateblurb:
   en-US: We send out periodic emails with what&rsquo;s new for Themelio.
-  zh-CN: 我们会不定期发送邮件，通知您 Themelio 相关的最新消息
+  zh-CN: 我们会定期发送邮件，通知您 Themelio 相关的最新消息。
 footer/noshare:
   en-US: We never share your email with other people.
-  zh-CN: 我们从不会将您的邮箱地址泄露给他人
+  zh-CN: 我们从不会将您的邮箱地址泄露给他人。
 footer/subscribe:
   en-US: Subscribe
   zh-CN: 订阅
 footer/partners:
   en-US: Partners
-  zh-CN: 合作方
+  zh-CN: 合作伙伴
 
 # Homepage
 index/tagline:
   en-US: The foundation of a<br><b>trustless</b> Internet
-  zh-CN: 新时代互联网的<br><b>去信任化根基</b>
+  zh-CN: <b>去信任</b>互联网<br />的根基
 index/subtitle:
   en-US: 'Themelio is a <b>radical rethinking of the public blockchain</b> focused on its core purpose: establishing an immutable, permanent root of trust.'
-  zh-CN: Themelio 是一个全新、从零设计的公共区块链，旨在打造一种<b>从根本上不可改变的信任底层</b>，从而为下一代去中心化应用提供无与伦比的<b>稳定性、安全性与性能表现</b>。
+  zh-CN: 'Themelio 是<b>对公共区块链的一次激烈的再思考</b>，其旨在抓住区块链的核心要义：建立不可改变的、永久的信任根。'
+index/join-the-community:
+  en-US: Join the community
+  zh-CN: 加入社区
 
 index/about-title:
   en-US: A blockchain built to last
+  zh-CN: 永久稳定的区块链
 
 index/about:
   en-US:
     "<p>Blockchains must be immutable. At least if they want to revolutionize trust. Endogenous trust is the whole revolution: in place of the software maintainers’ or some third party’s reputation, we can trust mechanisms internal to the protocol itself to keep it secure. But if the protocol could be altered, then we’re back at the mercy of whomever has the authority to alter it.</p>
  
 <p>Yet governance events routinely upheave today’s blockchains. In contrast, Themelio is designed to avoid all change. By decoupling the blockchain from the greatest source of instability—the application, we attain both immutability and a better layer of abstraction. This makes the blockchain not only safer, but much more flexible and performant.</p>"
+  zh-CN:
+    "<p>如果想要造就信任变革，区块链就必须做到不可改变。内生信任是这场革命的核心所在：它可以取代我们之前对软件维护方或是什么其他第三方声誉的信任，让我们直接信任协议所内生的机制，相信这种机制能够保障区块链的安全。但是，如果区块链协议是可以被改变的，那一切就又都回到了老样子——区块链是否安全全要看那个能修改它的家伙怎么改。</p>
+ 
+<p>治理事件也因此经常颠覆当下的区块链。相比之下，Themelio 从设计上就旨在避免一切改变。透过与造成不稳定的最大根源——应用程序——解耦，我们不仅实现了不可变性，还获得了更好的抽象层。这使得我们的区块链不仅更为安全，还更加灵活、高效。</p>"
 
 index/introducing-melmint:
   en-US: "Mel: cryptocurrency done&nbsp;right"
+  zh-CN: "MEL：前所未有的加密货币"
 
 index/melmint-summary:
-  en-US: "<p>Mel is Themelio’s native cryptocurrency. Unlike traditional cryptocurrencies (such as bitcoin and ether), mel keeps a stable value over time. This makes mel a much more useful currency. Unlike fiat stablecoins, mel is fully trustless: it is not pegged to any government-backed currency. Behind all this is Melmint, a groundbreaking stabilization mechanism based on peer-reviewed research.</p>
+  en-US: "<p>Mel is Themelio’s native cryptocurrency. Unlike traditional cryptocurrencies (such as bitcoin and ether), mel keeps a stable value over time. This makes mel a much more useful currency. Unlike fiat stablecoins, mel is fully trustless: it is not pegged to any government-backed currency. Behind all this is <a href='https://docs.themelio.org/basic-concepts/04-melmint/'>Melmint</a>, a groundbreaking stabilization mechanism based on <a href='https://cryptoeconomicsystems.pubpub.org/pub/dong-melmint/release/7'>peer-reviewed research</a>.</p>
   
 <p>
-Sym is Themelio’s separate proof-of-stake token that powers Themelio’s consensus. Unlike mel, it has a fixed supply and a fluctuating price that reflects Themelio’s network valuation. It also plays an important role in Melmint as a “backing” asset that stabilizes mel.</p>"
+Sym is <a href='https://docs.themelio.org/basic-concepts/05-tokenomics/'>Themelio’s separate proof-of-stake token</a> that powers Themelio’s consensus. Unlike mel, it has a fixed supply and a fluctuating price that reflects Themelio’s network valuation. It also plays an important role in Melmint as a “backing” asset that stabilizes mel.</p>"
+  zh-CN: "<p>MEL 是 Themelio 的原生加密货币。与传统加密货币（如比特币或以太币）不同的是，MEL 的价值能长期保持稳定。这使得 MEL 能够成为一款更为实用的货币。但 MEL 又与那些与法币挂钩的稳定币不同，MEL 是完全去信任的：它不与任何由政府背书的货币挂钩。而在其背后让这一切得以实现的是 <a href='https://docs.themelio.org/basic-concepts/04-melmint/'>Melmint</a>：一套极具突破性的稳定币发行机制。</p>
+  
+<p>
+SYM 是 <a href='https://docs.themelio.org/basic-concepts/05-tokenomics/'>Themelio 独立的权益证明代币</a>，它支撑着 Themelio 的共识机制。与 MEL 不同，SYM 有着固定的货币供应，但其价格却随 Themelio 的网络估值而浮动。SYM 在 Melmint 中还有一个重要角色，那就是作为稳定 MEL 价值的「支撑」资产。</p>"
 
 index/why-title:
   en-US: "Why Themelio?"
+  zh-CN: "为什么选择 Themelio?"
 
 index/why-1:
   en-US: |
     <h4>Trust the protocol&mdash;don&rsquo;t trust people</h4>
     <p>The killer feature of blockchains has always been <a href="https://medium.com/themelio/the-killer-feature-of-blockchains-bf4c3c25b298">endogenous trust</a>: security based on incentives and cryptography, not the arbitrary decisions of developers or ill-defined user communities. Themelio finally delivers on this long-awaited revolution in trust.</p>
+  zh-CN: |
+    <h4>信任协议，而非信任人</h4>
+    <p>区块链的杀手级功能从来都是<a href="https://medium.com/themelio/the-killer-feature-of-blockchains-bf4c3c25b298">内生信任</a>：源于激励机制与密码学原理的安全性。有了内生信任，我们不再需要信任开发者或「用户社区」的任意决定。Themelio 终于实现了这场期待已久的信任革命。</p>
 
 index/why-2:
   en-US: |
     <h4>Stop worrying about upgrades and forks</h4>
     <p>Modifying a blockchain's core validation rules <a href="https://nullchinchilla.me/posts/against-blockchain-governance.html">destroys endogenous trust</a>. So Themelio is designed to not change at all. Not only does this get rid of the exhausting, security-ruining politics of &ldquo;blockchain governance&rdquo;, it also frees you to develop deep technology stacks without worrying about the base layer changing.</p>
+  zh-CN: |
+    <h4>再无升级、分叉之忧</h4>
+    <p>修改区块链的核心验证规则<a href="https://nullchinchilla.me/posts/against-blockchain-governance.html">将会毁掉内生信任</a>。因此，Themelio 的设计宗旨即为完全不变。这样做不仅能够使 Themelio 免受因区块链治理而带来的令人疲惫而又有损安全的政治操弄，还同时让开发者得以自由自在地开发深层技术堆栈，不必担心基层协议的更改。</p>
 
 index/why-3:
   en-US: |
     <h4>Revolutionary non-fiat stablecoin</h4>
-    <p class="">Themelio’s base currency, MEL, is the <a href="https://docs.themelio.org/whitepapers/melmint-v2/">world’s first truly decentralized stablecoin</a>, free of any trusted issuers or oracles. MEL demolishes the false dichotomy between trustless issuance and stable value, promising a fundamental breakthrough in DeFi applications.</p>
+    <p class="">Themelio’s base currency, mel, is the <a href="https://docs.themelio.org/whitepapers/melmint-v2/">world’s first truly decentralized stablecoin</a>, free of any trusted issuers or oracles. Mel demolishes the false dichotomy between trustless issuance and stable value, promising a fundamental breakthrough in DeFi applications.</p>
+  zh-CN: |
+    <h4>不与法币挂钩的革命性的稳定币</h4>
+    <p class="">Themelio 的基础货币 MEL 是<a href="https://docs.themelio.org/whitepapers/melmint-v2/">世上首款真正做到去中心化的稳定币</a>，它完全没有任何受信发行方或预言机。MEL 打破了过去去信任发行与稳定的币值间「鱼与熊掌不可得兼」的矛盾，有望在去中心化金融 (De-Fi) 应用程序方面取得根本性突破。</p>
 
 index/why-4:
   en-US: |
     <h4>A paradigm shift in scalability and usability</h4>
-    <p>Themelio does not try to scale through complex layer-1 mechanisms that further encourage tight coupling to apps and damage endogenous trust. Instead, an <a href="https://docs.themelio.org/basic-concepts/02-state/">elegant, high-performance UTXO data model</a> with uniquely powerful covenant scripts provides a minimal yet flexible foundation for building <a>infinitely scalable</a> upper-layer protocols and applications. </p>
+    <p>Themelio does not try to scale through complex layer-1 mechanisms that further encourage tight coupling to apps and damage endogenous trust. Instead, an <a href="https://docs.themelio.org/basic-concepts/02-state/">elegant, high-performance UTXO data model</a> with uniquely powerful covenant scripts provides a minimal yet flexible foundation for building infinitely scalable upper-layer protocols and applications. </p>
+  zh-CN: |
+    <h4>可扩展性与实用性方面的范式转变</h4>
+    <p>Themelio 不会尝试透过复杂的第 1 层机制来进行扩展，因为这样做会进一步鼓励协议与应用程序的紧密耦合，并进而破坏内生信任。因此，Themelio 采用了一个<a href="https://docs.themelio.org/basic-concepts/02-state/">优雅、高性能的 UTXO 数据模型</a>，并结合其独特而强大的契约脚本，为构建可无限扩展的上层协议和应用程序提供了一个最小化但异常灵活的基础。</p>
 
 index/explore-themelio:
   en-US: Explore Themelio
+  zh-CN: 探索 Themelio
 
 index/participate:
   en-US: Participate
+  zh-CN: 参与
 
 index/build:
   en-US: Build
+  zh-CN: 构建
 
 index/learn:
   en-US: Learn
+  zh-CN: 了解
 
 index/participate-build-learn:
   en-US: |
     <section>
         <h3>Participate</h3>
-        <p>Though still in alpha, Themelio is fully running and ready for your participation.</p>
-        <p>Run full-featured thin clients or nodes, both on Themelio’s testnet and on its prototype mainnet.</p>
-        <p>Official wallets let you store and transact in MEL, SYM, and any other Themelio-based token. You can even mint your own MEL.</p>
+        <p>Though still in alpha, Themelio is <a href="https://scan.themelio.org/">fully running</a> and ready for your participation.</p>
+        <p>Run full-featured thin clients or <a href="https://docs.themelio.org/try-themelio/auditor-node/">nodes</a>, both on Themelio’s testnet and on its prototype mainnet.</p>
+        <p>The <a href="https://docs.themelio.org/try-themelio/melwalletd/">official wallet</a> lets you store and transact in MEL, SYM, and any other Themelio-based token. You can even <a href="https://docs.themelio.org/try-themelio/melminter/">mint your own MEL</a>.</p>
     </section>
     <section>
         <h3>Build</h3>
-        <p>Write expressive covenants on Themelio with Melodeon, our purely functional covenant language. </p>
+        <p>Write expressive covenants on Themelio with <a href="https://github.com/themeliolabs/melodeon">Melodeon</a>, our purely functional covenant language. </p>
         <p>Make your own token with a single command, and use it seamlessly in our official wallets.</p>
         <p>Themelio’s paradigm shift spawns a new generation of off-chain apps with on-chain security that you can explore.</p>
     </section>
     <section>
         <h3>Learn</h3>
-        <p>The Learn page contains everything you need to get started with Themelio.</p>
+        <p>The <a href="overview.html">Learn</a> page contains everything you need to get started with Themelio.</p>
 
-        <p>We also have comprehensive documentation of Themelio’s technologies, including in-depth whitepapers on consensus, Melmint, and more.</p>
+        <p>We also have <a href="https://docs.themelio.org">comprehensive documentation</a> of Themelio’s technologies, including in-depth whitepapers on consensus, Melmint, and more.</p>
 
-        <p>Follow our latest developments on our blog.</p>
+        <p>Follow our latest developments on <a href="https://medium.com/themelio">our blog</a>.</p>
+    </section>
+  zh-CN: |
+    <section>
+        <h3>参与其中</h3>
+        <p>尽管尚在 alpha 测试阶段，但 Themelio 已经可以<a href="https://scan.themelio.org/">完全跑起来了</a>，现在您已可参与其中。</p>
+        <p>在 Themelio 的 testnet 以及 mainnet 原型上运行具有完整功能的瘦客户端或<a href="https://docs.themelio.org/try-themelio/auditor-node/">节点</a>。</p>
+        <p>您可使用<a href="https://docs.themelio.org/try-themelio/melwalletd/">官方钱包</a>来存储 MEL 、SYM 以及其他基于 Themelio 的代币，并用它们进行交易。您甚至可以<a href="https://docs.themelio.org/try-themelio/melminter/">铸造</a>您自己的 MEL 。</p>
+    </section>
+    <section>
+        <h3>构建</h3>
+        <p>使用我们的<a href="https://github.com/themeliolabs/melodeon">纯函数式契约语言 Melodeon</a> 在 Themelio 上撰写表达性契约。</p>
+        <p>只需一条命令，您就可以轻松创建自己的代币，并可与其他代币一起在我们的官方钱包里无缝使用。</p>
+        <p>Themelio 所带来的范式转变催生了新一代的链下应用程序正有待您来探索，它们有着如链上应用程序般的安全性。</p>
+    </section>
+    <section>
+        <h3>了解</h3>
+        <p>在<a href="overview.html">「了解」页面</a>上有您在上手使用 Themelio 的过程中所需要了解的一切内容。</p>
+
+        <p>同时，我们也提供有关 Themelio 技术的<a href="https://docs.themelio.org">详实的文档说明</a>以及关于共识机制、Melmint 等的内容深奥的白皮书。</p>
+
+        <p>您也可以关注我们的<a href="https://medium.com/themelio">博客</a>以便追踪我们最新的研发动向。</p>
     </section>
 
 index/community:
   en-US: |
     <h2>Join our community</h2>
     <p class="text--lead">Be part of a growing community of global developers, innovators, and users helping us realize Themelio's vision.</p>
+  zh-CN: |
+    <h2>加入我们的社区</h2>
+    <p class="text--lead">加入我们，成为由全球开发者、创新者以及用户所组成的茁壮成长中的 Themelio 社区的一分子，从而帮助我们实现 Themelio 的愿景。</p>
 
 index/community/discord:
   en-US: |
     <h4>Discord</h4>
     <p>Ask questions, chat with global community members, and get technical help from developers.</p>
+  zh-CN: |
+    <h4>Discord</h4>
+    <p>在这里提出问题，与全球社区成员沟通交流，并从开发人员那里获得技术帮助。</p>
 
 index/community/telegram:
   en-US: |
     <h4>Telegram</h4>
-    <p>Another place to talk about Themelio! Content is synchronized with Discord, so just pick whatever platform you prefer.</p>
+    <p>Another place to talk about Themelio! Content is synchronized with Discord.</p>
+  zh-CN: |
+    <h4>Telegram</h4>
+    <p>这里是畅谈 Themelio 的又一个好去处！其内容与 Discord 同步。</p>
 
 index/community/twitter:
   en-US: |
     <h4>Twitter</h4>
     <p>Follow @themeliolabs on Twitter to get the latest updates from the Themelio team!</p>
+  zh-CN: |
+    <h4>Twitter</h4>
+    <p>在 Twitter 上关注 @themeliolabs 从而获取 Themelio 团队的最新消息！</p>
 
 index/community/github:
   en-US: |
     <h4>GitHub</h4>
-    <p>Follow development, contribute code, and participate in engineering discussions on GitHub. </p>
+    <p>Interested in Themelio's implementation? Follow development, contribute code, and participate in engineering discussions on GitHub. </p>
+  zh-CN: |
+    <h4>GitHub</h4>
+    <p>对实现 Themelio 感兴趣吗？在 GitHub 上，您可关注我们的研发动向，为我们贡献代码，并参与工程讨论。</p>
 
 index/blog:
   en-US: Latest posts from our blog
+  zh-CN: 我们博客上的最新文章
 
 index/team:
   en-US: A visionary founder, top engineers, and industry-leading partners.
+  zh-CN: 远见卓识的创始人、<wbr>顶尖的工程师、<wbr>行&#8288;业领&#8288;先的合作伙伴。
 
 index/view-our-team:
   en-US: View our team
+  zh-CN: 了解我们的团队
 
-learn/bitforest-whitepaper-summary:
-  en-US: Bitforest, a naming system with decentralized trust, is a great example of a powerful "coin-driven" dApp built with UTXOs rather than smart contracts. This paper describes Bitforest on blockchains with no significant scripting capability; on Themelio Bitforest would not need an untrusted central "helper". Read as an example of the surprising versatility of UTXO blockchain semantics.
-  zh-CN: 'empty'
+# Learn overview
 
-learn/conifer-title:
-  en-US: 'Conifer: centrally-managed PKI with blockchain-rooted trust'
-  zh-CN: 'empty'
+overview/hero:
+  en-US: Explore Themelio&rsquo;s new blockchain paradigm&mdash;richly layered applications evolving on a permanent foundation of endogenous trust. 
+  zh-CN: 探索 Themelio 的新型区块链范式&mdash;&mdash;在永久的内生信任基础层上不断发展丰富且层次多样的应用程序。 
 
-introduction/web3-root-of-trust:
-  en-US: Web3’s Root of Trust
-  zh-CN: 'empty'
+overview/traditional-blockchains:
+  en-US: |
+    <h3>Traditional platform &amp;<br>application blockchains</h3>
+    <ul>
+        <li>Blockchain is tightly coupled to applications</li>
+        <li>Application evolution eventually requires the blockchain to adapt</li>
+        <li>Contentious, destabilizing blockchain protocol changes that undermine endogenous trust</li>
+    </ul>
+  zh-CN: |
+    <h3>传统的平台式及<br>应用程序型区块链</h3>
+    <ul>
+        <li>区块链与应用程序紧密耦合</li>
+        <li>应用程序的演化最终导致需要区块链去进行适配</li>
+        <li>富有争议且让区块链变得不稳定的协议更改会破坏内生信任</li>
+    </ul>
 
-introduction/web3-root-of-trust-tagline:
-  en-US: Themelio is a blockchain network designed to provide absolute trust to the emerging decentralized world.
-  zh-CN: 'empty'
+overview/themelio-decoupled:
+  en-US: |
+    <h3>Themelio&rsquo;s decoupled architecture</h3>
+    <ul>
+        <li>Separated from applications by flexible mid-level protocols</li>
+        <li>Applications and protocols can evolve without changing layer-1 blockchain</li>
+        <li>Powerful enough to build layer-2 protocols that inherit the blockchain's security</li>
+        <li>Governance-free, immutable blockchain that needs no change</li>
+    </ul>
+  zh-CN: |
+    <h3>Themelio 的解耦架构</h3>
+    <ul>
+        <li>透过插入灵活的中间层协议，让区块链与应用程序分隔开来</li>
+        <Li>应用程序与中间层协议可在不改变第 1 层区块链底层协议的前提下发展演化</li>
+        <Li>足够强大以打造第 2 层协议，同时继承区块链底层的安全性</li>
+        <li>无需治理，不可变区块链底层无需任何更改</li>
+    </ul>
 
-introduction/web3-root-of-trust-summary:
-  en-US: 'Themelio is a blockchain built with a new paradigm of trust. The protocol can never be changed, governed, upgraded, or manipulated — ensuring developers, users, and applications can transact with confidence knowing the underlying technology will always remain decentralized and secure. Themelio offers its users:'
-  zh-CN: 'empty'
+overview/robust-endogenous-trust:
+  en-US: |
+    <h3>Robust endogenous trust</h3>
+    <p>Blockchains' most distinctive feature is <b>endogenous trust</b>: security guaranteed by the protocol, not by its participants. Yet existing blockchains don&rsquo;t ensure endogenous trust. Tightly coupled with applications, they are forced to change with application needs. And we are forced to trust whoever decides the changes.</p>
+    <p>So Themelio rejects the &ldquo;world computer&rdquo; paradigm that directly interfaces with apps. We focus on providing an <a href="https://docs.themelio.org/basic-concepts/01-endogenous-trust/">immutable foundation that never needs trust-damaging protocol changes</a>.</p>
+  zh-CN: |
+    <h3>坚韧的内生信任</h3>
+    <p>区块链最显著的特性便是<b>内生信任</b>&mdash;&mdash;安全性由协议而非参与方来提供保障。但是现存的区块链并不能确保内生信任。由于与应用程序紧密耦合，当下的区块链不得不跟随应用程序的需求变化而做出更改。而我们则被迫去信任这些能够对更改做决策的人。</p>
+    <p>因此，Themelio 拒绝采用「世界计算机」这种直接与应用对接的范式。我们旨在提供一种<a href="https://docs.themelio.org/basic-concepts/01-endogenous-trust/">不可变的信任底层，该底层永远不会需要进行有损信任的协议更改</a>。</p>
 
-introduction/endogenuos-trust-summary:
-  en-US: Endogenous trust is the “killer feature” of blockchain technology. It describes the scenario in which actors on a decentralized network can trust it will behave as it should without trusting those who run it, like the validators or core developers. In other words, the blockchain itself can promise and ensure trust; an endogenous system.
-  zh-CN: 'empty'
+overview/smart-coins:
+  en-US: |
+    <h3>Covenant-powered smart coins</h3>
+    <p>Most general-purpose blockchains use an &ldquo;account-based&rdquo; ledger containing accounts with balances and storage. But this tightly couples apps with the blockchain and introduces opportunities for security-shattering contract bugs, undermining endogenous trust. </p>
+    <p>Instead, Themelio uses a more elegant model perfect for a fundamental trust layer &mdash; <a href="https://docs.themelio.org/basic-concepts/02-state/">Bitcoin's &ldquo;coin-based&rdquo; model, augmented with rich scripting and thin clients.</a></p>
+  zh-CN: |
+    <h3>由契约驱动的智能 UTXO</h3>
+    <p>大多数通用区块链都采用了一种「基于账户」的模型，这种模型有一个包含所有账户的账户余额和存储的分类账。但这将应用与区块链紧密地耦合在一起，并为有损安全的合约漏洞带来了机会，从而破坏了内生信任。 </p>
+    <p>正因如此，Themelio 采用了一种对于基础信任层来说更为优雅的模型&mdash;&mdash;<a href="https://docs.themelio.org/basic-concepts/02-state/">比特币的基于 UTXO 的模型，并透过富脚本与瘦客户端为其提供功能增强。</a></p>
 
-introduction/trustless-stablecoin-summary:
-  en-US: The Themelio protocol is secured with a dual token system of MEL and SYM. MEL is an endogenous stablecoin, offering users trust in its stability without relying on a peg to a “real-world” currency like USD. An algorithm known as Melmint pegs MEL to a computation metric known as “day of sequential computation” (DOSC). DOSC exists entirely within the Themelio blockchain, ensuring no outside geopolitical forces can influence the stability of MEL.
-  zh-CN: 'empty'
+overview/collusion-resistant:
+  en-US: |
+    <h3>Collusion-resistant consensus game</h3>
+    <p>Even without protocol changes, endogenous trust in any blockchain relies on its <b>consensus game</b> that incentivizes correct behavior. But blockchains today often design their consensus games on shaky security assumptions and patch up failures by violating endogenous trust.</p>
+    <p>Themelio's innovative proof-of-stake system, Synkletos, is designed to <a href="https://docs.themelio.org/basic-concepts/03-consensus/">maximize long-term safety even in the presence of unlimited collusion</a>.</p>
+  zh-CN: |
+    <h3>防串通的共识博弈</h3>
+    <p>即便没有协议上的更改，区块链的内生信任还需要仰赖能够激励正确行为的<b>共识博弈</b>。但是当下的区块链往往会根据不稳健的安全假设来设计共识博弈，并透过违反内生信任的做法在博弈失败时予以修补。</p> 
+    <p>Themelio 新颖的权益证明共识机制 Synkletos 从设计上便保障了<a href="https://docs.themelio.org/basic-concepts/03-consensus/">最大化长期安全性，即便是在面临无限串通的前提下也仍可安全无虞</a>。</p>
+  
+overview/non-fiat-stablecoin:
+  en-US: |
+    <h3>World&rsquo;s first non-fiat stablecoin</h3>
+    <p>Themelio’s base currency, Mel, is a new asset class that finally delivers on crypto&rsquo;s promise of sound decentralized money. <a href="https://docs.themelio.org/basic-concepts/04-melmint/">Melmint, a fully trustless, oracle-free issuance mechanism</a>, stabilizes Mel's value against an index representing the time cost of sequential computation.</p>
+    <p>Mel has no ties to any fiat currency and stability beyond any conventional cryptocurrency. It is a fundamental breakthrough in money.</p>
+  zh-CN: |
+    <h3>世上首款不与法币挂钩的稳定币</h3>
+    <p>Themelio 的基础货币 MEL 是一种全新的资产类别，它终于实现了加密货币所作出的「健全的去中心化货币」的承诺。<a href="https://docs.themelio.org/basic-concepts/04-melmint/">Melmint 是一种完全去信任、免预言机的发行机制，它将 MEL 的价值稳定在一个挂钩于顺序计算时间成本的指数上。</p>
+    <p>MEL 与任何法币都没有丝毫牵扯，但其稳定性却超越既往任何传统的加密货币。它是货币史上的一次根本性突破。</p>
 
-introduction/minimal-friction-summary:
-  en-US: Today’s layer 1 protocols are held back by application-blockchain friction, which results when application performance (throughput) requires changes to the protocol that could jeopardize security or decentralization. Themelio eliminates this friction by establishing an immutable, simple base layer and an easily-upgradeable middleware that can support the ever-changing needs of applications.
-  zh-CN: 'empty'
+overview/join-our-testnet:
+  en-US: |
+    <h2>Join our testnet</h2>
+    <p class="text--lead">Test out the Themelio network and get mainnet rewards by participating in testnet contests.</p>
+    <a href="" class="btn btn-outline-dark btn-lg">Testnet portal</a>
+  zh-CN: |
+    <h2>加入我们的 testnet</h2>
+    <p class="text--lead">参与 testnet 比赛，帮助我们测试 Themelio 的网络并获得 mainnet 奖励。</p>
+    <a href="" class="btn btn-outline-dark btn-lg">Testnet 门户</a>
 
-introduction/proof-of-stake-summary:
-  en-US: Themelio’s Proof of Stake consensus mechanism is known as Synkletos. Synkletos simplifies the incentive structure of a classic PoS architecture, flipping on its head the classic assumption of uncoordination among PoS actors. Instead, Themelio assumes a perfectly coordinated monopoly, then deploys cryptoeconomics and game theory to simulate this model.
-  zh-CN: 'empty'
-
-introduction/tokenomics-title:
-  en-US: 'Themelio Tokenomics: MEL & SYM'
-  zh-CN: 'empty'
-
-introduction/tokenomics-intro:
-  en-US: 'There are two tokens native to the Themelio ecosystem: MEL and SYM.'
-  zh-CN: 'empty'
-
-introduction/mel-description:
-  en-US:
-    MEL is the primary token of the Themelio blockchain. It is an algorithmic stablecoin that is not pegged to any real world currency, like most standard stablecoins. Rather, MEL is pegged to something known as day of sequential computing (DOSC). DOSC tracks the computational cost of 24 hours of sequential computation on the Themelio blockchain.
-    By offering a stable asset without relying on trust of an outside mechanism like a USD peg, MEL ensures additional endogenous trust in the Themelio ecosystem. MEL is optimized to serve as the day-to-day transaction currency on Themelio, and undergird a growing ecosystem of financial and consumer applications.
-  zh-CN: 'empty'
-
-introduction/sym-description:
-  en-US: The other native token in Themelio is SYM, which can be traded freely like MELs, but which serves a critical role in Synkletos, the network’s Proof of Stake consensus mechanism. 1 SYM is generated per block, equating to roughly 1.05 million SYMs per year in circulation. In order to become a Synkletos stakeholder (analogous to an Eth2 validator), one must stake 1,000 SYMs and lock them for at least 500,000 blocks. Unlike MEL, SYM is not a stablecoin, and is free to fluctuate in price as the market dictates.
-  zh-CN: 'empty'
-
-introduction/tokenomics-learn-more:
-  en-US: MEL, SYM, and Themelio’s Tokenomics. <a>Learn more<\a>.
-  zh-CN: 'empty'
-
-introduction/roadmap-2017:
-  en-US: <div class="roadmap-section roadmap-timespan-1">
-    <div>2017</div>
-    <div>Work on themelio begins</div>
-    </div>
-  zh-CN: 'empty'
-
-introduction/roadmap-q1-2019:
-  en-US: <div class="roadmap-section roadmap-timespan-2">
-    <div>Q1 2019</div>
-    <div>Prototype client and network released.</div>
-    </div>
-  zh-CN: 'empty'
-
-introduction/roadmap-q3-2020:
-  en-US: <div class="roadmap-section roadmap-timespan-3">
-    <div>Q3 2020</div>
-    <div>Public launch of a non-persistent alphanet</div>
-    </div>
-  zh-CN: 'empty'
-
-introduction/roadmap-q2-2021:
-  en-US: <div class="roadmap-section roadmap-timespan-4">
-    <div>Q2 2021</div>
-    <div>Public launch of a persistent betanet</div>
-    </div>
-  zh-CN: 'empty'
-
-introduction/roadmap-q1-2022:
-  en-US: <div class="roadmap-section roadmap-timespan-5">
-    <div>Q1 2022</div>
-    <div>MEL and SYM token launch</div>
-    </div>
-  zh-CN: 'empty'
-
-introduction/roadmap-q2-2022:
-  en-US: <div class="roadmap-section roadmap-timespan-6">
-    <div>Q2 2022</div>
-    <div>Public launch of Themelio mainnet.</div>
-    </div>
-  zh-CN: 'empty'
-
-index/built-to-last:
-  en-US: <h2>A blockchain built to last</h2>
-    <p class="text--lead">
-    Unlike centralized services, <b>blockchain protocols can&rsquo;t really be updated</b>.
-    &ldquo;Protocol governance&rdquo; is really about getting a whole community to collectively switch to a different protocol.
-    </p>
-    <p class="text--lead">And as with most collective action, contention, drama, and politics rule the day.</p>
-    <p class="text--lead">Worse, externally coordinated upgrades undermine the most important innovation of blockchains &mdash; endogenous trust based on internal incentives, not external communities or authorities.</p>
-    <p class="text--lead">
-    Instead, <b>Themelio is designed not to change</b>. That means a low-level, robust blockchain inspired by the Internet's core protocols, providing an immutable root of trust, security, and transparency to a diverse ecosystem.
-    </p>
-  zh-CN: <h2>永久稳定的区块链</h2>
-    <p class="text--lead">
-    与中心化的服务不同，<b>区块链协议无法真正地进行「软件更新」</b>。
-    通过所谓的「协议治理」(protocol governance) 进行更新，不过是让整个社区集体切换到不同的协议上去。
-    </p>
-    <p class="text--lead">和大多数的集体行动一样，「协议治理」往往会给区块链社区带来无休止的争论与政治操弄，对区块链社区带来大量混乱。</p>
-    <p class="text--lead">更糟糕的是，这种所谓的协议更新会破坏区块链最重要的一项创新——基于内部激励的内生信任（而非源自外部社区或者官方）。</p>
-    <p class="text--lead">
-    因此，在互联网核心协议的启发下，<b>Themelio 专为「不做改变」这一目的而设计</b>，旨在打造一种低层级、坚韧的区块链，为多样化的生态系统提供一个可靠、安全且透明的不可变根基。
-    </p>
-index/three-column:
-  en-US: <div class="col-lg">
-    <ion-icon name="ios-cube" class="icon--big text-primary"></ion-icon>
-    <h3>Radical immutability</h3>
-    <p class="text-left">Consensus-breaking updates, like “hard forks” and “protocol upgrades”, ultimately force all blockchain users to <a href="https://nullchinchilla.me/posts/against-blockchain-governance.html" target="_blank" rel="noopener">rely on external trusted parties</a> for protocol security. This weakens the very basis of blockchains’ decentralized, trustless security and destabilizes whole ecosystems.</p>
-    <p class="text-left">The unprecedented revolution in trust promised by blockchains can only be unlocked with a robust, stable protocol carefully engineered for <strong>radical immutability</strong>. Themelio’s incredibly simple data model means no parameter-tweaking hard forks. A novel, collusion-proof proof-of-stake consensus ensures immediate finality and resilient decentralization. And future-proof cryptography allows Themelio to survive unforeseen cryptoanalytic breakthroughs.</p>
-    </div>
-    <div class=" col-lg">
-    <ion-icon name="logo-usd" class="icon--big text-secondary"></ion-icon>
-    <h3>Revolutionary cryptocurrency</h3>
-    <p class="text-left">Themelio’s base currency, Mel, is the <strong>world’s first truly decentralized, fiat-independent stablecoin</strong>. Melmint, a fully trustless, oracle-free issuance mechanism, stabilizes a mel’s value against an index representing the time cost of sequential computation.</p>
-    <p class="text-left">A decentralized stable-value asset completely demolishes the false dichotomy between trustless issuance and low volatility. With money that is independent of both the systemic risk of oracle-based fiat pegs and the extreme volatility of conventional cryptocurrencies, Themelio promises a fundamental breakthrough in decentralized financial applications.</p>
-    </div>
-    <div class="col-lg">
-    <ion-icon name="ios-rocket" class="icon--big text-danger"></ion-icon>
-    <h3>Usability with performance</h3>
-    <p class="text-left">Themelio provides a uniquely flexible and usable UTXO-based data model. MelVM, a Turing-incomplete yet expressive covenant language, empowers complex dApps with stronger security guarantees and higher performance. Straightforward semantics eliminate unintuitive corner-cases like block reorganizations and volatile fees, making it easy to build tall application stacks without frustration.</p>
-    <p class="text-left">And despite Themelio being a traditional one-shard blockchain, apps using it can easily achieve great performance with its design that can secure layer-2 protocols without deploying full nodes. Even layer-1 usage benefits from a data model engineered for maximum performance through techniques like fully parallel transaction validation.</p>
-    </div>
-  zh-CN: <div class="col-lg">
-    <ion-icon name="ios-cube" class="icon--big text-primary"></ion-icon>
-    <h3>根本上的不可变性</h3>
-    <p class="text-left">像「硬分叉」或「协议升级」这种破坏共识机制的更新，本质上来说是迫使所有区块链用户<a href="https://nullchinchilla.me/posts/against-blockchain-governance.html" target="_blank" rel="noopener">依赖外部信任</a>来保障协议的安全。这削弱了区块链技术中去中心化、去信任化这一根本基础，也破坏了整个生态系统的稳定性。</p>
-    <p class="text-left">区块链技术所承诺的这场空前的信任革命唯有通过一种经过精心设计、坚韧、稳定且<strong>从根本上不可改变</strong>的协议方能实现。Themelio 极为简单的数据模型意味着它不会有对参数进行微调的硬分叉。Themelio 采用了一种防串通、权益证明 (PoS) 的新型共识机制，可以确保即时的确定性 (finality)，并保障去中心化的韧度。</p>
-    </div>
-    <div class=" col-lg">
-    <ion-icon name="logo-usd" class="icon--big text-secondary"></ion-icon>
-    <h3>革命性的加密货币</h3>
-    <p class="text-left">Themelio 的基础货币「梅尔币」（Mel）是<strong>世上首个真正实现了去中心化、独立于法币的稳定币</strong>。它的发币机制，Melmint，采用了完全去信任、去中心化、无预言机的发行机制，将 Mel 的价值稳定在一个挂钩于顺序计算时间成本的指数上。</p>
-    <p class="text-left">以往，去信任化发行与低波动性似乎有如鱼与熊掌一般不可兼得。但如今，具有稳定价值的去中心化资产可以彻底解决这一难题。得益于 Mel 币既没有因基于预言机、与法币挂钩而带来的系统性风险，也没有传统加密货币的极端波动性，Themelio 有望在去中心化金融中取得革命性突破。</p>
-    </div>
-    <div class="col-lg">
-    <ion-icon name="ios-rocket" class="icon--big text-danger"></ion-icon>
-    <h3>性能卓越又简单易用</h3>
-    <p class="text-left">Themelio 提供了一个基于 UTXO 的独特的数据模型，灵活又好用。MelVM 是一种图灵不完全但富于表达性的契约语言，可以为复杂的去中心化应用 (dApp) 提供更强大的安全保障与更高的性能表现。另外，简明易懂的协议规则有助于排除不直观的边角案例（比如区块重组或波动性费用），让用户可以放心大胆地轻松构建高大的应用程序堆栈。</p>
-    <p class="text-left">尽管 Themelio 是传统的单链式区块链，但应用仍可使用 Themelio 来轻松实现卓越的性能表现——它的设计使其可以在无需部署全节点的情况下保障第二层协议的安全。即便是第一层的使用，也可从运用了全并行交易验证等技术、专为性能最大化所设计的数据模型中受益。</p>
-    </div>
-index/last:
-  en-US: <div class="col">
-    <h1>The future is <span class="text-primary"><b>almost</b></span> here.</h1>
-    <p class="text--lead">
-    Themelio is still under heavy development, recently entering the betanet phase of our roadmap.
-    </p>
-    <p class="text--lead">
-    This means that although the tooling is far from complete, we have a feature-complete persistent mainnet and testnet running. You can participate today by running a <a href="https://docs.themelio.org/try-themelio/my-first-tx/">thin client</a> or <a href="https://docs.themelio.org/try-themelio/core-cmd-tools/">full node</a>.
-    </p>
-    <p class="text--lead">
-    Stay tuned for a feature-complete GUI wallet in Q4 2021!
-    </p>
-    <p class="text--lead">
-    We also welcome you to our <a href="https://discord.gg/2HmurW9T9K">Discord channel</a>. If you're interested in following our development, don't forget to star our <a href="https://github.com/themeliolabs/themelio-core">GitHub repository</a>!
-    </p>
-    </div>
-  zh-CN: <h1>未来<span class="text-primary"><b>将</b></span>至</h1>
-    <p class="text--lead">
-    Themelio 目前尚在紧锣密鼓地研发中，近期我们已经迈入了路线图中的 betanet 阶段。
-    </p>
-    <p class="text--lead">
-    这就意味着，尽管模具还远未完成，但我们已经有了一个持续运行中的 mainnet 和 testnet. 您现在即可通过运行<a href="https://docs.themelio.org/try-themelio/my-first-tx/">瘦客户端</a>或<a href="https://docs.themelio.org/try-themelio/core-cmd-tools/">全节点</a>来参与其中。
-    </p>
-    <p class="text--lead">
-    具有图形界面、功能完备的钱包将于 2021 年第 4 季度上线，敬请关注！
-    </p>
-    <p class="text--lead">
-    同时，我们也欢迎您造访我们的 <a href="https://discord.gg/2HmurW9T9K">Discord 频道</a>。如果您有意追踪我们的研发动向，敬请访问我们的 <a href="https://github.com/themeliolabs/themelio-core">GitHub 仓库</a>，记得给我们点赞哦！
+overview/knowledge-base:
+  en-US: |
+    <h2>Knowledge base</h2>
+    <p class="text--lead">All the resources you need to learn more about Themelio.</p>
+    <a href="https://docs.themelio.org/" class="btn btn-outline-dark btn-lg">Read now</a>
+  zh-CN: |
+    <h2>知识库</h2>
+    <p class="text--lead">您用来了解 Themelio 的全部资源。</p>
+    <a href="https://docs.themelio.org/" class="btn btn-outline-dark btn-lg">开始阅读</a>
 
 # Roadmap
 roadmap/phases:
@@ -372,15 +359,15 @@ roadmap/phases:
     </p>
   zh-CN: <h1>研发的各个阶段</h1>
     <p class="text--lead">
-    Themelio 的研发有 4 个阶段。
+    Themelio 的研发有四个阶段。
     </p>
     <p class="text--lead">
-    我们所迈出的第一步是在 2020 年年底前上线了一个<b>公共的 alphanet</b>. 我们将这个 alphanet 作为一种「概念验证」(POC) 去试运营，在对其进行缝缝补补的同时，也实现了一定程度的公众参与。在这一时段，我们的开发是高度「敏捷」的，并且优先考虑灵活性而非稳定性。
+    我们所迈出的第一步是在 2020 年年底前上线了一个<b>公共的 alphanet</b>. 我们将这个 alphanet 作为一种「概念验证」(PoC) 去试运营，在对其进行缝缝补补的同时，也实现了一定程度的公众参与。在这一时段，我们的开发是高度「敏捷」的，并且优先考虑灵活性而非稳定性。
     </p>
     <p class="text--lead">
     2021 年，我们上线了公共的 <b>betanet</b>. 这是一个完整的点对点区块链网络，有着一致、全新的历史记录（尽管仍在进行着周期性硬分叉以及中心化治理）。betanet 让我们可以试验性地对协议进行一些小的修改与优化，使其可以应对真正的大规模使用，以便能够在「严肃」应用程序中得到更广泛的运用。在 betanet 阶段，历史记录的一致性将得到保障，共识机制在这一阶段将逐渐去中心化。对共识机制至关重要的协议更新（「硬分叉」）仍会发生，但频率会降低。
     </p>
-    <p class="text--lead">随着 betanet 阶段的深入，我们还会推出 Themelio 与以太坊之间的<b>代币桥接合约</b>。合约将使 Themelio 的代币（如 Mel 以及 Sym）得以在以太坊 DeFi 生态系统中以 ERC-20 的形式进行交易，进一步激发其作为基于内生信任稳定币的金融工具的潜力。这也将使我们的主要加密货币梅尔币 (Mel) 得以开始在几大去中心化加密货币交易所（如 Uniswap）上进行交易。</p>
+    <p class="text--lead">随着 betanet 阶段的深入，我们还会推出 Themelio 与以太坊之间的<b>代币桥接合约</b>。合约将使 Themelio 的代币（如 MEL 以及 SYM ）得以在以太坊 DeFi 生态系统中以 ERC-20 代币的形式进行交易，进一步激发其作为内生信任稳定币的金融工具的潜力。这也将使我们的主要加密货币 MEL 得以开始在几大去中心化加密货币交易所（如 Uniswap）上进行交易。</p>
     <p class="text--lead">
     最后，我们计划于 2023 年早些时候发布<b>稳定版本</b>。这将永久冻结协议规范，不允许任何关键性的共识更新（除非是为了修复严重的漏洞）。betanet 将关闭，但其历史将获得完整继承。
     </p>
@@ -499,7 +486,7 @@ roadmap/timeline:
     </div>
   zh-CN: <div class="row mb-3">
     <div class="col-3 text-right text-muted">
-    约&nbsp;&nbsp;<b class="font-weight-bold">2014</b>
+    <i>约</i>&nbsp;&nbsp;<b class="font-weight-bold">2014</b>
     </div>
     <div class="col text-muted">
     我们开始对去信任、去中心化系统感兴趣，并进而长期痴迷其中。
@@ -507,10 +494,10 @@ roadmap/timeline:
     </div>
     <div class="row mb-3">
     <div class="col-3 text-right text-muted">
-    约&nbsp;&nbsp;<b class="font-weight-bold">2015</b>
+    <i>约</i>&nbsp;&nbsp;<b class="font-weight-bold">2015</b>
     </div>
     <div class="col text-muted">
-    我们意识到，传统的去中心化系统（如分布式散列表 (DHT) 或信任网 (WOT) 公钥基础设施 (PKI)）都缺失了一样关键的东西——信任根。我们于是开始研究非中心化的信任根，比如「证书透明度」(Certificate Transparency) 以及区块链。
+    我们意识到，传统的去中心化系统&mdash;&mdash;如分布式散列表 (DHT) 或信任网 (WoT) 公钥基础设施 (PKI)&mdash;&mdash;都缺失了一样关键的东西：信任根。于是开始研究非中心化的信任根，比如「证书透明度」(Certificate Transparency) 以及区块链。
     </div>
     </div>
     <div class="row mb-3">
@@ -518,7 +505,7 @@ roadmap/timeline:
     <b class="font-weight-bold">2016</b>
     </div>
     <div class="col text-muted">
-    我们开始研究创建 Bitforest——一个安全去中心化的 PKI（最初基于比特币区块链）。
+    我们开始研究创建 Bitforest&mdash;&mdash;一个安全去中心化的 PKI（最初基于比特币区块链）。
     </div>
     </div>
     <div class="row mb-3">
@@ -526,7 +513,7 @@ roadmap/timeline:
     <b class="font-weight-bold">2017</b>
     </div>
     <div class="col">
-    <span class="text-muted">我们完成了 </span><span class="text--normweight">Bitforest</span>, <span class="text-muted">但在过程中，我们意识到，现有的区块链严重不足以充当哪怕是最基本的应用程序（如 PKI）的信任根。</span> <span class="text--normweight">因此，研发 Themelio 的工作便从此开始。</span>
+    <span class="text-muted">我们完成了 </span><span class="text--normweight">Bitforest</span>. <span class="text-muted">但在过程中，我们意识到，现有的区块链严重不足以充当哪怕是最基本的应用程序（如 PKI）的信任根。</span><span class="text--normweight">因此，研发 Themelio 的工作便从此开始。</span>
     </div>
     </div>
     <div class="row mb-3">
@@ -534,12 +521,12 @@ roadmap/timeline:
     <b class="font-weight-bold">2019</b>
     </div>
     <div class="col">
-    <span class="text-muted">我们几乎把全部精力都投入到了 Themelio 上。</span> <span class="text--normweight">Themelio 的重点也从简单地推动最先进技术更臻至美转移到了协议栈的分层上。</span>
+    <span class="text-muted">我们几乎把全部精力都投入到了 Themelio 上。</span><span class="text--normweight">起初，Themelio 的重点在于简单地推动最先进技术更臻至美，但后来逐渐转移到了对协议分层的范式转变上。</span>
     </div>
     </div>
     <div class="row mb-3 text--normweight">
     <div class="col-3 text-right text-muted">
-    Q1 <b class="font-weight-bold">2019</b>
+    Q1&nbsp;&nbsp;<b class="font-weight-bold">2019</b>
     </div>
     <div class="col">
     客户端原型与网络的首次成功测试
@@ -547,7 +534,7 @@ roadmap/timeline:
     </div>
     <div class="row mb-3 text--normweight">
     <div class="col-3 text-right text-muted">
-    Q2 <b class="font-weight-bold">2019</b>
+    Q2&nbsp;&nbsp;<b class="font-weight-bold">2019</b>
     </div>
     <div class="col">
     网站上线
@@ -555,38 +542,38 @@ roadmap/timeline:
     </div>
     <div class="row mb-3">
     <div class="col-3 text-right text-muted text--normweight">
-    Q3 <b class="font-weight-bold">2020</b>
+    Q3&nbsp;&nbsp;<b class="font-weight-bold">2020</b>
     </div>
     <div class="col">
-    <b>公开上线非持久的 ‘alphanet’.</b>
-    自这一刻起，用户可以开始做一些事情了，比如发送 Mel 或者部署应用（尽管这些操作仍是在一个会不时重置的集中化网络上完成的）。在这一测试阶段，协议通常是冻结的。
+    <b>公开上线非持久的 &lsquo;alphanet&rsquo;.</b> 
+    自这一刻起，用户可以开始做一些事情了，比如发送 MEL 或者部署应用（尽管这些操作仍是在一个会不时重置的集中化网络上完成的）。在这一测试阶段，协议通常是冻结的。
     </div>
     </div>
     <div class="row mb-3">
     <div class="col-3 text-right text-secondary text--normweight">
-    Q2 <b class="font-weight-bold">2021</b>
+    Q2&nbsp;&nbsp;<b class="font-weight-bold">2021</b>
     </div>
     <div class="col">
-    <b>公共的 ‘betanet’ 上线。</b>
+    <b>公共的 &lsquo;betanet&rsquo; 上线。</b>
     与 alphanet 不同的是，betanet 将具有持久的历史记录。尽管「硬分叉」式更新仍会发生，但 betanet 上的资产将是持久的，共识机制也将逐渐去中心化。
     </div>
     </div>
     <div class="row mb-3">
     <div class="col text-center">
-    <i class="text-muted">目前已进展至此</i>
+    <i class="text-muted">目前进展</i>
     </div>
     </div>
     <div class="row mb-3">
     <div class="col-3 text-right text-secondary text--normweight">
-    Q1-Q4 <b class="font-weight-bold">2022</b>
+    Q1-Q4&nbsp;&nbsp;<b class="font-weight-bold">2022</b>
     </div>
     <div class="col">
-    <b>推出代币，完善 betanet.</b> betanet 上的 Mel（货币）和 Sym（共识赌注币）二者均将通过空投和基于 DEX 的代币销售两种方式的组合来进行分发。我们也将借此时机彻底审核协议，通过协议更新修复任何存在的问题，以为未来的正式发布做准备。
+    <b>推出代币，完善 betanet.</b> betanet 上的 MEL （货币）和 SYM （共识抵押）二者均将透过空投和基于 DEX 的代币销售两种方式的组合来进行分发。我们也将借此时机彻底审核协议，透过协议更新修复任何存在的问题，以为未来的正式发布做准备。
     </div>
     </div>
     <div class="row mb-3">
     <div class="col-3 text-right text-secondary text--normweight">
-    Q1 <b class="font-weight-bold">2023</b>
+    Q1&nbsp;&nbsp;<b class="font-weight-bold">2023</b>
     </div>
     <div class="col">
     <b>正式发布 Themelio 区块链。</b>从此以后，除修复安全漏洞外，区块链上的硬分叉将被禁止。
@@ -594,9 +581,9 @@ roadmap/timeline:
     </div>
     <div class="row mb-3">
     <div class="col-3 text-right text-primary text--normweight">
-    <b>更遥远的未来……</b>
+    <i class="font-weight-bold">未来……</i>
     </div>
     <div class="col">
-    <b>完成 Themelio 仅仅是开端的结束。</b>Themelio 特意设计得很简单，但这就意味着，更多复杂的内容被推到了对第二层协议的支持上。Themelio Lab 下一步的重心将转移到研发一个充满生机且灵活的协议栈上，它将具有根植于 Themelio 的安全性，可用于构建点对点以及服务器－客户端应用。当然，这也将是出售 Sym 筹来的大部分资金的用途所在。
+    <b>完成 Themelio 仅仅是开端的结束。</b>Themelio 特意设计得很简单，但这就意味着，更多复杂的内容被推到了对第 2 层协议的支持上。Themelio Lab 下一步的重心将转移到研发一个充满生机且灵活的协议栈上，它将具有根植于 Themelio 的安全性，可用于构建点对点以及服务器－客户端应用。当然，这也将是出售 Sym 筹来的大部分资金的用途所在。
     </div>
     </div>
