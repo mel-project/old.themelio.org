@@ -256,7 +256,7 @@ overview/traditional-blockchains:
         <li>Contentious, destabilizing blockchain protocol changes that undermine endogenous trust</li>
     </ul>
   zh-CN: |
-    <h3>传统的平台式及<br>应用程序型区块链</h3>
+    <h3>传统的「平台式」区块链</h3>
     <ul>
         <li>区块链与应用程序紧密耦合</li>
         <li>应用程序的演化最终导致需要区块链去进行适配</li>
@@ -318,7 +318,7 @@ overview/non-fiat-stablecoin:
     <p>Mel has no ties to any fiat currency and stability beyond any conventional cryptocurrency. It is a fundamental breakthrough in money.</p>
   zh-CN: |
     <h3>世上首款不与法币挂钩的稳定币</h3>
-    <p>Themelio 的基础货币 MEL 是一种全新的资产类别，它终于实现了加密货币所作出的「健全的去中心化货币」的承诺。<a href="https://docs.themelio.org/basic-concepts/04-melmint/">Melmint 是一种完全去信任、免预言机的发行机制，它将 MEL 的价值稳定在一个挂钩于顺序计算时间成本的指数上。</p>
+    <p>Themelio 的基础货币 MEL 是一种全新的资产类别，它终于实现了加密货币所作出的「健全的去中心化货币」的承诺。<a href="https://docs.themelio.org/basic-concepts/04-melmint/">Melmint</a> 是一种完全去信任、免预言机的发行机制，它将 MEL 的价值稳定在一个挂钩于顺序计算时间成本的指数上。</p> 
     <p>MEL 与任何法币都没有丝毫牵扯，但其稳定性却超越既往任何传统的加密货币。它是货币史上的一次根本性突破。</p>
 
 overview/join-our-testnet:
