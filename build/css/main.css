@@ -505,6 +505,10 @@ footer > div > div > div {
   margin-right: -1.8rem;
 }
 
+.partner-icon {
+  width: 200px;
+}
+
 .community-card {
   border: 1px solid var(--primary-color);
   border-radius: 1rem;
