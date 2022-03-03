@@ -56,7 +56,7 @@ footer/partners:
 
 # Homepage
 index/tagline:
-  en-US: The foundation of a<br><b>trustless</b> Internet
+  en-US: The foundation of a <b>trustless</b> Internet
   zh-CN: <b>去信任</b>互联网<br />的根基
 index/subtitle:
   en-US: 'Themelio is a <b>radical rethinking of the public blockchain</b> focused on its core purpose: establishing an immutable, permanent root of trust.'
